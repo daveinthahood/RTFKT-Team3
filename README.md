@@ -14,3 +14,5 @@
     <h2> Step Creazione del progetto </h2>
     <ul>
     <li> Nella prima settimana abbiamo iniziato analizzando gli aspetti pricipali partendo dall'analisi del sito,  la redazione del backlog e la creazione della repository GitHub </li>
+        
+    </ul>
