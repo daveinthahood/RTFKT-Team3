@@ -1,0 +1,31 @@
+@import '../common.scss';
+body{
+    background-color: black;
+}
+
+.main__section__button--darker{
+    margin: 20px;
+    font-family: $primary-font;
+    font-weight: 800;
+    text-transform: uppercase;
+    background-color: $color-violet-light;
+    color: $color-white;
+    border: none;
+    border-radius: 12px;
+    padding:  0.75rem 1.25rem;
+    &:hover{
+        background-color: $color-violet;
+    }
+}
+
+.main__section__button--lighter{
+    @extend .main__section__button--darker;
+    background-color: transparent;
+    border: 1px solid $color-gray-600;
+    color: $color-white;
+    &:hover{
+        color: black;
+        background-color: $color-white;
+        border-color: $color-white;
+    }
+}
