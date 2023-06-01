@@ -9,4 +9,4 @@
     <li> Davide Simone</li>
 </ul>
 
-- **Bacheca Trello:** [https://trello.com/b/6DoBxhuZ/gtd-trello-card-links](https://trello.com/invite/b/TuPw56xQ/ATTI42b98ef40e7d3727411741b4f21897b820088AC0/rtfkt-teamtre)
+ **Bacheca Trello:** [https://trello.com/b/6DoBxhuZ/gtd-trello-card-links](https://trello.com/invite/b/TuPw56xQ/ATTI42b98ef40e7d3727411741b4f21897b820088AC0/rtfkt-teamtre)
