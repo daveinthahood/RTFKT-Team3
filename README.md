@@ -12,6 +12,8 @@
  **Bacheca Trello:** [https://trello.com/b/6DoBxhuZ/gtd-trello-card-links](https://trello.com/invite/b/TuPw56xQ/ATTI42b98ef40e7d3727411741b4f21897b820088AC0/rtfkt-teamtre)
     
  ### Step Creazione del progetto: 
- 1. Nella prima settimana abbiamo iniziato analizzando gli aspetti pricipali partendo dall'analisi del sito,  la redazione del backlog e la creazione della repository GitHub 
-        
+ 1. Nella prima settimana abbiamo iniziato analizzando gli aspetti pricipali che ci potevano permettere di lavorare al meglio fin da subito.
+    Quindi abbiamo iniziato analizzando il sito e salvando tutti gli asset che potevano tornarci utili durante la realizzazione. 
+    Successivamente abbiamo redatto il backlog e ci siamo occupati alla repository. 
+    All'interno della repository abbiamo creato i branch **master e develop** dove abbiamo anche inserito i file stile di root.
 
