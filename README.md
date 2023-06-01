@@ -11,8 +11,7 @@
 
  **Bacheca Trello:** [https://trello.com/b/6DoBxhuZ/gtd-trello-card-links](https://trello.com/invite/b/TuPw56xQ/ATTI42b98ef40e7d3727411741b4f21897b820088AC0/rtfkt-teamtre)
     
-    <h2> Step Creazione del progetto </h2>
-    <ul>
-    <li> Nella prima settimana abbiamo iniziato analizzando gli aspetti pricipali partendo dall'analisi del sito,  la redazione del backlog e la creazione della repository GitHub </li>
+ ### Step Creazione del progetto: 
+ 1. Nella prima settimana abbiamo iniziato analizzando gli aspetti pricipali partendo dall'analisi del sito,  la redazione del backlog e la creazione della repository GitHub 
         
-    </ul>
+
