@@ -1,1 +1,27 @@
 @import '../common.scss';
+
+.container {
+    display: inline-flex;
+    max-width:100%;
+    max-height: 450px ;
+}
+
+
+.card{
+    display: inline-flex;
+    background-color: $color-body-bg;
+    border-radius: 1.5rem;
+
+    & .forgive-img {
+        border-radius: 1.5rem;    
+    }
+
+    & .text-right {
+        padding-top: 1rem;
+        padding-bottom:1rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        margin: auto;
+    }
+}
+
