@@ -1,0 +1,44 @@
+@import '../common.scss';
+
+
+body {
+    background-color: $color-body-bg;
+}
+
+h1 {
+    font-family: $primary-font;
+}
+
+#whoWeAre-Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+    margin-left: 15rem;
+
+}
+
+.whoWeAre-text {
+    font-family: $primary-font;
+    display: flex;
+    text-align: center;
+    font-size: 30px;
+
+    & span {
+        font-family: $special-font;
+        font-weight: bold;
+        &:hover{
+            text-decoration: underline $color-indigo;
+            cursor: pointer;
+           
+        }
+    }
+}
+
+
+// 1. C’è una persona (o personaggio) della quale ammiri particolarmente la leadership?
+// 2. Che caratteristiche principali ha la leadership della persona/personaggio che hai scelto? 
+// 3. Nello specifico, che tipo di effetto sortiscono su di te queste caratteristiche?
+// 4. Quali di queste caratteristiche rivedi anche in te stesso/a? E quali (ancora) no?
+// 5. Ascolta cosa gli altri del gruppo vedono in questa figura
