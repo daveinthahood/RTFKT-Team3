@@ -9,15 +9,18 @@ h1 {
     max-width:100%;
     max-height: 450px;
     margin: 3rem;
+    box-shadow: 0 .5rem 1rem #00000026;
 }
 
 .card{
     display: inline-flex;
     background-color: $color-body-bg;
     border-radius: 1.5rem;
+    box-shadow: 0 .5rem 1rem #00000026;
 
     & .forgive-img {
         border-radius: 1.5rem;
+        box-shadow: 0 .5rem 1rem #00000026;
 
         
     }
@@ -35,11 +38,13 @@ h1 {
     & h2 {
         color:$color-gray-200;
         font-family: $primary-font;
+        font-size: 24px;
     }
 
     & p {
         color: $color-gray-600;
         font-family: $primary-font;
+        font-size: 12px;
     }
 
     & .input {
@@ -58,9 +63,12 @@ h1 {
 
     & .check-it{
         background-color: $color-white;
+        font-family: $primary-font;
+        font-weight: bold;
         border-radius: 15px;
-        padding: 10px 1rem;
+        padding: 14px;
         width: 40%;
+        font-size: 13px;
         &:hover{
             cursor: pointer;
             background-color: $color-gray-300;

@@ -20,15 +20,18 @@ h1 {
   max-width: 100%;
   max-height: 450px;
   margin: 3rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1490196078);
 }
 
 .card {
   display: inline-flex;
   background-color: #1f2028;
   border-radius: 1.5rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1490196078);
 }
 .card .forgive-img {
   border-radius: 1.5rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1490196078);
 }
 .card .text-right {
   padding-left: 1.5rem;
@@ -42,10 +45,12 @@ h1 {
 .card h2 {
   color: #e9ecef;
   font-family: "Montserrat";
+  font-size: 24px;
 }
 .card p {
   color: #6c757d;
   font-family: "Montserrat";
+  font-size: 12px;
 }
 .card .input {
   width: 100%;
@@ -62,9 +67,12 @@ h1 {
 }
 .card .check-it {
   background-color: white;
+  font-family: "Montserrat";
+  font-weight: bold;
   border-radius: 15px;
-  padding: 10px 1rem;
+  padding: 14px;
   width: 40%;
+  font-size: 13px;
 }
 .card .check-it:hover {
   cursor: pointer;
