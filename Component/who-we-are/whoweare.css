@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("//db.onlinewebfonts.com/c/ebaf90e665954316d40b79a1c7c942c0?family=TT+Alientz+Grotesque");
+@font-face {
+  font-family: "TT Alientz Grotesque";
+  src: url("//db.onlinewebfonts.com/t/ebaf90e665954316d40b79a1c7c942c0.eot"), url("//db.onlinewebfonts.com/t/ebaf90e665954316d40b79a1c7c942c0.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/ebaf90e665954316d40b79a1c7c942c0.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/ebaf90e665954316d40b79a1c7c942c0.woff") format("woff"), url("//db.onlinewebfonts.com/t/ebaf90e665954316d40b79a1c7c942c0.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/ebaf90e665954316d40b79a1c7c942c0.svg#TT Alientz Grotesque") format("svg");
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1f2028;
+  margin: 0;
+}
+
+h2 {
+  font-family: "Montserrat";
+  font-size: 20px;
+  color: #dee2e6;
+}
+
+#whoWeAre-Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.whoWeAre-text {
+  font-family: "Montserrat";
+  display: flex;
+  text-align: center;
+  font-size: 30px;
+}
+.whoWeAre-text p {
+  font-weight: 500;
+}
+.whoWeAre-text span {
+  font-family: "TT Alientz Grotesque";
+  color: #dee2e6;
+}
+.whoWeAre-text span:hover {
+  -webkit-text-decoration: underline #6610f2;
+          text-decoration: underline #6610f2;
+  cursor: pointer;
+}/*# sourceMappingURL=whoweare.css.map */
