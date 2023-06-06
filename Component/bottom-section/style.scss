@@ -1,0 +1,23 @@
+@import '../common.scss';
+
+body{
+    background-color: $color-body-bg ;
+}
+
+.bottom-section{
+    padding-top: 10px;
+    width: 98%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+    #image{
+        width: 70%;
+    
+        #image1{
+            border-radius: 5%;
+            width: 100%;
+        }
+    }
+}
+
