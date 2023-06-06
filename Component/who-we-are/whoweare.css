@@ -12,10 +12,13 @@ body {
 
 body {
   background-color: #1f2028;
+  margin: 0;
 }
 
-h1 {
+h2 {
   font-family: "Montserrat";
+  font-size: 20px;
+  color: #dee2e6;
 }
 
 #whoWeAre-Container {
@@ -24,7 +27,7 @@ h1 {
   justify-content: center;
   align-items: center;
   max-width: 1000px;
-  margin-left: 15rem;
+  margin: 0 auto;
 }
 
 .whoWeAre-text {
@@ -33,13 +36,15 @@ h1 {
   text-align: center;
   font-size: 30px;
 }
+.whoWeAre-text p {
+  font-weight: 500;
+}
 .whoWeAre-text span {
   font-family: "TT Alientz Grotesque";
-  font-weight: bold;
+  color: #dee2e6;
 }
 .whoWeAre-text span:hover {
-  text-decoration: underline #6610f2;
+  -webkit-text-decoration: underline #6610f2;
+          text-decoration: underline #6610f2;
   cursor: pointer;
-}
-
-/*# sourceMappingURL=whoweare.css.map */
+}/*# sourceMappingURL=whoweare.css.map */
