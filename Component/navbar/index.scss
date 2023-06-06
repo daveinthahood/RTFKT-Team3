@@ -66,13 +66,11 @@ body {
         #floating-menu {
           align-items: center;
           text-align: center;
-          min-width: 198px;
-          // padding: 18px;
+          min-width: 230px;
           border-radius: 20px;
           background-color: $color-gray-700;
           display: none;
           flex-direction: column;
-          // gap: 25px;
           position: absolute;
           top: 65px;
           left: -20px;

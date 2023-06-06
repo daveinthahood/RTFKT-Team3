@@ -70,7 +70,7 @@ body {
 .navbar-right__menu-dropdown #floating-menu {
   align-items: center;
   text-align: center;
-  min-width: 198px;
+  min-width: 230px;
   border-radius: 20px;
   background-color: #272932;
   display: none;
