@@ -2,8 +2,7 @@
 @import url("//db.onlinewebfonts.com/c/ebaf90e665954316d40b79a1c7c942c0?family=TT+Alientz+Grotesque");
 @font-face {
   font-family: "TT Alientz Grotesque";
-  src: url("//db.onlinewebfonts.com/t/ebaf90e665954316d40b79a1c7c942c0.eot");
-  src: url("//db.onlinewebfonts.com/t/ebaf90e665954316d40b79a1c7c942c0.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/ebaf90e665954316d40b79a1c7c942c0.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/ebaf90e665954316d40b79a1c7c942c0.woff") format("woff"), url("//db.onlinewebfonts.com/t/ebaf90e665954316d40b79a1c7c942c0.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/ebaf90e665954316d40b79a1c7c942c0.svg#TT Alientz Grotesque") format("svg");
+  src: url("//db.onlinewebfonts.com/t/ebaf90e665954316d40b79a1c7c942c0.eot"), url("//db.onlinewebfonts.com/t/ebaf90e665954316d40b79a1c7c942c0.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/ebaf90e665954316d40b79a1c7c942c0.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/ebaf90e665954316d40b79a1c7c942c0.woff") format("woff"), url("//db.onlinewebfonts.com/t/ebaf90e665954316d40b79a1c7c942c0.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/ebaf90e665954316d40b79a1c7c942c0.svg#TT Alientz Grotesque") format("svg");
 }
 body {
   margin: 0;
@@ -11,32 +10,45 @@ body {
   box-sizing: border-box;
 }
 
-h1 {
+body {
+  background-color: #1f2028;
+  margin: 1rem;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section > h2 {
   font-family: "Montserrat";
+  margin-left: 2.9rem;
+  color: #dee2e6;
+  font-size: 1rem;
 }
 
 .container {
   display: inline-flex;
   max-width: 100%;
   max-height: 450px;
-  margin: 3rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1490196078);
+  border-radius: 1.5rem;
 }
 
 .card {
   display: inline-flex;
-  background-color: #1f2028;
+  background-color: #272932;
   border-radius: 1.5rem;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1490196078);
 }
 .card .forgive-img {
   border-radius: 1.5rem;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1490196078);
+  max-width: 60%;
 }
 .card .text-right {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
-  margin: auto;
+  margin: 4rem;
   width: 25%;
   display: flex;
   flex-direction: column;
@@ -45,7 +57,7 @@ h1 {
 .card h2 {
   color: #e9ecef;
   font-family: "Montserrat";
-  font-size: 24px;
+  font-size: 20px;
 }
 .card p {
   color: #6c757d;
@@ -72,7 +84,7 @@ h1 {
   border-radius: 15px;
   padding: 14px;
   width: 40%;
-  font-size: 13px;
+  font-size: 10px;
 }
 .card .check-it:hover {
   cursor: pointer;

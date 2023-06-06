@@ -1,26 +1,39 @@
 @import '../common.scss';
 
 
-h1 {
+
+body{
+    background-color: $color-body-bg;
+    margin: 1rem;
+    padding: 0;
+    box-sizing: border-box;
+}
+section > h2 {
     font-family: $primary-font;
+    margin-left: 2.9rem;
+    color: $color-gray-300;
+    font-size: 1rem;
 }
 .container {
     display: inline-flex;
     max-width:100%;
     max-height: 450px;
-    margin: 3rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
     box-shadow: 0 .5rem 1rem #00000026;
+    border-radius: 1.5rem;
 }
 
 .card{
     display: inline-flex;
-    background-color: $color-body-bg;
+    background-color: $color-gray-700;
     border-radius: 1.5rem;
     box-shadow: 0 .5rem 1rem #00000026;
 
     & .forgive-img {
         border-radius: 1.5rem;
         box-shadow: 0 .5rem 1rem #00000026;
+        max-width: 60%;
 
         
     }
@@ -28,7 +41,7 @@ h1 {
     & .text-right {
         padding-left: 1.5rem;
         padding-right: 1.5rem;
-        margin: auto;
+        margin: 4rem;
         width: 25%;
         display: flex;
         flex-direction: column;
@@ -38,7 +51,7 @@ h1 {
     & h2 {
         color:$color-gray-200;
         font-family: $primary-font;
-        font-size: 24px;
+        font-size: 20px;
     }
 
     & p {
@@ -68,7 +81,7 @@ h1 {
         border-radius: 15px;
         padding: 14px;
         width: 40%;
-        font-size: 13px;
+        font-size: 10px;
         &:hover{
             cursor: pointer;
             background-color: $color-gray-300;

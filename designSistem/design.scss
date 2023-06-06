@@ -1,0 +1,67 @@
+@import '../Component/common.scss';
+
+
+body{
+    background-color: $color-body-bg;
+    box-sizing: border-box;
+
+    .logo-text{
+        font-family: $special-font;
+        font-size: 2rem;
+        color: $color-gray-100;
+        display: flex;
+        justify-content: center;
+        h2:hover{
+            text-decoration: underline $color-indigo;
+            cursor: pointer;
+
+        }
+    }
+
+    .logo-content{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 1rem;
+    }
+
+    .design-color-text {
+        font-family: $special-font;
+        font-size: 2rem;
+        color: $color-gray-100;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        h2:hover {
+            text-decoration: underline $color-indigo;
+            cursor: pointer;
+        }
+    }
+
+    .design-color-content img{
+        width: 60px;
+        display: inline-flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 1rem;
+    }
+
+
+    .design-component-text{
+        font-family: $special-font;
+        font-size: 2rem;
+        color: $color-gray-100;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        h2:hover{
+            text-decoration: underline $color-indigo;
+            cursor: pointer;
+        }
+    }
+    
+
+}
