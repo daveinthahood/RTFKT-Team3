@@ -57,14 +57,16 @@ body {
       }
 
       > :nth-child(5) {
-        font-size: inherit;
-        font-weight: inherit;
-        font-family: $primary-font;
-        background-color: $color-violet;
-        border-radius: 24px;
-        border: none;
-        color: white;
-        padding: 18px 20px;
+        span {
+          font-size: inherit;
+          font-weight: inherit;
+          font-family: $primary-font;
+          background-color: $color-violet;
+          border-radius: 24px;
+          border: none;
+          color: white;
+          padding: 18px 20px;
+        }
 
         &:hover {
           color: white;
@@ -73,11 +75,17 @@ body {
       }
 
       > :nth-child(6) {
-        height: 18px;
-        width: 32px;
-        background-image: url(../../Asset/image/hamburger-white.svg);
-      }
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 48px;
+        height: 48px;
 
+        img {
+          width: 32px;
+          height: 18px;
+        }
+      }
     }
   }
 }
@@ -93,14 +101,45 @@ body {
 }
 
 @media screen and (max-width: 991px) {
-  body .navbar .navbar-left .navbar-left__img :first-child {
-    display: none;
-  }
+  body .navbar {
+    height: 72px;
 
-  body .navbar .navbar-right .navbar-right__menu :nth-child(1),
-  body .navbar .navbar-right .navbar-right__menu :nth-child(2),
-  body .navbar .navbar-right .navbar-right__menu :nth-child(3),
-  body .navbar .navbar-right .navbar-right__menu :nth-child(4) {
-    display: none;
+    &-left {
+      height: 51px;
+
+      &__img :first-child {
+        display: none;
+      }
+    }
+
+    &-right {
+      transform: none;
+      height: 51px;
+
+      &__menu {
+        gap: 7px;
+        height: 51px;
+
+        > :nth-child(1),
+        > :nth-child(2),
+        > :nth-child(3),
+        > :nth-child(4) {
+          display: none;
+        }
+
+        > :nth-child(5) {
+
+          span {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 48px;
+            padding: 0;
+            width: 104.36px;
+            border-radius: 25px;
+          }
+        }
+      }
+    }
   }
 }
