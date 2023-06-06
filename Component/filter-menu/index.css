@@ -2,13 +2,58 @@
 @import url("//db.onlinewebfonts.com/c/ebaf90e665954316d40b79a1c7c942c0?family=TT+Alientz+Grotesque");
 @font-face {
   font-family: "TT Alientz Grotesque";
-  src: url("//db.onlinewebfonts.com/t/ebaf90e665954316d40b79a1c7c942c0.eot");
-  src: url("//db.onlinewebfonts.com/t/ebaf90e665954316d40b79a1c7c942c0.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/ebaf90e665954316d40b79a1c7c942c0.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/ebaf90e665954316d40b79a1c7c942c0.woff") format("woff"), url("//db.onlinewebfonts.com/t/ebaf90e665954316d40b79a1c7c942c0.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/ebaf90e665954316d40b79a1c7c942c0.svg#TT Alientz Grotesque") format("svg");
+  src: url("//db.onlinewebfonts.com/t/ebaf90e665954316d40b79a1c7c942c0.eot"), url("//db.onlinewebfonts.com/t/ebaf90e665954316d40b79a1c7c942c0.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/ebaf90e665954316d40b79a1c7c942c0.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/ebaf90e665954316d40b79a1c7c942c0.woff") format("woff"), url("//db.onlinewebfonts.com/t/ebaf90e665954316d40b79a1c7c942c0.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/ebaf90e665954316d40b79a1c7c942c0.svg#TT Alientz Grotesque") format("svg");
 }
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Montserrat";
+}
+
+body {
+  background-color: black;
+}
+
+.aside {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  width: 100%;
+  max-width: 340px;
+}
+.aside__section--hide {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+.aside__slash {
+  width: 95%;
+  height: 1px;
+  background-color: #6c757d;
+}
+.aside__section {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: flex-start;
+}
+.aside__section--text {
+  display: flex;
+  align-items: end;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.aside__section--title {
+  display: flex;
+  flex-grow: 1;
+}
+.aside__section--button {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
 }
 
 /*# sourceMappingURL=index.css.map */

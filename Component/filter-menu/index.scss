@@ -1,1 +1,47 @@
 @import '../common.scss';
+
+
+body{
+    background-color: black;
+}
+.aside{
+    color: $color-white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    width: 100%;
+    max-width: 340px;
+    &__section--hide{
+        display: flex;
+        justify-content: center;
+        align-items: start;
+    }
+    &__slash{
+        width: 95%;
+        height: 1px;
+        background-color: $color-gray-600;
+    }
+    &__section{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: flex-start;
+        &--text{
+            display:flex;
+            // justify-content: ;
+            align-items: end;
+            text-transform: uppercase;
+            font-weight: 500;
+        }
+        &--title{
+            display: flex;
+            flex-grow: 1;
+        }
+        &--button{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+    }
+}
