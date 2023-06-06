@@ -30,7 +30,6 @@ body {
   max-width: 100%;
 }
 .navbar-right {
-  transform: scale(1, 0.85);
   display: flex;
   justify-content: right;
   width: 100%;
@@ -48,6 +47,9 @@ body {
 .navbar-right__menu a:hover {
   color: #ced4da;
 }
+.navbar-right__menu-dropdown {
+  position: relative;
+}
 .navbar-right__menu-dropdown a {
   font-size: inherit;
   font-weight: inherit;
@@ -58,6 +60,40 @@ body {
 }
 .navbar-right__menu-dropdown a img {
   transform: scale(0.9, 1.1);
+}
+.navbar-right__menu-dropdown #collections-link {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+.navbar-right__menu-dropdown #floating-menu {
+  align-items: center;
+  text-align: center;
+  min-width: 198px;
+  border-radius: 20px;
+  background-color: #272932;
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  top: 65px;
+  left: -20px;
+  overflow: hidden;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1490196078) !important;
+}
+.navbar-right__menu-dropdown #floating-menu a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 100%;
+}
+.navbar-right__menu-dropdown #floating-menu.visible {
+  display: flex;
+}
+.navbar-right__menu-dropdown #floating-menu > :hover {
+  color: white;
+  background-color: #5733f5;
 }
 .navbar-right__menu > :nth-child(5) span {
   font-size: inherit;
