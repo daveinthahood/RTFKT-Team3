@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="../common.css" />
     <link rel="stylesheet" href="./index.css" />
   </head>
-  <body>
+  <body id="body-for-menu-onclick">
     <div class="navbar">
       <div class="navbar-left">
         <div class="navbar-left__img">
@@ -43,15 +43,64 @@
             </div>
           </div>
           <a href="#">WTF</a>
-          <a href="#">
+          <a href="#" id="signIn-navbar">
             <span>SIGN IN</span>
           </a>
-          <a href="#">
-            <img src="../../Asset/image/hamburger-white.svg" alt="" />
-          </a>
+          <button id="menu-button" onclick="showMenu()">
+            <img
+              id="burger"
+              src="../../Asset/image/hamburger-white.svg"
+              alt=""
+            />
+            <img
+              id="burger-close"
+              src="../../Asset/image/close-white.svg"
+              alt=""
+            />
+          </button>
         </div>
       </div>
     </div>
+    <div id="menu-button__modal">
+      <div>
+        <a href="#">
+          <span>DROPS ARCHIVE</span>
+        </a>
+        <a href="#">
+          <span>CREATORS</span>
+        </a>
+        <a href="#" id="collections-link">
+          <span>COLLECTIONS</span>
+          <img
+            src="https://cdn.rtfkt.com/assets/icons/arrow-down-white.svg"
+            alt=""
+          />
+        </a>
+        <a href="#">
+          <span>WTF</span>
+        </a>
+      </div>
+      <div>
+        <p>FOLLOW US</p>
+        <a href="#">
+          <span>Instagram</span>
+        </a>
+        <a href="#">
+          <span>Discord</span>
+        </a>
+        <a href="#">
+          <span>Twitter</span>
+        </a>
+        <a href="#">
+          <span>Snapchat</span>
+        </a>
+        <a href="#">
+          <span>Tiktok</span>
+        </a>
+      </div>
+      <button>SIGN IN</button>
+    </div>
     <script src="./dropdown.js"></script>
+    <script src="./menu.js"></script>
   </body>
 </html>

@@ -1,19 +1,19 @@
-const collectionLink = document.querySelector("#collections-link");
+const $collectionLink = document.querySelector("#collections-link");
 
-const floatingMenu = document.querySelector("#floating-menu");
+const $floatingMenu = document.querySelector("#floating-menu");
 
-function showMenu() {
-  floatingMenu.classList.add("visible");
+function showDropdown() {
+  $floatingMenu.classList.add("visible");
 }
 
-function hideMenu() {
-  floatingMenu.classList.remove("visible");
+function hideDropdown() {
+  $floatingMenu.classList.remove("visible");
 }
 
-collectionLink.addEventListener("mouseover", showMenu);
+$collectionLink.addEventListener("mouseover", showDropdown);
 
-floatingMenu.addEventListener("mouseover", showMenu);
+$floatingMenu.addEventListener("mouseover", showDropdown);
 
-collectionLink.addEventListener("mouseout", hideMenu);
+$collectionLink.addEventListener("mouseout", hideDropdown);
 
-floatingMenu.addEventListener("mouseout", hideMenu);
+$floatingMenu.addEventListener("mouseout", hideDropdown);
