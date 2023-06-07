@@ -23,7 +23,8 @@ body .logo-text {
   justify-content: center;
 }
 body .logo-text h2:hover {
-  text-decoration: underline #6610f2;
+  -webkit-text-decoration: underline #6610f2;
+          text-decoration: underline #6610f2;
   cursor: pointer;
 }
 body .logo-content {
@@ -42,7 +43,8 @@ body .design-color-text {
   align-items: center;
 }
 body .design-color-text h2:hover {
-  text-decoration: underline #6610f2;
+  -webkit-text-decoration: underline #6610f2;
+          text-decoration: underline #6610f2;
   cursor: pointer;
 }
 body .design-color-content img {
@@ -63,7 +65,8 @@ body .design-component-text {
   align-items: center;
 }
 body .design-component-text h2:hover {
-  text-decoration: underline #6610f2;
+  -webkit-text-decoration: underline #6610f2;
+          text-decoration: underline #6610f2;
   cursor: pointer;
 }
 bodymain__section__right__card {
@@ -84,7 +87,6 @@ bodymain__section__right__cardmain__section__right__card--up-text {
   border-radius: 1rem;
 }
 bodymain__section__right__cardmain__section__right__card--up-texthover ~ .main__section__right__card--up-video {
-  -webkit-box-shadow: 0px 84px 27px 7px #4f64ec;
   box-shadow: 0px 84px 27px 7px #4f64ec;
 }
 bodymain__section__right__cardmain__section__right__card--up-text.--up-video {
@@ -96,7 +98,6 @@ bodymain__section__right__cardmain__section__right__card--up-text.--up-video > v
   border-radius: 1rem;
 }
 bodymain__section__right__cardmain__section__right__card--up-text.--up-video > video:hover {
-  -webkit-box-shadow: 0px 84px 27px 7px #0B325E;
   box-shadow: 0px 84px 27px 7px #0B325E;
   cursor: pointer;
 }
@@ -116,7 +117,6 @@ bodymain__section__right__cardmain__section__right__card--up-text.--up.main__sec
   border-radius: 1rem;
   top: -50;
   left: 10;
-  -webkit-box-shadow: 2px 5px 16px 0px #0B325E, -2px 2px 2px 5px rgba(0, 0, 0, 0);
   box-shadow: 2px 5px 16px 0px #0B325E, -2px 2px 2px 5px rgba(0, 0, 0, 0);
 }
 bodymain__section__right__cardmain__section__right__card--up-text.--up.main__section__right__card--up-text:hover {
@@ -136,6 +136,4 @@ bodymain__section__right__cardmain__section__right__card--up-text.main__section_
   position: relative;
   top: -20;
   gap: 5px;
-}
-
-/*# sourceMappingURL=design.css.map */
+}/*# sourceMappingURL=design.css.map */
