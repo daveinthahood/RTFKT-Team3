@@ -9,6 +9,7 @@
     border: none;
     border-radius: 12px;
     padding:  0.95rem 1.25rem;
+    white-space: nowrap;
     &:hover{
         background-color: $color-violet;
         cursor: pointer;
