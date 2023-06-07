@@ -37,7 +37,7 @@ body{
             }
         }
         .all-brands{
-            width: 100%;
+            width: 95%;
             height: 65%;
             display: flex;
             flex-direction: row;
@@ -47,6 +47,8 @@ body{
             gap: 20px;
             .same-class{
                 display: flex;
+                justify-content: center;
+                align-items: center;
                 width: 30%;
                 height: auto;
                 background-color: $color-gray-700;
@@ -56,6 +58,9 @@ body{
                     display: block;
                     height: 50px;
                     margin: 0 auto;
+                }
+                .same-image1{
+                    width: 80%;
                 }
             }
         }
