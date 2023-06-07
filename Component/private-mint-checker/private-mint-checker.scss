@@ -10,8 +10,8 @@ body{
 }
 
 section {
-    margin-left: 7rem;
-    margin-right: 7rem;
+    margin-left: 4rem;
+    margin-right: 9rem;
 }
 section > h2 {
     font-family: $primary-font;
@@ -63,7 +63,7 @@ section > h2 {
     }
 
     & p {
-        color: $color-gray-600;
+        color: $color-gray-500;
         font-family: $primary-font;
         font-size: 12px;
         margin-bottom: 3rem;
@@ -79,11 +79,11 @@ section > h2 {
         border: 0.5px solid $color-gray-300;
         border-radius: 16px;
         color: white;
-        font-size: 14px;
+        font-size: 12px;
         font-family: Montserrat, serif;
         margin-bottom: 1rem;
        
-        & .input:focus{
+        > :focus{
             border-color: $color-indigo;
 
         }
@@ -95,8 +95,8 @@ section > h2 {
         font-weight: bold;
         border-radius: 15px;
         padding: 14px;
-        width: 40%;
-        font-size: 10px;
+        width: 55%;
+        font-size: 12px;
         &:hover{
             cursor: pointer;
             background-color: $color-gray-300;
