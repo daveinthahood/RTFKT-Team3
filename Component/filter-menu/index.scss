@@ -29,15 +29,32 @@ body{
         align-items: flex-start;
         &--text{
             display:flex;
-            // justify-content: ;
-            align-items: end;
+            justify-content: space-between;
+            width: 100%;
+            align-items: center;
             text-transform: uppercase;
             font-weight: 500;
+            &--title{
+                display: flex;
+                gap: 4px;
+                & span:last-child{
+                    color: $color-gray-600;
+                    font-weight: 500;
+                    
+                }
+            }
+            &--b>button{
+                background-color: transparent;
+                border: none;
+                color: $color-white;
+                font-size: 18px;
+                font-weight: 700;
+            }
+            &--b>button:hover{
+                cursor: pointer;
+            }
         }
-        &--title{
-            display: flex;
-            flex-grow: 1;
-        }
+       
         &--button{
             display: flex;
             flex-wrap: wrap;
