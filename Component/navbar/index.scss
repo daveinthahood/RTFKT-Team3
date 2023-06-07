@@ -137,7 +137,7 @@ body {
 }
 
 @media screen and (min-width: 992px) {
-  body .navbar .navbar-left .navbar-left__img :last-child {
+  body .navbar .navbar-left .navbar-left__img :last-child img {
     display: none;
   }
 
@@ -153,7 +153,7 @@ body {
     &-left {
       height: 51px;
 
-      &__img :first-child {
+      &__img :first-child img {
         display: none;
       }
     }
