@@ -55,7 +55,7 @@ body{
 
     .design-component-text{
         font-family: $special-font;
-        font-size: 2rem;
+        // font-size: 2rem;
         color: $color-gray-100;
         display: flex;
         flex-direction: column;
@@ -64,6 +64,26 @@ body{
         h2:hover{
             text-decoration: underline $color-indigo;
             cursor: pointer;
+        }
+    }
+
+    .design-component-button{
+        display: flex;
+        box-shadow: 2px 10px 10px 6px rgba(0, 0, 0, 0.192);
+        flex-direction: column;
+        border: 1px solid black;
+        border-radius: 1rem;
+        padding: 30px;
+        width: 40%;
+        margin-left: 10px;
+        background-color: $color-gray-700;
+        color: $color-gray-100;
+        margin-top: 30px;
+        margin-right: auto;
+        &-items{
+            display: flex;
+            align-items: baseline;
+            gap: 10px;
         }
     }
 

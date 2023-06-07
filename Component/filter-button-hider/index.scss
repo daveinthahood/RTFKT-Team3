@@ -2,11 +2,12 @@
 
 .button--hide{
     background-color: transparent;
+    max-height: 40px;
     white-space: nowrap;
     border-radius: 1.5rem;
     border: 1px solid $color-gray-400;
     color: $color-white;
-    padding: 7px 15px;
+    padding: 5px 10px;
     font-family: $primary-font;
     font-size: 12px;
     font-weight: 600;
