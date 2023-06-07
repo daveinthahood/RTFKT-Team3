@@ -56,11 +56,18 @@ body {
   background-color: black;
 }
 
+@media only screen and (max-width: 1000px) {
+  body .main__section__left__countdown {
+    display: none;
+  }
+}
 .main__section {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   width: 75%;
   height: 100%;
+  gap: 40px;
   max-height: 490px;
   margin: 100px auto;
 }
@@ -134,7 +141,6 @@ body {
 .main__section__right {
   height: 100%;
   max-height: 490px;
-  flex-grow: 1;
   display: flex;
   justify-content: flex-end;
 }
@@ -149,10 +155,6 @@ body {
   background-color: #272932;
   border-radius: 1rem;
 }
-.main__section__right__cardhover ~ .main__section__right__card--up-video {
-  -webkit-box-shadow: 0px 84px 27px -7px #4f64ec;
-  box-shadow: 0px 84px 27px -7px #4f64ec;
-}
 .main__section__right__card--up-video {
   width: 100%;
   max-width: 406px;
@@ -162,8 +164,8 @@ body {
   border-radius: 1rem;
 }
 .main__section__right__card--up-video > video:hover {
-  -webkit-box-shadow: 0px 84px 27px 7px #0B325E;
-  box-shadow: 0px 84px 27px 7px #0B325E;
+  -webkit-box-shadow: 0px 100px 47px -47px #0B325E;
+  box-shadow: 0px 100px 47px -47px #0B325E;
   cursor: pointer;
 }
 .main__section__right__card--up-text {
