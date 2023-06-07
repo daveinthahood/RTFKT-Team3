@@ -71,5 +71,16 @@ body {
   flex-wrap: wrap;
   gap: 8px;
 }
+.aside__section--footer {
+  text-align: left;
+  font-size: 1rem;
+  color: #6c757d;
+  font-weight: 600;
+}
+.aside__section--footer span > a {
+  text-decoration: none;
+  color: #e9ecef;
+  font-weight: 600;
+}
 
 /*# sourceMappingURL=index.css.map */

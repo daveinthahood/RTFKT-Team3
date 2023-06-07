@@ -60,5 +60,17 @@ body{
             flex-wrap: wrap;
             gap: 8px;
         }
+
+        &--footer{
+            text-align: left;
+            font-size: 1rem;
+            color: $color-gray-600;
+            font-weight: 600;
+            & span>a{
+                text-decoration: none;
+                color: $color-gray-200;
+                font-weight: 600;
+            }
+        }
     }
 }
