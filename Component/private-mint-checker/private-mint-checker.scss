@@ -97,6 +97,8 @@ section > h2 {
         padding: 14px;
         width: 55%;
         font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 0.5px;
         &:hover{
             cursor: pointer;
             background-color: $color-gray-300;
