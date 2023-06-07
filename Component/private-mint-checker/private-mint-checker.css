@@ -87,8 +87,8 @@ section > h2 {
   font-family: Montserrat, serif;
   margin-bottom: 1rem;
 }
-.card .input > :focus {
-  border-color: #6610f2;
+.card .input:focus {
+  border: 0.5px solid #5733f5;
 }
 .card .check-it {
   background-color: white;
