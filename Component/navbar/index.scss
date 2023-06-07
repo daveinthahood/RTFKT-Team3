@@ -34,7 +34,7 @@ body {
       display: flex;
       align-items: center;
       flex-direction: row;
-      gap: 24px;
+      gap: 26px;
 
       a {
         text-decoration: none;
@@ -70,14 +70,14 @@ body {
         #floating-menu {
           align-items: center;
           text-align: center;
-          min-width: 230px;
+          min-width: 228px;
           border-radius: 20px;
           background-color: $color-gray-700;
           display: none;
           flex-direction: column;
           position: absolute;
           top: 65px;
-          left: -20px;
+          left: -31px;
           overflow: hidden;
           box-shadow: 0 0.5rem 1rem #00000026 !important;
 
