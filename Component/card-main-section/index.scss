@@ -94,12 +94,13 @@ body{
             font-family: $primary-font;
             display: flex;
             height: 100%;
+            max-height:500px ;
             flex-direction: column;
             background-color: $color-gray-700;
             border-radius: 1rem;
             &hover~.main__section__right__card--up-video{
-                -webkit-box-shadow: 0px 84px 27px 7px #4f64ec;
-                box-shadow: 0px 84px 27px 7px  #4f64ec;
+                -webkit-box-shadow: 0px 84px 27px -7px #4f64ec;
+                box-shadow: 0px 84px 27px -7px  #4f64ec;
             }
             &--up{
                 &-video{

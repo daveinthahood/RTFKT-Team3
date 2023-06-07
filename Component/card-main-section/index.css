@@ -10,6 +10,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Montserrat";
 }
 
 .main__section__left__buttons--darker, .main__section__left__buttons--lighter {
@@ -48,6 +49,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Montserrat";
 }
 
 body {
@@ -142,13 +144,14 @@ body {
   font-family: "Montserrat";
   display: flex;
   height: 100%;
+  max-height: 500px;
   flex-direction: column;
   background-color: #272932;
   border-radius: 1rem;
 }
 .main__section__right__cardhover ~ .main__section__right__card--up-video {
-  -webkit-box-shadow: 0px 84px 27px 7px #4f64ec;
-  box-shadow: 0px 84px 27px 7px #4f64ec;
+  -webkit-box-shadow: 0px 84px 27px -7px #4f64ec;
+  box-shadow: 0px 84px 27px -7px #4f64ec;
 }
 .main__section__right__card--up-video {
   width: 100%;
@@ -159,8 +162,8 @@ body {
   border-radius: 1rem;
 }
 .main__section__right__card--up-video > video:hover {
-  -webkit-box-shadow: 0 4px 18px -2px #0B325E;
-  box-shadow: 0 4px 18px -2px #0B325E;
+  -webkit-box-shadow: 0px 84px 27px 7px #0B325E;
+  box-shadow: 0px 84px 27px 7px #0B325E;
   cursor: pointer;
 }
 .main__section__right__card--up-text {
