@@ -88,6 +88,7 @@ body {
   padding: 7px 15px;
   font-family: "Montserrat";
   font-size: 12px;
+  white-space: nowrap;
   font-weight: 600;
   text-transform: capitalize;
   max-height: 40px;
@@ -363,6 +364,7 @@ body {
   text-transform: uppercase;
   width: 100%;
   max-width: 555px;
+  min-width: 300px;
   padding: 10px;
   border-radius: 1rem;
   color: white;
