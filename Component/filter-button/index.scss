@@ -5,6 +5,7 @@ body{
 
 .button--filter{
     display: flex;
+    height: 100%;
     align-items: center;
     justify-content: center;
     background-color: transparent;
@@ -18,6 +19,7 @@ body{
     text-transform: capitalize;
     max-height: 40px;
     gap: 8px;
+    line-height: 1rem;
     &>img{
         display: block;
         width: 1.5rem;

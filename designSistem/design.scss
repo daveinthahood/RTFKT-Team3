@@ -82,7 +82,8 @@ body{
         margin-right: auto;
         &-items{
             display: flex;
-            align-items: baseline;
+            align-items: center;
+            justify-content: center;
             gap: 10px;
         }
     }

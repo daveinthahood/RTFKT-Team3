@@ -22,8 +22,6 @@ body {
   border: none;
   border-radius: 12px;
   padding: 0.95rem 1.25rem;
-  margin-top: 1rem;
-  margin-right: 1rem;
 }
 .main__section__left__buttons--darker:hover, .main__section__left__buttons--lighter:hover {
   background-color: #5733f4;
@@ -106,6 +104,10 @@ body {
   font-family: "Montserrat";
   line-height: 1rem;
   margin-bottom: 30px;
+}
+.main__section__left__buttons {
+  display: flex;
+  gap: 20px;
 }
 .main__section__left__countdown {
   margin-top: 50px;

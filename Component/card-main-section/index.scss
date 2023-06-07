@@ -57,6 +57,11 @@ body{
        
     }
 
+        &__buttons{
+            display: flex;
+            gap: 20px
+        }
+
         &__countdown{
             margin-top: 50px;
             display: flex;
