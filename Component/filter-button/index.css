@@ -9,4 +9,40 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: "Montserrat";
-}/*# sourceMappingURL=index.css.map */
+}
+
+body {
+  background-color: black;
+}
+
+.button--filter {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border-radius: 1.5rem;
+  border: 1px solid #ced4da;
+  color: white;
+  padding: 7px 15px;
+  font-family: "Montserrat";
+  font-size: 12px;
+  white-space: nowrap;
+  font-weight: 600;
+  text-transform: capitalize;
+  max-height: 40px;
+  gap: 8px;
+  line-height: 1rem;
+}
+.button--filter > img {
+  display: block;
+  width: 1.5rem;
+  border-radius: 50%;
+}
+.button--filter:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=index.css.map */

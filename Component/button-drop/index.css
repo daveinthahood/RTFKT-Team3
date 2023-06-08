@@ -9,4 +9,26 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: "Montserrat";
-}/*# sourceMappingURL=index.css.map */
+}
+
+body {
+  background-color: black;
+}
+
+.--button--drop {
+  background-color: transparent;
+  border: 1px solid #6c757d;
+  text-transform: uppercase;
+  width: 100%;
+  max-width: 555px;
+  padding: 10px;
+  border-radius: 1rem;
+  color: white;
+  font-weight: 600;
+}
+.--button--drop:hover {
+  background-color: white;
+  color: black;
+}
+
+/*# sourceMappingURL=index.css.map */

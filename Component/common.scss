@@ -1,14 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("//db.onlinewebfonts.com/c/ebaf90e665954316d40b79a1c7c942c0?family=TT+Alientz+Grotesque");
 
-@font-face { //**! vedere se scaricare in locale !**//
-    font-family: "TT Alientz Grotesque"; 
-    src: url("//db.onlinewebfonts.com/t/ebaf90e665954316d40b79a1c7c942c0.eot"),
-    url("//db.onlinewebfonts.com/t/ebaf90e665954316d40b79a1c7c942c0.eot?#iefix") format("embedded-opentype"), 
-    url("//db.onlinewebfonts.com/t/ebaf90e665954316d40b79a1c7c942c0.woff2") format("woff2"), 
-    url("//db.onlinewebfonts.com/t/ebaf90e665954316d40b79a1c7c942c0.woff") format("woff"), 
-    url("//db.onlinewebfonts.com/t/ebaf90e665954316d40b79a1c7c942c0.ttf") format("truetype"), 
-    url("//db.onlinewebfonts.com/t/ebaf90e665954316d40b79a1c7c942c0.svg#TT Alientz Grotesque") format("svg"); 
+@font-face {
+  font-family: "TT Alientz Grotesque";
+  src: url("//db.onlinewebfonts.com/t/ebaf90e665954316d40b79a1c7c942c0.eot"),
+    url("//db.onlinewebfonts.com/t/ebaf90e665954316d40b79a1c7c942c0.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/ebaf90e665954316d40b79a1c7c942c0.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/ebaf90e665954316d40b79a1c7c942c0.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/ebaf90e665954316d40b79a1c7c942c0.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/ebaf90e665954316d40b79a1c7c942c0.svg#TT Alientz Grotesque")
+      format("svg");
 }
 
 //**! Aggiungere reset stili font !**//
@@ -20,27 +25,27 @@ $color-primary:#5733f5;
 $color-secondary:#6c757d;
 $color-body-bg: #1f2028;
 $color-blue: #004acb;
-$color-indigo:#6610f2;
-$color-violet:#5733f5;
+$color-indigo: #6610f2;
+$color-violet:#5733f4;
 $color-violet-light:#6847f6;
 $color-pink:#d63384;
 $color-red: #ff3500;
-$color-orange:#fd7e14;
+$color-orange: #fd7e14;
 $color-yellow: #ffc107;
 $color-green: #1cf463;
-$color-teal:#20c997;
+$color-teal: #20c997;
 $color-cyan: #0dcaf0;
-$color-grey-dark:#1c1d23;
+$color-grey-dark: #1c1d23;
 $color-gray-100: #f8f9fa;
 $color-gray-200: #e9ecef;
 $color-gray-300: #dee2e6;
 $color-gray-400: #ced4da;
 $color-gray-500: #b5b5b8;
 $color-gray-600: #6c757d;
-$color-gray-700:#272932;
+$color-gray-700: #272932;
 $color-gray-800: #1f2028;
-$color-gray-900:#1c1d23;
-$color-success:#1cf463;
+$color-gray-900: #1c1d23;
+$color-success: #1cf463;
 $color-info: #0dcaf0;
 $color-warning: #ffc107;
 $color-danger: #ff3500;
@@ -49,14 +54,14 @@ $color-rare: #fd9a13;
 $color-epic: #ff28db;
 $color-legendary: #b356ff;
 
+
 //**! Font **//
-$primary-font: 'Montserrat';
-$special-font: 'TT Alientz Grotesque';
-
-
+$primary-font: "Montserrat";
+$special-font: "TT Alientz Grotesque";
 
 body {
     margin:0;
     padding:0;
     box-sizing: border-box;
+    font-family: $primary-font;
 }
