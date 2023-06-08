@@ -18,10 +18,11 @@ body {
 }
 
 section {
-  margin-left: 4rem;
-  margin-right: 9rem;
+  width: 1310px;
+  height: 450px;
+  max-height: 100%;
+  margin: 0 auto;
 }
-
 section > h2 {
   font-family: "Montserrat";
   margin-left: 2.9rem;
@@ -31,53 +32,65 @@ section > h2 {
 
 .container {
   display: inline-flex;
+  /* flex-direction: column; */
   max-width: 100%;
-  width: 1392px;
-  max-height: 450px;
+  width: 100%;
   margin-left: 3rem;
   margin-right: 3rem;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1490196078);
   border-radius: 1.5rem;
+  height: 100%;
 }
 
 .card {
   display: inline-flex;
+  flex-direction: row;
   background-color: #272932;
   border-radius: 1.5rem;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1490196078);
 }
+.card .img {
+  width: 60%;
+  height: 100%;
+  display: block;
+  position: relative;
+}
 .card .forgive-img {
   border-radius: 1.5rem;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1490196078);
-  max-width: 60%;
+  max-width: 100%;
+  height: 100%;
+  position: relative;
 }
 .card .text-right {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-  margin: 0 auto;
-  width: 20%;
+  padding: 1rem 1.5rem;
+  width: 25%;
   height: 93%;
-  display: flex;
-  flex-direction: column;
+  display: block;
   margin-top: 2rem;
+  margin: 1rem 6rem;
 }
-.card h2 {
+.card .text-right > h2 {
   color: #e9ecef;
   font-family: "Montserrat";
   font-size: 22px;
   margin-bottom: 1rem;
 }
-.card p {
+.card .text-right p {
   color: #b5b5b8;
   font-family: "Montserrat";
-  font-size: 12px;
+  font-size: 15px;
   margin-bottom: 3rem;
 }
-.card .input {
+.card .footer {
+  display: flex;
+  flex-direction: column;
+}
+.card .footer > .input {
   width: 100%;
   height: 100%;
   max-height: 45px;
-  padding: 10px 1rem;
+  padding: 13px 1rem;
   background: transparent;
   outline: none;
   border: 0.5px solid #dee2e6;
@@ -87,10 +100,10 @@ section > h2 {
   font-family: Montserrat, serif;
   margin-bottom: 1rem;
 }
-.card .input:focus {
+.card .footer > .input:focus {
   border: 0.5px solid #5733f5;
 }
-.card .check-it {
+.card .footer > .check-it {
   background-color: white;
   font-family: "Montserrat";
   font-weight: bold;
@@ -101,7 +114,57 @@ section > h2 {
   font-weight: 700;
   letter-spacing: 0.5px;
 }
-.card .check-it:hover {
+.card .footer > .check-it:hover {
   cursor: pointer;
   background-color: #dee2e6;
+}
+
+@media screen and (max-width: 992px) {
+  section {
+    max-width: 688px;
+    max-height: 670px;
+  }
+  .container {
+    width: 100%;
+    max-height: 100%;
+    height: 300px;
+    display: block;
+    flex-direction: row;
+  }
+  .card {
+    display: block;
+    width: 100%;
+  }
+  .card .img {
+    display: block;
+    width: 100%;
+    height: 120%;
+  }
+  .card .img > .forgive-img {
+    width: 100%;
+  }
+  .card .text-right {
+    width: 95%;
+    margin: 0;
+    padding: 1rem;
+  }
+  .card .text-right > p {
+    margin-bottom: 1rem;
+  }
+  .card .text-right > .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .card .text-right > .footer > .input {
+    width: 100%;
+    padding: 17px 1rem;
+    font-size: 15px;
+  }
+  .card .text-right > .footer > .check-it {
+    width: 100%;
+    padding: 14px;
+    font-size: 15px;
+  }
 }/*# sourceMappingURL=private-mint-checker.css.map */
