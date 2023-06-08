@@ -6,10 +6,16 @@ body {
     margin: 0;
 }
 
-h2 {
-    font-family: $primary-font;
-    font-size: 20px;
-    color: $color-gray-300;
+
+.who-we-are-section-container{
+    margin: 0 auto;
+    width: 75%;
+    > h2 {
+        font-family: $primary-font;
+        font-size: 20px;
+        color: $color-gray-300;
+        margin-left: 2rem;
+    }
 }
 
 #whoWeAre-Container{
@@ -19,7 +25,28 @@ h2 {
     align-items: center;
     max-width: 1000px;
     margin: 0 auto;
-   
+    .whoWeAre-text {
+        font-family: $primary-font;
+        display: flex;
+        text-align: center;
+        font-size: 30px;
+        
+        & p {
+            font-weight: 500;
+        }
+        & span {
+            font-family: $special-font;
+            color: $color-gray-300;
+            &:hover{
+                text-decoration: underline $color-indigo;
+                cursor: pointer;
+               
+            }
+        }
+    }
+    
+    
+    
 
 }
 
