@@ -15,10 +15,15 @@ body {
   margin: 0;
 }
 
-h2 {
+.who-we-are-section-container {
+  margin: 0 auto;
+  width: 75%;
+}
+.who-we-are-section-container > h2 {
   font-family: "Montserrat";
   font-size: 20px;
   color: #dee2e6;
+  margin-left: 2rem;
 }
 
 #whoWeAre-Container {
@@ -28,6 +33,24 @@ h2 {
   align-items: center;
   max-width: 1000px;
   margin: 0 auto;
+}
+#whoWeAre-Container .whoWeAre-text {
+  font-family: "Montserrat";
+  display: flex;
+  text-align: center;
+  font-size: 30px;
+}
+#whoWeAre-Container .whoWeAre-text p {
+  font-weight: 500;
+}
+#whoWeAre-Container .whoWeAre-text span {
+  font-family: "TT Alientz Grotesque";
+  color: #dee2e6;
+}
+#whoWeAre-Container .whoWeAre-text span:hover {
+  -webkit-text-decoration: underline #6610f2;
+          text-decoration: underline #6610f2;
+  cursor: pointer;
 }
 
 .whoWeAre-text {
