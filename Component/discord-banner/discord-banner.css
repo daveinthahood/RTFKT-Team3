@@ -11,48 +11,35 @@ body {
   font-family: "Montserrat";
 }
 
-.--shop--card {
-  background-color: #272932;
+.discord-banner-section--conteriner {
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.discord-banner-section--conteriner .discord-banner-section--conteriner--left {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  gap: 20px;
-  color: #e9ecef;
+  width: 20%;
+}
+.discord-banner-section--conteriner .discord-banner-section--conteriner--left .discord-button1 {
   border-radius: 1rem;
-  width: 350px;
+  padding: 15px;
+  border: none;
 }
-.--shop--card-title {
-  width: 95%;
-  margin: 0 auto;
-  display: flex;
-  gap: 10px;
-  font-weight: 700;
-  align-items: center;
-  padding-top: 10px;
-}
-.--shop--card-title img {
-  width: 30px;
-  border-radius: 50%;
-}
-.--shop--card-vid {
-  width: 95%;
-  margin-inline: auto;
-}
-.--shop--card-vid video {
-  width: 100%;
-  border-radius: 1rem;
-}
-.--shop--card-vid video:hover {
+.discord-banner-section--conteriner .discord-banner-section--conteriner--left .discord-button1:hover {
   cursor: pointer;
-  box-shadow: 0px 0px 80px 1px #0B325E;
 }
-.--shop--card-footer {
-  width: 95%;
-  margin: 0 auto;
-  padding-bottom: 40px;
-  font-weight: 600;
+.discord-banner-section--conteriner .discord-banner-section--conteriner--left .discord-banner-section--conteriner--left--text .h2 {
+  font-size: 25px;
+  padding-left: 1rem;
 }
-.--shop--card-footer-description {
-  font-size: 0.8rem;
-  color: #b5b5b8;
-}/*# sourceMappingURL=index.css.map */
+.discord-banner-section--conteriner .discord-banner-section--conteriner--left .discord-banner-section--conteriner--left--text span {
+  font-family: "TT Alientz Grotesque";
+}
+.discord-banner-section--conteriner .discord-banner-section--conteiner--right {
+  display: flex;
+  flex-direction: column;
+  height: 30%;
+}/*# sourceMappingURL=discord-banner.css.map */

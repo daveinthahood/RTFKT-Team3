@@ -1,0 +1,47 @@
+@import "../common.scss";
+
+.discord-banner-section--conteriner {
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  .discord-banner-section--conteriner--left {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    & .discord-button1 {
+        border-radius: 1rem;
+        padding: 15px;
+        border: none;
+        &:hover {
+          cursor: pointer;
+        }
+    }
+
+    & .discord-banner-section--conteriner--left--text {
+    //   margin-left: 1rem;
+
+      & .h2 {
+        font-size: 25px;
+        padding-left: 1rem;
+      }
+      & span {
+        font-family: $special-font;
+      }
+    }
+
+    }
+
+
+    .discord-banner-section--conteiner--right{
+        display: flex;
+        flex-direction: column;
+        height: 30%;
+
+    }
+
+    
+
+}
