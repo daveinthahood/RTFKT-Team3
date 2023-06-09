@@ -1,10 +1,13 @@
 @import '../Component/common.scss';
+<<<<<<< HEAD
+=======
 @import '../Component/buttons/index.scss';
 @import '../Component/filter-button/index.scss';
 @import '../Component/filter-button-hider/';
 @import '../Component/card-main-section/index.scss';
 @import '../Component/button-drop/index.scss';
 @import '../Component/shop-card/index.scss';
+>>>>>>> 4d40307c8d6a269de3915db3c4158ed900afea3a
 
 
 body{
@@ -57,10 +60,17 @@ body{
 
     .design-component-text{
         font-family: $special-font;
+<<<<<<< HEAD
+        font-size: 2rem;
+        color: $color-gray-100;
+        display: flex;
+        flex-direction: column;
+=======
         // font-size: 2rem;
         color: $color-gray-100;
         display: flex;
 
+>>>>>>> 4d40307c8d6a269de3915db3c4158ed900afea3a
         justify-content: center;
         align-items: center;
         h2:hover{
@@ -68,6 +78,9 @@ body{
             cursor: pointer;
         }
     }
+<<<<<<< HEAD
+    
+=======
     .design-component-item{
         border: 1px solid black;
         padding: 15px;
@@ -104,5 +117,6 @@ body{
             gap: 10px;
         }
     }
+>>>>>>> 4d40307c8d6a269de3915db3c4158ed900afea3a
 
 }
