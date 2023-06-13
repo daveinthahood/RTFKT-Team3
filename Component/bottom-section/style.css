@@ -45,7 +45,7 @@ body {
   margin: 0 auto;
   display: flex;
 }
-.bottom-section #brands #awesome-people p {
+.bottom-section #brands #awesome-people #awesome-people-para {
   color: white;
   font-family: "Montserrat", sans-serif;
 }
