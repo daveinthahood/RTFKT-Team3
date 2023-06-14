@@ -11,17 +11,41 @@ body {
   font-family: "Montserrat";
 }
 
+body {
+  background-color: #1f2028;
+}
+
+h2, span, p {
+  color: white;
+}
+
+.discord-banner-section {
+  margin: 0 auto;
+  border-radius: 15px;
+  background-image: linear-gradient(to right, transparent, rgb(39, 41, 50) 68%), url(../../Asset/image/Grid2x.png);
+  box-shadow: 0 0.1rem 0.2rem rgba(0, 0, 0, 0.3);
+  background-size: cover;
+  max-width: 1340px;
+  max-height: 400px;
+}
+
 .discord-banner-section--conteriner {
-  width: 75%;
   margin: 0 auto;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: flex-start;
+  border-radius: 15px;
+  max-height: 500px;
+  padding: 2rem;
 }
 .discord-banner-section--conteriner .discord-banner-section--conteriner--left {
   display: flex;
   flex-direction: column;
-  width: 20%;
+  width: 30%;
+  justify-content: center;
+  gap: 2rem;
+  padding: 0.5rem 0.5rem;
 }
 .discord-banner-section--conteriner .discord-banner-section--conteriner--left .discord-button1 {
   border-radius: 1rem;
@@ -31,15 +55,74 @@ body {
 .discord-banner-section--conteriner .discord-banner-section--conteriner--left .discord-button1:hover {
   cursor: pointer;
 }
-.discord-banner-section--conteriner .discord-banner-section--conteriner--left .discord-banner-section--conteriner--left--text .h2 {
-  font-size: 25px;
-  padding-left: 1rem;
+.discord-banner-section--conteriner .discord-banner-section--conteriner--left .discord-banner-section--conteriner--left--text {
+  display: flex;
+  text-align: flex-start;
+}
+.discord-banner-section--conteriner .discord-banner-section--conteriner--left .discord-banner-section--conteriner--left--text h2 {
+  font-size: 37px;
+  font-weight: 500;
+  margin: 0 auto;
 }
 .discord-banner-section--conteriner .discord-banner-section--conteriner--left .discord-banner-section--conteriner--left--text span {
   font-family: "TT Alientz Grotesque";
 }
+.discord-banner-section--conteriner .discord-banner-center {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  position: relative;
+}
+.discord-banner-section--conteriner .discord-banner-center .discord-banner-center-image {
+  display: flex;
+}
+.discord-banner-section--conteriner .discord-banner-center-image > img {
+  width: 60%;
+  position: relative;
+  left: 35px;
+}
+.discord-banner-section--conteriner img:hover {
+  cursor: pointer;
+}
 .discord-banner-section--conteriner .discord-banner-section--conteiner--right {
   display: flex;
   flex-direction: column;
-  height: 30%;
+  width: 30%;
+  gap: 10px;
+}
+.discord-banner-section--conteriner .discord-banner-section--conteiner--right > p {
+  font-weight: bold;
+  letter-spacing: 3px;
+  font-size: 12px;
+  margin: 0;
+}
+.discord-banner-section--conteriner .discord-banner-section--conteiner--right discord-banner-winner {
+  display: block;
+}
+.discord-banner-section--conteriner .discord-banner-section--conteiner--right .discord-banner-winners-first {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  background: linear-gradient(100deg, rgb(102, 88, 53) 20%, rgb(39, 41, 50) 100%);
+  border: 0.5px;
+  border-radius: 19px;
+  width: 100%;
+  padding: 1px;
+}
+.discord-banner-section--conteriner .discord-banner-section--conteiner--right .discord-banner-winners-first .discord-winners-number {
+  background-color: rgb(245, 206, 108);
+  padding: 17px;
+  border-radius: 19px;
+  font-family: "TT Alientz Grotesque";
+  font-size: 25px;
+}
+.discord-banner-section--conteriner .discord-banner-section--conteiner--right img {
+  width: 10%;
+  border-radius: 50%;
+}
+.discord-banner-section--conteriner .discord-banner-section--conteiner--right .discord-banner-winners-firs-info-tag {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }/*# sourceMappingURL=discord-banner.css.map */
