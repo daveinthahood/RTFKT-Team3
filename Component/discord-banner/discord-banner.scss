@@ -1,24 +1,24 @@
 @import "../common.scss";
 
-body{
+body {
   background-color: $color-body-bg;
-
 }
 
-h2, span, p {
+h2,
+span,
+p {
   color: white;
-
 }
 
 .discord-banner-section {
-  margin: 0 auto ;
+  margin: 0 auto;
   border-radius: 15px;
-  background-image: linear-gradient(to right, transparent, rgb(39, 41, 50)68%), url(../../Asset/image/Grid2x.png) ;
+  background-image: linear-gradient(to right, transparent, rgb(39, 41, 50) 68%),
+    url(../../Asset/image/Grid2x.png);
   box-shadow: 0 0.1rem 0.2rem rgba(0, 0, 0, 0.3);
   background-size: cover;
-  max-width: 1360px;
-  max-height: 400px;
-  
+  max-width: 1380px;
+  // max-height: 400px;
 }
 
 .discord-banner-section--conteriner {
@@ -28,7 +28,7 @@ h2, span, p {
   justify-content: space-between;
   align-items: flex-start;
   border-radius: 15px;
-  max-height: 500px;
+  max-height: 100%;
   padding: 2rem;
 
   .discord-banner-section--conteriner--left {
@@ -36,34 +36,38 @@ h2, span, p {
     flex-direction: column;
     width: 30%;
     justify-content: center;
-    gap:2rem;
-    padding: 1.7rem 0.5rem ;
+    gap: 2rem;
+    padding: 1.7rem 0.5rem;
+    padding-left: 1rem;
     & .discord-button1 {
       border-radius: 1rem;
       padding: 15px;
       border: none;
+      font-weight: bold;
+      width: 52%;
+      letter-spacing: 0.5px;
       &:hover {
         cursor: pointer;
       }
     }
 
     & .discord-banner-section--conteriner--left--text {
-       display: flex;
-       text-align: flex-start;
+      display: flex;
+      text-align: flex-start;
 
       & h2 {
         font-size: 33px;
         font-weight: 500;
         margin: 0 auto;
-        padding-top: 1.2rem;
+        padding-top: 0.5rem;
       }
       & span {
         font-family: $special-font;
       }
     }
   }
-  
-  .discord-banner-center{
+
+  .discord-banner-center {
     display: block;
     justify-content: center;
     align-items: center;
@@ -72,23 +76,22 @@ h2, span, p {
     // padding-top: 1rem;
     padding-bottom: 5rem;
 
-    & .discord-banner-center-image{
+    & .discord-banner-center-image {
       display: flex;
       width: 100%;
       position: absolute;
-      left: 4rem; 
-      
+      left: 4rem;
+      top: -0.5rem;
+      // background: radial-gradient(#5733f5,transparent 50%);
     }
   }
-
-
-  & .discord-banner-center-image > img{
-    width:64%;
-    // position: relative;
-    // left: 4rem;   
+  & .creator {
+    width: 60%;
+    background: radial-gradient(#5733f5, transparent 65%);
+    height: auto;
   }
-
-  img:hover{
+  & .creator:hover {
+    transform: scale(1.1);
     cursor: pointer;
   }
 
@@ -99,48 +102,119 @@ h2, span, p {
     width: 30%;
     gap: 10px;
     padding-right: 1rem;
-    padding-top: 2.5rem;
+    padding-top: 1.3rem;
     > p {
       font-weight: bold;
       letter-spacing: 3px;
       font-size: 12px;
-      margin:0;
+      margin: 0;
     }
 
     & discord-banner-winner {
       display: block;
       padding-right: 2px;
-      
     }
 
+    //**!First Winner
     .discord-banner-winners-first {
       display: flex;
       gap: 10px;
       align-items: center;
-      background:linear-gradient(100deg,rgb(102,88,53) 20%,rgb(39,41,50) 100%);
+      background: linear-gradient(
+        100deg,
+        rgb(102, 88, 53) 20%,
+        rgb(39, 41, 50) 100%
+      );
+      box-shadow: 0 0.5rem 1rem #00000026;
       border: 0.5px;
       border-radius: 25px;
       width: 100%;
-      padding:5px;
+      padding: 5px;
 
       & .discord-winners-number {
         background-color: rgb(245, 206, 108);
-        padding: 10px;
+        padding: 11px;
         border-radius: 19px;
         font-family: $special-font;
         font-size: 25px;
       }
-
     }
     & img {
       width: 10%;
       border-radius: 50%;
-
     }
     & .discord-banner-winners-firs-info-tag {
       display: flex;
       flex-direction: column;
       width: 100%;
     }
+
+    //**! Second Winner
+    .discord-banner-winners-second {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      background: linear-gradient(
+        90deg,
+        rgb(70, 70, 93) 0%,
+        rgb(39, 41, 50) 100%
+      );
+      box-shadow: 0 0.5rem 1rem #00000026;
+      border: 0.5px;
+      border-radius: 25px;
+      width: 100%;
+      padding: 5px;
+
+      & .discord-winners-number {
+        background-color: #a3a2aa;
+        padding: 11px;
+        border-radius: 19px;
+        font-family: $special-font;
+        font-size: 25px;
+      }
+    }
+    & img {
+      width: 10%;
+      border-radius: 50%;
+    }
+    & .discord-banner-winners-firs-info-tag {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+  }
+
+  //**! Terzo winner
+  .discord-banner-winners-third {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    background: linear-gradient(
+      90deg,
+      rgb(57, 42, 29) 0%,
+      rgb(40, 40, 52) 100%
+    );
+    box-shadow: 0 0.5rem 1rem #00000026;
+    border: 0.5px;
+    border-radius: 25px;
+    width: 100%;
+    padding: 5px;
+
+    & .discord-winners-number {
+      background-color: #a27c59;
+      padding: 11px;
+      border-radius: 19px;
+      font-family: $special-font;
+      font-size: 25px;
+    }
+  }
+  & .logo {
+    width: 10%;
+    border-radius: 50%;
+  }
+  & .discord-banner-winners-firs-info-tag {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
   }
 }
