@@ -25,7 +25,7 @@ h2, span, p {
   background-image: linear-gradient(to right, transparent, rgb(39, 41, 50) 68%), url(../../Asset/image/Grid2x.png);
   box-shadow: 0 0.1rem 0.2rem rgba(0, 0, 0, 0.3);
   background-size: cover;
-  max-width: 1340px;
+  max-width: 1360px;
   max-height: 400px;
 }
 
@@ -45,7 +45,7 @@ h2, span, p {
   width: 30%;
   justify-content: center;
   gap: 2rem;
-  padding: 0.5rem 0.5rem;
+  padding: 1.7rem 0.5rem;
 }
 .discord-banner-section--conteriner .discord-banner-section--conteriner--left .discord-button1 {
   border-radius: 1rem;
@@ -60,9 +60,10 @@ h2, span, p {
   text-align: flex-start;
 }
 .discord-banner-section--conteriner .discord-banner-section--conteriner--left .discord-banner-section--conteriner--left--text h2 {
-  font-size: 37px;
+  font-size: 33px;
   font-weight: 500;
   margin: 0 auto;
+  padding-top: 1.2rem;
 }
 .discord-banner-section--conteriner .discord-banner-section--conteriner--left .discord-banner-section--conteriner--left--text span {
   font-family: "TT Alientz Grotesque";
@@ -71,16 +72,18 @@ h2, span, p {
   display: block;
   justify-content: center;
   align-items: center;
-  width: 25%;
+  width: 27%;
   position: relative;
+  padding-bottom: 5rem;
 }
 .discord-banner-section--conteriner .discord-banner-center .discord-banner-center-image {
   display: flex;
+  width: 100%;
+  position: absolute;
+  left: 4rem;
 }
 .discord-banner-section--conteriner .discord-banner-center-image > img {
-  width: 60%;
-  position: relative;
-  left: 35px;
+  width: 64%;
 }
 .discord-banner-section--conteriner img:hover {
   cursor: pointer;
@@ -88,8 +91,11 @@ h2, span, p {
 .discord-banner-section--conteriner .discord-banner-section--conteiner--right {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   width: 30%;
   gap: 10px;
+  padding-right: 1rem;
+  padding-top: 2.5rem;
 }
 .discord-banner-section--conteriner .discord-banner-section--conteiner--right > p {
   font-weight: bold;
@@ -99,6 +105,7 @@ h2, span, p {
 }
 .discord-banner-section--conteriner .discord-banner-section--conteiner--right discord-banner-winner {
   display: block;
+  padding-right: 2px;
 }
 .discord-banner-section--conteriner .discord-banner-section--conteiner--right .discord-banner-winners-first {
   display: flex;
@@ -106,13 +113,13 @@ h2, span, p {
   align-items: center;
   background: linear-gradient(100deg, rgb(102, 88, 53) 20%, rgb(39, 41, 50) 100%);
   border: 0.5px;
-  border-radius: 19px;
+  border-radius: 25px;
   width: 100%;
-  padding: 1px;
+  padding: 5px;
 }
 .discord-banner-section--conteriner .discord-banner-section--conteiner--right .discord-banner-winners-first .discord-winners-number {
   background-color: rgb(245, 206, 108);
-  padding: 17px;
+  padding: 10px;
   border-radius: 19px;
   font-family: "TT Alientz Grotesque";
   font-size: 25px;
