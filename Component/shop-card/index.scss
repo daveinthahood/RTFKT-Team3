@@ -1,5 +1,13 @@
 @import '../common.scss';
 
+
+.-shop-card-homepage{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    
+}
+
 .--shop--card{
     background-color: $color-gray-700;
     display: flex;
