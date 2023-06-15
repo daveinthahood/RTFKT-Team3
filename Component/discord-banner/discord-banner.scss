@@ -1,0 +1,295 @@
+@import "../common.scss";
+
+body {
+  background-color: $color-body-bg;
+}
+
+h2,
+span,
+p {
+  color: white;
+}
+
+.discord-banner-section {
+  margin: 0 auto;
+  border-radius: 15px;
+  background-image: linear-gradient(to right, transparent, rgb(39, 41, 50) 68%),
+    url(../../Asset/image/Grid2x.png);
+  box-shadow: 0 0.1rem 0.2rem rgba(0, 0, 0, 0.3);
+  background-size: cover;
+  max-width: 1380px;
+  // max-height: 400px;
+}
+
+.discord-banner-section--conteriner {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-radius: 15px;
+  max-height: 100%;
+  padding: 2rem;
+
+  .discord-banner-section--conteriner--left {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    justify-content: center;
+    gap: 2rem;
+    padding: 1.7rem 0.5rem;
+    padding-left: 1rem;
+    & .discord-button1 {
+      border-radius: 1rem;
+      padding: 15px;
+      border: none;
+      font-weight: bold;
+      width: 52%;
+      letter-spacing: 0.5px;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+
+    & .discord-banner-section--conteriner--left--text {
+      display: flex;
+      text-align: flex-start;
+
+      & h2 {
+        font-size: 33px;
+        font-weight: 500;
+        margin: 0 auto;
+        padding-top: 0.5rem;
+      }
+      & span {
+        font-family: $special-font;
+      }
+    }
+  }
+
+  .discord-banner-center {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 27%;
+    position: relative;
+    // padding-top: 1rem;
+    padding-bottom: 5rem;
+
+    & .discord-banner-center-image {
+      display: flex;
+      text-align: center;
+      width: 100%;
+      position: absolute;
+      left: 4rem;
+      top: -0.5rem;
+      // background: radial-gradient(#5733f5,transparent 50%);
+    }
+  }
+  & .creator {
+    width: 60%;
+    background: radial-gradient(#5733f5, transparent 65%);
+    
+  }
+  & .creator:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+
+  .discord-banner-section--conteiner--right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding-right: 1rem;
+    padding-top: 1.3rem;
+    width: 30%;
+    > p {
+      font-weight: bold;
+      letter-spacing: 3px;
+      font-size: 12px;
+      margin: 0;
+    }
+
+    & discord-banner-winner {
+      display: block;
+      padding-right: 2px;
+    }
+
+    & .disable {
+      display: none;
+    }
+
+    //**!First Winner
+    .discord-banner-winners-first {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      background: linear-gradient(
+        100deg,
+        rgb(102, 88, 53) 20%,
+        rgb(39, 41, 50) 100%
+      );
+      box-shadow: 0 0.5rem 1rem #00000026;
+      border: 0.5px;
+      border-radius: 25px;
+      width: 100%;
+      padding: 5px;
+
+      & .discord-winners-number {
+        background-color: rgb(245, 206, 108);
+        padding: 11px;
+        border-radius: 19px;
+        font-family: $special-font;
+        font-size: 25px;
+      }
+    }
+    & .logo {
+      width: 10%;
+      border-radius: 50%;
+    }
+    & .discord-banner-winners-firs-info-tag {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+
+    //**! Second Winner
+    .discord-banner-winners-second {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      background: linear-gradient(
+        90deg,
+        rgb(70, 70, 93) 0%,
+        rgb(39, 41, 50) 100%
+      );
+      box-shadow: 0 0.5rem 1rem #00000026;
+      border: 0.5px;
+      border-radius: 25px;
+      width: 100%;
+      padding: 5px;
+
+      & .discord-winners-number {
+        background-color: #a3a2aa;
+        padding: 11px;
+        border-radius: 19px;
+        font-family: $special-font;
+        font-size: 25px;
+      }
+    }
+    & .logo {
+      width: 10%;
+      border-radius: 50%;
+    }
+    & .discord-banner-winners-firs-info-tag {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+  }
+
+  //**! Terzo winner
+  .discord-banner-winners-third {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    background: linear-gradient(
+      90deg,
+      rgb(57, 42, 29) 0%,
+      rgb(40, 40, 52) 100%
+    );
+    box-shadow: 0 0.5rem 1rem #00000026;
+    border: 0.5px;
+    border-radius: 25px;
+    width: 100%;
+    padding: 5px;
+
+    & .discord-winners-number {
+      background-color: #a27c59;
+      padding: 11px;
+      border-radius: 19px;
+      font-family: $special-font;
+      font-size: 25px;
+    }
+  }
+  & .logo {
+    width: 10%;
+    border-radius: 50%;
+  }
+  & .discord-banner-winners-firs-info-tag {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .discord-banner-section {
+    max-width: 688px;
+    background-image: linear-gradient(to bottom, transparent, rgb(39, 41, 50) 68%),
+    url(../../Asset/image/Grid2x.png);
+  }
+
+  .discord-banner-section--conteriner {
+    display: block;
+    flex-direction: column;
+    margin: 0 auto;
+    & .discord-banner-section--conteriner--left {
+      display: block;
+      flex-direction: column;
+      width: 100%;
+      padding: 0;
+      & .discord-button1 {
+        display: none;
+      }
+    }
+
+    .discord-banner-center{
+      max-width: 550px;
+      max-height: 353px;
+      height: 100%;
+      width: 100%;
+      padding: 0;
+    }
+    .discord-banner-center-image{
+      padding: 0;
+      justify-content: center;
+      margin: 0 auto;
+      
+      & .creator{
+        width: 35%;
+        position: absolute;
+        top: 50px;
+        left: 147px;
+        // background: radial-gradient(#5733f5, 75%);
+      }
+    }
+
+    .discord-banner-section--conteiner--right {
+      width: 100%;
+      padding: 0;
+      margin: 0 ;
+      > p {
+        letter-spacing: 0.5px;
+      }
+  
+      & .discord-banner-winners{
+        width: 100%;
+      }
+
+      & .disable{
+        display: flex;
+        justify-content: center;
+        padding: 15px;
+        border-radius: 15px;
+        border: none;
+        font-size: 15px;
+        font-weight: bold;
+        letter-spacing:0.5px ;
+      }
+    }
+  }
+}
