@@ -17,7 +17,7 @@ body {
 
 .who-we-are-section-container {
   margin: 0 auto;
-  width: 75%;
+  max-width: 1350px;
 }
 .who-we-are-section-container > h2 {
   font-family: "Montserrat";
@@ -70,4 +70,10 @@ body {
   -webkit-text-decoration: underline #6610f2;
           text-decoration: underline #6610f2;
   cursor: pointer;
+}
+
+@media screen and (max-width: 991px) {
+  .who-we-are-section-container {
+    max-width: 720px;
+  }
 }/*# sourceMappingURL=whoweare.css.map */

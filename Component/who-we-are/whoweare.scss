@@ -9,7 +9,7 @@ body {
 
 .who-we-are-section-container{
     margin: 0 auto;
-    width: 75%;
+    max-width: 1350px;
     > h2 {
         font-family: $primary-font;
         font-size: 20px;
@@ -67,6 +67,12 @@ body {
             cursor: pointer;
            
         }
+    }
+}
+
+@media screen and (max-width:991px){
+    .who-we-are-section-container{
+        max-width: 720px;
     }
 }
 
