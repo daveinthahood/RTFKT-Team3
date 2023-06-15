@@ -240,6 +240,7 @@ p {
     display: block;
     flex-direction: column;
     margin: 0 auto;
+    max-height: 780px;
     & .discord-banner-section--conteriner--left {
       display: block;
       flex-direction: column;
@@ -281,7 +282,7 @@ p {
       .discord-banner-winners-first{
         width: 100%;
         & .logo {
-          width: 1%;
+          width: 10%;
         }
       }
 
