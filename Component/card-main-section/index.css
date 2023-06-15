@@ -22,6 +22,7 @@ body {
   border: none;
   border-radius: 12px;
   padding: 0.95rem 1.25rem;
+  white-space: nowrap;
 }
 .main__section__left__buttons--darker:hover, .main__section__left__buttons--lighter:hover {
   background-color: #5733f4;
@@ -166,7 +167,6 @@ body {
   border-radius: 1rem;
 }
 .main__section__right__card--up-video > video:hover {
-  -webkit-box-shadow: 0px 100px 47px -47px #0B325E;
   box-shadow: 0px 100px 47px -47px #0B325E;
   cursor: pointer;
 }
@@ -186,7 +186,6 @@ body {
   border-radius: 1rem;
   top: -50;
   left: 10;
-  -webkit-box-shadow: 2px 5px 16px 0px #0B325E, -2px 2px 2px 5px rgba(0, 0, 0, 0);
   box-shadow: 2px 5px 16px 0px #0B325E, -2px 2px 2px 5px rgba(0, 0, 0, 0);
 }
 .main__section__right__card--up-text:hover {
@@ -206,6 +205,4 @@ body {
   position: relative;
   top: -20;
   gap: 5px;
-}
-
-/*# sourceMappingURL=index.css.map */
+}/*# sourceMappingURL=index.css.map */

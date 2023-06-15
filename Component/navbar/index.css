@@ -8,6 +8,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Montserrat";
 }
 
 body {
@@ -93,13 +94,13 @@ body {
 }
 .navbar-right__menu-dropdown #floating-menu > :hover {
   color: white;
-  background-color: #5733f5;
+  background-color: #5733f4;
 }
 .navbar-right__menu > :nth-child(5) span {
   font-size: inherit;
   font-weight: inherit;
   font-family: "Montserrat";
-  background-color: #5733f5;
+  background-color: #5733f4;
   border-radius: 24px;
   border: none;
   color: white;
@@ -107,7 +108,7 @@ body {
 }
 .navbar-right__menu > :nth-child(5):hover {
   color: white;
-  background-color: #4b24f4;
+  background-color: #5733f4;
 }
 .navbar-right__menu > :nth-child(6) {
   display: flex;
@@ -162,6 +163,4 @@ body {
     width: 104.36px;
     border-radius: 25px;
   }
-}
-
-/*# sourceMappingURL=index.css.map */
+}/*# sourceMappingURL=index.css.map */

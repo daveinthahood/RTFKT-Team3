@@ -44,7 +44,6 @@ body {
 }
 .--shop--card-vid video:hover {
   cursor: pointer;
-  -webkit-box-shadow: 0px 0px 20px 38px #0B325E;
   box-shadow: 0px 0px 80px 1px #0B325E;
 }
 .--shop--card-footer {
@@ -56,6 +55,4 @@ body {
 .--shop--card-footer-description {
   font-size: 0.8rem;
   color: #b5b5b8;
-}
-
-/*# sourceMappingURL=index.css.map */
+}/*# sourceMappingURL=index.css.map */
