@@ -8,6 +8,8 @@
 @import url("//db.onlinewebfonts.com/c/ebaf90e665954316d40b79a1c7c942c0?family=TT+Alientz+Grotesque");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("//db.onlinewebfonts.com/c/ebaf90e665954316d40b79a1c7c942c0?family=TT+Alientz+Grotesque");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("//db.onlinewebfonts.com/c/ebaf90e665954316d40b79a1c7c942c0?family=TT+Alientz+Grotesque");
 @font-face {
   font-family: "TT Alientz Grotesque";
   src: url("//db.onlinewebfonts.com/t/ebaf90e665954316d40b79a1c7c942c0.eot"), url("//db.onlinewebfonts.com/t/ebaf90e665954316d40b79a1c7c942c0.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/ebaf90e665954316d40b79a1c7c942c0.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/ebaf90e665954316d40b79a1c7c942c0.woff") format("woff"), url("//db.onlinewebfonts.com/t/ebaf90e665954316d40b79a1c7c942c0.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/ebaf90e665954316d40b79a1c7c942c0.svg#TT Alientz Grotesque") format("svg");
@@ -236,24 +238,27 @@ body {
   font-family: "Montserrat";
 }
 
-body {
-  background-color: black;
-}
-
 @media only screen and (max-width: 1000px) {
+  body .main__section__left {
+    margin-bottom: 50px;
+  }
   body .main__section__left__countdown {
     display: none;
+  }
+  body .main__section__right__card {
+    width: 688px;
+  }
+  body .main__section__right__card--up-video > video {
+    width: 688px;
   }
 }
 .main__section {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  width: 75%;
-  height: 100%;
+  max-width: 1350px;
   gap: 40px;
-  max-height: 490px;
-  margin: 100px auto;
+  margin: 0 auto;
 }
 .main__section__left {
   display: flex;
@@ -327,24 +332,19 @@ body {
   color: #6c757d;
 }
 .main__section__right {
-  height: 100%;
-  max-height: 490px;
   display: flex;
-  justify-content: flex-end;
 }
 .main__section__right__card {
-  max-width: 380px;
+  max-width: 1350px;
   color: white;
   font-family: "Montserrat";
   display: flex;
-  height: 100%;
-  max-height: 500px;
   flex-direction: column;
   background-color: #272932;
   border-radius: 1rem;
 }
 .main__section__right__card--up-video {
-  width: 100%;
+  position: relative;
   max-width: 406px;
 }
 .main__section__right__card--up-video > video {
@@ -352,14 +352,13 @@ body {
   border-radius: 1rem;
 }
 .main__section__right__card--up-video > video:hover {
-  box-shadow: 0px 100px 47px -47px #0B325E;
+  box-shadow: 0px 100px 47px -47px #0b325e;
   cursor: pointer;
 }
 .main__section__right__card--up-text {
   color: black;
   font-weight: 500;
   white-space: nowrap;
-  width: 40%;
   padding-inline: 20px;
   padding-block: 2px;
   display: flex;
@@ -367,11 +366,11 @@ body {
   align-items: center;
   font-family: "Montserrat";
   background-color: white;
-  position: relative;
+  position: absolute;
   border-radius: 1rem;
-  top: -50;
+  bottom: 10;
   left: 10;
-  box-shadow: 2px 5px 16px 0px #0B325E, -2px 2px 2px 5px rgba(0, 0, 0, 0);
+  box-shadow: 2px 5px 16px 0px #0b325e, -2px 2px 2px 5px rgba(0, 0, 0, 0);
 }
 .main__section__right__card--up-text:hover {
   cursor: pointer;
@@ -383,12 +382,9 @@ body {
   display: flex;
   flex-direction: column;
   font-weight: 500;
-  height: 800px !important;
   justify-content: flex-start;
   align-items: flex-start;
-  padding-left: 10px;
-  position: relative;
-  top: -20;
+  padding: 20px 15px;
   gap: 5px;
 }
 
@@ -550,4 +546,61 @@ section > h2 {
     padding: 14px;
     font-size: 15px;
   }
+}
+@font-face {
+  font-family: "TT Alientz Grotesque";
+  src: url("//db.onlinewebfonts.com/t/ebaf90e665954316d40b79a1c7c942c0.eot"), url("//db.onlinewebfonts.com/t/ebaf90e665954316d40b79a1c7c942c0.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/ebaf90e665954316d40b79a1c7c942c0.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/ebaf90e665954316d40b79a1c7c942c0.woff") format("woff"), url("//db.onlinewebfonts.com/t/ebaf90e665954316d40b79a1c7c942c0.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/ebaf90e665954316d40b79a1c7c942c0.svg#TT Alientz Grotesque") format("svg");
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #1f2028;
+  font-family: "Montserrat";
+}
+
+.--shop--card {
+  background-color: #272932;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 20px;
+  color: #e9ecef;
+  border-radius: 1rem;
+  width: 350px;
+}
+.--shop--card-title {
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  gap: 10px;
+  font-weight: 700;
+  align-items: center;
+  padding-top: 10px;
+}
+.--shop--card-title img {
+  width: 30px;
+  border-radius: 50%;
+}
+.--shop--card-vid {
+  width: 95%;
+  margin-inline: auto;
+}
+.--shop--card-vid video {
+  width: 100%;
+  border-radius: 1rem;
+}
+.--shop--card-vid video:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 80px 1px #0B325E;
+}
+.--shop--card-footer {
+  width: 95%;
+  margin: 0 auto;
+  padding-bottom: 40px;
+  font-weight: 600;
+}
+.--shop--card-footer-description {
+  font-size: 0.8rem;
+  color: #b5b5b8;
 }/*# sourceMappingURL=index.css.map */
