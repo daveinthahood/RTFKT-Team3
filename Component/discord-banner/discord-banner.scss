@@ -1,3 +1,5 @@
+
+
 @import "../common.scss";
 
 body {
@@ -90,7 +92,6 @@ p {
   & .creator {
     width: 60%;
     background: radial-gradient(#5733f5, transparent 65%);
-    
   }
   & .creator:hover {
     transform: scale(1.1);
@@ -222,21 +223,26 @@ p {
     display: flex;
     flex-direction: column;
     width: 100%;
-
   }
 }
+//*! responsive*//
 
 @media screen and (max-width: 992px) {
   .discord-banner-section {
     max-width: 688px;
-    background-image: linear-gradient(to bottom, transparent, rgb(39, 41, 50) 68%),
-    url(../../Asset/image/Grid2x.png);
+    background-image: linear-gradient(
+        to bottom,
+        transparent,
+        rgb(39, 41, 50) 68%
+      ),
+      url(../../Asset/image/Grid2x.png);
   }
 
   .discord-banner-section--conteriner {
     display: block;
     flex-direction: column;
     margin: 0 auto;
+    max-height: 780px;
     & .discord-banner-section--conteriner--left {
       display: block;
       flex-direction: column;
@@ -247,40 +253,42 @@ p {
       }
     }
 
-    .discord-banner-center{
+    .discord-banner-center {
       max-width: 550px;
       max-height: 353px;
       height: 100%;
       width: 100%;
       padding: 0;
     }
-    .discord-banner-center-image{
+    .discord-banner-center-image {
       padding: 0;
       justify-content: center;
       margin: 0 auto;
-      
-      & .creator{
+
+      & .creator {
         width: 35%;
         position: absolute;
         top: 50px;
         left: 147px;
-        // background: radial-gradient(#5733f5, 75%);
       }
     }
 
     .discord-banner-section--conteiner--right {
       width: 100%;
       padding: 0;
-      margin: 0 ;
+      margin: 0;
       > p {
         letter-spacing: 0.5px;
       }
-  
-      & .discord-banner-winners{
+
+      .discord-banner-winners-first{
         width: 100%;
+        & .logo {
+          width: 10%;
+        }
       }
 
-      & .disable{
+      & .disable {
         display: flex;
         justify-content: center;
         padding: 15px;
@@ -288,8 +296,15 @@ p {
         border: none;
         font-size: 15px;
         font-weight: bold;
-        letter-spacing:0.5px ;
+        letter-spacing: 0.5px;
       }
     }
   }
 }
+
+
+
+
+
+
+

@@ -8,6 +8,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: #1f2028;
   font-family: "Montserrat";
 }
 
@@ -211,6 +212,7 @@ p {
     display: block;
     flex-direction: column;
     margin: 0 auto;
+    max-height: 780px;
   }
   .discord-banner-section--conteriner .discord-banner-section--conteriner--left {
     display: block;
@@ -247,8 +249,11 @@ p {
   .discord-banner-section--conteriner .discord-banner-section--conteiner--right > p {
     letter-spacing: 0.5px;
   }
-  .discord-banner-section--conteriner .discord-banner-section--conteiner--right .discord-banner-winners {
+  .discord-banner-section--conteriner .discord-banner-section--conteiner--right .discord-banner-winners-first {
     width: 100%;
+  }
+  .discord-banner-section--conteriner .discord-banner-section--conteiner--right .discord-banner-winners-first .logo {
+    width: 10%;
   }
   .discord-banner-section--conteriner .discord-banner-section--conteiner--right .disable {
     display: flex;
