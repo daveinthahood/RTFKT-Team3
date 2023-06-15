@@ -40,7 +40,7 @@ $buttonBX.addEventListener("click", () => {
     $modal.classList.add("active");
     $body.style.overflow = "hidden"
     // $menu.style.display = "flex";
-    $modal.style.display = "block";
+    $modal.style.display = "flex";
     $burgerSVG.style.display = "none";
     $signInButton.style.display = "none";
     $xSVG.style.display = "block";

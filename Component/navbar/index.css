@@ -20,7 +20,8 @@ nav {
 nav .navbar {
   display: flex;
   align-items: center;
-  padding: 14px 24px;
+  padding: 0 24px;
+  height: 80px;
   font-family: "Montserrat";
   color: white;
   font-size: 0.83rem;
@@ -36,12 +37,14 @@ nav .navbar-right {
   align-items: center;
   width: 100%;
   gap: 26px;
+  height: 100%;
 }
 nav .navbar-right__menu {
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 26px;
+  height: 100%;
 }
 nav .navbar-right__menu a {
   text-decoration: none;
@@ -51,7 +54,10 @@ nav .navbar-right__menu a:hover {
   color: #ced4da;
 }
 nav .navbar-right__menu-dropdown {
-  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
   width: fit-content;
 }
 nav .navbar-right__menu-dropdown a {
@@ -78,10 +84,10 @@ nav .navbar-right__menu-dropdown--floating {
   background-color: #272932;
   display: none;
   flex-direction: column;
-  top: 80px;
-  right: 120px;
+  top: 78px;
+  right: 150px;
   overflow: hidden;
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1490196078) !important;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1490196078);
 }
 nav .navbar-right__menu-dropdown--floating a {
   display: flex;
@@ -98,10 +104,78 @@ nav .navbar-right__menu-dropdown:hover .navbar-right__menu-dropdown--floating {
 }
 nav .navbar-right__menu--modal {
   display: none;
-  position: fixed;
-  top: 72px;
-  height: calc(100vh - 72px);
+  flex-direction: column;
+  position: relative;
+  box-sizing: border-box;
   width: 100%;
+  padding: 60px 24px 18px 24px;
+  justify-content: space-between;
+  height: calc(100vh - 72px);
+}
+nav .navbar-right__menu--modal .modal-menuTop {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+nav .navbar-right__menu--modal .modal-menuTop a {
+  transform: scale(1, 0.9);
+  text-decoration: none;
+  font-family: "Montserrat";
+  color: white;
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+nav .navbar-right__menu--modal .modal-menuTop a:hover {
+  color: #ced4da;
+}
+nav .navbar-right__menu--modal .modal-menuTop > :nth-child(3) {
+  gap: 10px;
+}
+nav .navbar-right__menu--modal .modal-menuTop > :nth-child(3) img {
+  transform: rotate(270deg);
+}
+nav .navbar-right__menu--modal .modal-menuBottom {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+nav .navbar-right__menu--modal .modal-menuBottom p {
+  font-family: "Montserrat";
+  color: #6c757d;
+  font-size: 0.8rem;
+  font-weight: 700;
+  transform: none;
+}
+nav .navbar-right__menu--modal .modal-menuBottom__links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+nav .navbar-right__menu--modal .modal-menuBottom__links a {
+  text-decoration: none;
+  font-family: "Montserrat";
+  color: white;
+  font-size: 1.05rem;
+  font-weight: 500;
+}
+nav .navbar-right__menu--modal .modal-menuBottom__links a:hover {
+  color: #ced4da;
+}
+nav .navbar-right__menu--modal button {
+  font-family: "Montserrat";
+  width: 100%;
+  height: 3rem;
+  font-weight: 700;
+  font-size: 0.75rem;
+  color: white;
+  background-color: #5733f5;
+  border-radius: 24px;
+  border: none;
+  cursor: pointer;
+}
+nav .navbar-right__menu--modal button:hover {
+  color: white;
+  background-color: #4b24f4;
 }
 nav .navbar-right__signIn-button {
   display: flex;
@@ -120,7 +194,6 @@ nav .navbar-right__signIn-button--signIn {
   cursor: pointer;
 }
 nav .navbar-right__signIn-button--signIn span {
-  transform: scale(1, 0.9);
   font-size: 0.95rem;
 }
 nav .navbar-right__signIn-button--signIn:hover {
@@ -145,6 +218,7 @@ nav .navbar-right__signIn-button--close {
 @media screen and (max-width: 991px) {
   nav .navbar {
     padding: 11px 24px;
+    height: 51px;
   }
   nav .navbar-left__img :first-child img {
     display: none;

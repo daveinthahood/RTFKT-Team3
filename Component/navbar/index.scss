@@ -10,7 +10,8 @@ nav {
   .navbar {
     display: flex;
     align-items: center;
-    padding: 14px 24px;
+    padding: 0 24px;
+    height: 80px;
     font-family: $primary-font;
     color: $color-white;
     font-size: 0.83rem;
@@ -27,12 +28,14 @@ nav {
       align-items: center;
       width: 100%;
       gap: 26px;
+      height: 100%;
 
       &__menu {
         display: flex;
         flex-direction: row;
         align-items: center;
         gap: 26px;
+        height: 100%;
 
         a {
           text-decoration: none;
@@ -44,7 +47,10 @@ nav {
         }
 
         &-dropdown {
-          height: fit-content;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          height: 100%;
           width: fit-content;
           a {
             display: flex;
@@ -73,10 +79,10 @@ nav {
             background-color: $color-gray-700;
             display: none;
             flex-direction: column;
-            top: 80px;
-            right: 120px;
+            top: 78px;
+            right: 150px;
             overflow: hidden;
-            box-shadow: 0 0.5rem 1rem #00000026 !important;
+            box-shadow: 0 0.5rem 1rem #00000026;
 
             a {
               display: flex;
@@ -100,10 +106,89 @@ nav {
 
         &--modal {
           display: none;
-          position: fixed;
-          top: 72px;
-          height: calc(100vh - 72px);
+          flex-direction: column;
+          position: relative;
+          box-sizing: border-box;
           width: 100%;
+          padding: 60px 24px 18px 24px;
+          justify-content: space-between;
+          height: calc(100vh - 72px);
+
+          .modal-menuTop {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            a {
+              transform: scale(1, 0.9);
+              text-decoration: none;
+              font-family: $primary-font;
+              color: $color-white;
+              font-size: 2.4rem;
+              font-weight: 700;
+
+              &:hover {
+                color: $color-gray-400;
+              }
+            }
+
+            > :nth-child(3) {
+              gap: 10px;
+              img {
+                transform: rotate(270deg);
+              }
+            }
+          }
+
+          .modal-menuBottom {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+
+            p {
+              font-family: $primary-font;
+              color: $color-gray-600;
+              font-size: 0.8rem;
+              font-weight: 700;
+              transform: none;
+            }
+
+            &__links {
+              display: flex;
+              flex-direction: column;
+              gap: 10px;
+
+              a {
+                text-decoration: none;
+                font-family: $primary-font;
+                color: $color-white;
+                font-size: 1.05rem;
+                font-weight: 500;
+
+                &:hover {
+                  color: $color-gray-400;
+                }
+              }
+            }
+          }
+
+          button {
+            font-family: $primary-font;
+            width: 100%;
+            height: 3rem;
+            font-weight: 700;
+            font-size: 0.75rem;
+            color: white;
+            background-color: $color-violet;
+            border-radius: 24px;
+            border: none;
+            cursor: pointer;
+
+            &:hover {
+              color: white;
+              background-color: $color-violet-darker;
+            }
+          }
         }
       }
 
@@ -124,7 +209,6 @@ nav {
           cursor: pointer;
 
           span {
-            transform: scale(1, 0.9);
             font-size: 0.95rem;
           }
 
@@ -158,13 +242,14 @@ nav {
   nav {
     .navbar {
       padding: 11px 24px;
-      
+      height: 51px;
+
       &-left {
         &__img :first-child img {
           display: none;
         }
       }
-      
+
       &-right {
         &__menu {
           display: none;
@@ -190,5 +275,3 @@ nav {
     }
   }
 }
-
-
