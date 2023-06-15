@@ -1,7 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("//db.onlinewebfonts.com/c/ebaf90e665954316d40b79a1c7c942c0?family=TT+Alientz+Grotesque");
-<<<<<<< HEAD
-=======
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("//db.onlinewebfonts.com/c/ebaf90e665954316d40b79a1c7c942c0?family=TT+Alientz+Grotesque");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
@@ -16,7 +14,6 @@
 @import url("//db.onlinewebfonts.com/c/ebaf90e665954316d40b79a1c7c942c0?family=TT+Alientz+Grotesque");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("//db.onlinewebfonts.com/c/ebaf90e665954316d40b79a1c7c942c0?family=TT+Alientz+Grotesque");
->>>>>>> 4d40307c8d6a269de3915db3c4158ed900afea3a
 @font-face {
   font-family: "TT Alientz Grotesque";
   src: url("//db.onlinewebfonts.com/t/ebaf90e665954316d40b79a1c7c942c0.eot"), url("//db.onlinewebfonts.com/t/ebaf90e665954316d40b79a1c7c942c0.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/ebaf90e665954316d40b79a1c7c942c0.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/ebaf90e665954316d40b79a1c7c942c0.woff") format("woff"), url("//db.onlinewebfonts.com/t/ebaf90e665954316d40b79a1c7c942c0.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/ebaf90e665954316d40b79a1c7c942c0.svg#TT Alientz Grotesque") format("svg");
@@ -25,8 +22,6 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-<<<<<<< HEAD
-=======
   font-family: "Montserrat";
 }
 
@@ -192,24 +187,27 @@ body {
   font-family: "Montserrat";
 }
 
-body {
-  background-color: black;
-}
-
 @media only screen and (max-width: 1000px) {
+  body .main__section__left {
+    margin-bottom: 50px;
+  }
   body .main__section__left__countdown {
     display: none;
+  }
+  body .main__section__right__card {
+    width: 688px;
+  }
+  body .main__section__right__card--up-video > video {
+    width: 688px;
   }
 }
 .main__section {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  width: 75%;
-  height: 100%;
+  max-width: 1350px;
   gap: 40px;
-  max-height: 490px;
-  margin: 100px auto;
+  margin: 0 auto;
 }
 .main__section__left {
   display: flex;
@@ -283,24 +281,19 @@ body {
   color: #6c757d;
 }
 .main__section__right {
-  height: 100%;
-  max-height: 490px;
   display: flex;
-  justify-content: flex-end;
 }
 .main__section__right__card {
-  max-width: 380px;
+  max-width: 1350px;
   color: white;
   font-family: "Montserrat";
   display: flex;
-  height: 100%;
-  max-height: 500px;
   flex-direction: column;
   background-color: #272932;
   border-radius: 1rem;
 }
 .main__section__right__card--up-video {
-  width: 100%;
+  position: relative;
   max-width: 406px;
 }
 .main__section__right__card--up-video > video {
@@ -308,15 +301,14 @@ body {
   border-radius: 1rem;
 }
 .main__section__right__card--up-video > video:hover {
-  -webkit-box-shadow: 0px 100px 47px -47px #0B325E;
-  box-shadow: 0px 100px 47px -47px #0B325E;
+  -webkit-box-shadow: 0px 100px 47px -47px #0b325e;
+  box-shadow: 0px 100px 47px -47px #0b325e;
   cursor: pointer;
 }
 .main__section__right__card--up-text {
   color: black;
   font-weight: 500;
   white-space: nowrap;
-  width: 40%;
   padding-inline: 20px;
   padding-block: 2px;
   display: flex;
@@ -324,12 +316,12 @@ body {
   align-items: center;
   font-family: "Montserrat";
   background-color: white;
-  position: relative;
+  position: absolute;
   border-radius: 1rem;
-  top: -50;
+  bottom: 10;
   left: 10;
-  -webkit-box-shadow: 2px 5px 16px 0px #0B325E, -2px 2px 2px 5px rgba(0, 0, 0, 0);
-  box-shadow: 2px 5px 16px 0px #0B325E, -2px 2px 2px 5px rgba(0, 0, 0, 0);
+  -webkit-box-shadow: 2px 5px 16px 0px #0b325e, -2px 2px 2px 5px rgba(0, 0, 0, 0);
+  box-shadow: 2px 5px 16px 0px #0b325e, -2px 2px 2px 5px rgba(0, 0, 0, 0);
 }
 .main__section__right__card--up-text:hover {
   cursor: pointer;
@@ -341,12 +333,9 @@ body {
   display: flex;
   flex-direction: column;
   font-weight: 500;
-  height: 800px !important;
   justify-content: flex-start;
   align-items: flex-start;
-  padding-left: 10px;
-  position: relative;
-  top: -20;
+  padding: 20px 15px;
   gap: 5px;
 }
 
@@ -438,7 +427,6 @@ body {
 .--shop--card-footer-description {
   font-size: 0.8rem;
   color: #b5b5b8;
->>>>>>> 4d40307c8d6a269de3915db3c4158ed900afea3a
 }
 
 body {
@@ -453,12 +441,7 @@ body .logo-text {
   justify-content: center;
 }
 body .logo-text h2:hover {
-<<<<<<< HEAD
-  -webkit-text-decoration: underline #6610f2;
-          text-decoration: underline #6610f2;
-=======
   text-decoration: underline #6610f2;
->>>>>>> 4d40307c8d6a269de3915db3c4158ed900afea3a
   cursor: pointer;
 }
 body .logo-content {
@@ -477,12 +460,7 @@ body .design-color-text {
   align-items: center;
 }
 body .design-color-text h2:hover {
-<<<<<<< HEAD
-  -webkit-text-decoration: underline #6610f2;
-          text-decoration: underline #6610f2;
-=======
   text-decoration: underline #6610f2;
->>>>>>> 4d40307c8d6a269de3915db3c4158ed900afea3a
   cursor: pointer;
 }
 body .design-color-content img {
@@ -495,25 +473,12 @@ body .design-color-content img {
 }
 body .design-component-text {
   font-family: "TT Alientz Grotesque";
-<<<<<<< HEAD
-  font-size: 2rem;
   color: #f8f9fa;
   display: flex;
-  flex-direction: column;
-=======
-  color: #f8f9fa;
-  display: flex;
->>>>>>> 4d40307c8d6a269de3915db3c4158ed900afea3a
   justify-content: center;
   align-items: center;
 }
 body .design-component-text h2:hover {
-<<<<<<< HEAD
-  -webkit-text-decoration: underline #6610f2;
-          text-decoration: underline #6610f2;
-  cursor: pointer;
-}/*# sourceMappingURL=design.css.map */
-=======
   text-decoration: underline #6610f2;
   cursor: pointer;
 }
@@ -554,4 +519,3 @@ body .design-component-button-items {
 }
 
 /*# sourceMappingURL=design.css.map */
->>>>>>> 4d40307c8d6a269de3915db3c4158ed900afea3a
