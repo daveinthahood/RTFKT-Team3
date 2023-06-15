@@ -52,8 +52,16 @@ body {
 }
 
 @media only screen and (max-width: 1000px) {
+  body .main__section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
   body .main__section__left {
-    margin-bottom: 50px;
+    width: 668px;
+    margin: 0 auto;
   }
   body .main__section__left__countdown {
     display: none;
