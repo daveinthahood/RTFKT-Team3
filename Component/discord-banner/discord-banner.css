@@ -74,8 +74,9 @@ p {
   font-family: "TT Alientz Grotesque";
 }
 .discord-banner-section--conteriner .discord-banner-center {
-  display: block;
+  display: flex;
   justify-content: center;
+  text-align: center;
   align-items: center;
   width: 27%;
   position: relative;
@@ -83,6 +84,7 @@ p {
 }
 .discord-banner-section--conteriner .discord-banner-center .discord-banner-center-image {
   display: flex;
+  text-align: center;
   width: 100%;
   position: absolute;
   left: 4rem;
@@ -91,7 +93,6 @@ p {
 .discord-banner-section--conteriner .creator {
   width: 60%;
   background: radial-gradient(#5733f5, transparent 65%);
-  height: auto;
 }
 .discord-banner-section--conteriner .creator:hover {
   transform: scale(1.1);
@@ -101,10 +102,10 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 30%;
   gap: 10px;
   padding-right: 1rem;
   padding-top: 1.3rem;
+  width: 30%;
 }
 .discord-banner-section--conteriner .discord-banner-section--conteiner--right > p {
   font-weight: bold;
@@ -115,6 +116,9 @@ p {
 .discord-banner-section--conteriner .discord-banner-section--conteiner--right discord-banner-winner {
   display: block;
   padding-right: 2px;
+}
+.discord-banner-section--conteriner .discord-banner-section--conteiner--right .disable {
+  display: none;
 }
 .discord-banner-section--conteriner .discord-banner-section--conteiner--right .discord-banner-winners-first {
   display: flex;
@@ -134,7 +138,7 @@ p {
   font-family: "TT Alientz Grotesque";
   font-size: 25px;
 }
-.discord-banner-section--conteriner .discord-banner-section--conteiner--right img {
+.discord-banner-section--conteriner .discord-banner-section--conteiner--right .logo {
   width: 10%;
   border-radius: 50%;
 }
@@ -161,7 +165,7 @@ p {
   font-family: "TT Alientz Grotesque";
   font-size: 25px;
 }
-.discord-banner-section--conteriner .discord-banner-section--conteiner--right img {
+.discord-banner-section--conteriner .discord-banner-section--conteiner--right .logo {
   width: 10%;
   border-radius: 50%;
 }
@@ -196,4 +200,64 @@ p {
   display: flex;
   flex-direction: column;
   width: 100%;
+}
+
+@media screen and (max-width: 992px) {
+  .discord-banner-section {
+    max-width: 688px;
+    background-image: linear-gradient(to bottom, transparent, rgb(39, 41, 50) 68%), url(../../Asset/image/Grid2x.png);
+  }
+  .discord-banner-section--conteriner {
+    display: block;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  .discord-banner-section--conteriner .discord-banner-section--conteriner--left {
+    display: block;
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+  }
+  .discord-banner-section--conteriner .discord-banner-section--conteriner--left .discord-button1 {
+    display: none;
+  }
+  .discord-banner-section--conteriner .discord-banner-center {
+    max-width: 550px;
+    max-height: 353px;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+  }
+  .discord-banner-section--conteriner .discord-banner-center-image {
+    padding: 0;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .discord-banner-section--conteriner .discord-banner-center-image .creator {
+    width: 35%;
+    position: absolute;
+    top: 50px;
+    left: 147px;
+  }
+  .discord-banner-section--conteriner .discord-banner-section--conteiner--right {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  .discord-banner-section--conteriner .discord-banner-section--conteiner--right > p {
+    letter-spacing: 0.5px;
+  }
+  .discord-banner-section--conteriner .discord-banner-section--conteiner--right .discord-banner-winners {
+    width: 100%;
+  }
+  .discord-banner-section--conteriner .discord-banner-section--conteiner--right .disable {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    border-radius: 15px;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+  }
 }/*# sourceMappingURL=discord-banner.css.map */
