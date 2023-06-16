@@ -590,6 +590,9 @@ section > h2 {
     max-width: 688px;
     max-height: 670px;
   }
+  section h2 {
+    margin-left: 0;
+  }
   .container {
     width: 100%;
     max-height: 100%;

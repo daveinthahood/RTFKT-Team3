@@ -127,6 +127,9 @@ section {
     section {
         max-width:688px;
         max-height:670px;
+        & h2 {
+            margin-left: 0;
+        }
         
     }
 
