@@ -23,6 +23,7 @@ body {
   box-shadow: 0 0.1rem 0.2rem rgba(0, 0, 0, 0.3);
   background-size: cover;
   max-width: 1380px;
+  margin-top: 2rem;
 }
 
 .discord-banner-section--conteriner {

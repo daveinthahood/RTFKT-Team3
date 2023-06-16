@@ -10,4 +10,13 @@ body {
   box-sizing: border-box;
   background-color: #1f2028;
   font-family: "Montserrat";
+}
+
+.video-main {
+  opacity: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
 }/*# sourceMappingURL=common.css.map */
