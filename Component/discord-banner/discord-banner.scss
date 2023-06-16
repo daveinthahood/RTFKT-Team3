@@ -1,10 +1,8 @@
-
-
 @import "../common.scss";
 
-body {
-  background-color: $color-body-bg;
-}
+// body {
+//   background-color: $color-body-bg;
+// }
 
 // h2,
 // span,
@@ -13,7 +11,7 @@ body {
 // }
 
 .discord-banner-section {
-   margin: 0 auto;
+  margin: 0 auto;
   border-radius: 15px;
   background-image: linear-gradient(to right, transparent, rgb(39, 41, 50) 68%),
     url(../../Asset/image/Grid2x.png);
@@ -21,7 +19,7 @@ body {
   background-size: cover;
   max-width: 1380px;
   margin-top: 4rem;
-  margin-bottom: 4rem ;
+  margin-bottom: 4rem;
   // max-height: 400px;
 }
 
@@ -289,7 +287,7 @@ body {
         letter-spacing: 0.5px;
       }
 
-      .discord-banner-winners-first{
+      .discord-banner-winners-first {
         width: 100%;
         & .logo {
           width: 10%;
@@ -309,10 +307,3 @@ body {
     }
   }
 }
-
-
-
-
-
-
-
