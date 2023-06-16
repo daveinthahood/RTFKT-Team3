@@ -246,7 +246,7 @@ nav .navbar-right__signIn-button--close {
   cursor: pointer;
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 1000px) {
   nav .navbar {
     padding: 11px 24px;
     height: 51px;
@@ -261,7 +261,7 @@ nav .navbar-right__signIn-button--close {
     display: block;
   }
 }
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1000px) {
   nav .navbar-left__img :last-child img {
     display: none;
   }
@@ -585,7 +585,7 @@ section > h2 {
   background-color: #dee2e6;
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 1000px) {
   section {
     max-width: 688px;
     max-height: 670px;
@@ -938,7 +938,7 @@ body {
   width: 100%;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1000px) {
   .discord-banner-section {
     max-width: 688px;
     background-image: linear-gradient(to bottom, transparent, rgb(39, 41, 50) 68%), url(../../Asset/image/Grid2x.png);
@@ -1075,7 +1075,7 @@ body {
   cursor: pointer;
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 1000px) {
   .who-we-are-section-container {
     max-width: 720px;
   }
@@ -1164,7 +1164,7 @@ body {
 
 @media screen and (max-width: 1000px) {
   #footer {
-    width: 70%;
+    width: 100%;
     margin: 0 auto;
   }
   #footer #footer2 {

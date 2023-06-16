@@ -74,7 +74,7 @@ body {
   cursor: pointer;
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 1000px) {
   .who-we-are-section-container {
     max-width: 720px;
   }

@@ -218,7 +218,7 @@ nav .navbar-right__signIn-button--close {
   cursor: pointer;
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 1000px) {
   nav .navbar {
     padding: 11px 24px;
     height: 51px;
@@ -233,7 +233,7 @@ nav .navbar-right__signIn-button--close {
     display: block;
   }
 }
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1000px) {
   nav .navbar-left__img :last-child img {
     display: none;
   }

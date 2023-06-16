@@ -110,7 +110,7 @@ section > h2 {
   background-color: #dee2e6;
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 1000px) {
   section {
     max-width: 688px;
     max-height: 670px;
