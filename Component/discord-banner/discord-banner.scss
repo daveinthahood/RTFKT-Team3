@@ -6,11 +6,11 @@ body {
   background-color: $color-body-bg;
 }
 
-h2,
-span,
-p {
-  color: white;
-}
+// h2,
+// span,
+// p {
+//   color: white;
+// }
 
 .discord-banner-section {
   margin: 0 auto;
@@ -62,9 +62,11 @@ p {
         font-weight: 500;
         margin: 0 auto;
         padding-top: 0.5rem;
+        color: $color-white;
       }
       & span {
         font-family: $special-font;
+        color: $color-white;
       }
     }
   }
@@ -111,6 +113,7 @@ p {
       letter-spacing: 3px;
       font-size: 12px;
       margin: 0;
+      color: $color-white;
     }
 
     & discord-banner-winner {
@@ -188,6 +191,9 @@ p {
       display: flex;
       flex-direction: column;
       width: 100%;
+    }
+    & span {
+      color: $color-white;
     }
   }
 

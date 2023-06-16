@@ -22,6 +22,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: #1f2028;
   font-family: "Montserrat";
 }
 
@@ -33,6 +34,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: #1f2028;
   font-family: "Montserrat";
 }
 
@@ -71,6 +73,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: #1f2028;
   font-family: "Montserrat";
 }
 
@@ -116,6 +119,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: #1f2028;
   font-family: "Montserrat";
 }
 
@@ -146,6 +150,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: #1f2028;
   font-family: "Montserrat";
 }
 
@@ -184,12 +189,21 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: #1f2028;
   font-family: "Montserrat";
 }
 
 @media only screen and (max-width: 1000px) {
+  body .main__section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
   body .main__section__left {
-    margin-bottom: 50px;
+    width: 668px;
+    margin: 0 auto;
   }
   body .main__section__left__countdown {
     display: none;
@@ -301,7 +315,6 @@ body {
   border-radius: 1rem;
 }
 .main__section__right__card--up-video > video:hover {
-  -webkit-box-shadow: 0px 100px 47px -47px #0b325e;
   box-shadow: 0px 100px 47px -47px #0b325e;
   cursor: pointer;
 }
@@ -320,7 +333,6 @@ body {
   border-radius: 1rem;
   bottom: 10;
   left: 10;
-  -webkit-box-shadow: 2px 5px 16px 0px #0b325e, -2px 2px 2px 5px rgba(0, 0, 0, 0);
   box-shadow: 2px 5px 16px 0px #0b325e, -2px 2px 2px 5px rgba(0, 0, 0, 0);
 }
 .main__section__right__card--up-text:hover {
@@ -347,14 +359,11 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: #1f2028;
   font-family: "Montserrat";
 }
 
-body {
-  background-color: black;
-}
-
-.--button--drop {
+.section--button--drop {
   background-color: transparent;
   border: 1px solid #6c757d;
   text-transform: uppercase;
@@ -366,7 +375,7 @@ body {
   color: white;
   font-weight: 600;
 }
-.--button--drop:hover {
+.section--button--drop:hover {
   background-color: white;
   color: black;
 }
@@ -379,10 +388,11 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: #1f2028;
   font-family: "Montserrat";
 }
 
-.--shop--card {
+.section__shop__card {
   background-color: #272932;
   display: flex;
   flex-direction: column;
@@ -392,7 +402,7 @@ body {
   border-radius: 1rem;
   width: 350px;
 }
-.--shop--card-title {
+.section__shop__card-title {
   width: 95%;
   margin: 0 auto;
   display: flex;
@@ -401,30 +411,29 @@ body {
   align-items: center;
   padding-top: 10px;
 }
-.--shop--card-title img {
+.section__shop__card-title img {
   width: 30px;
   border-radius: 50%;
 }
-.--shop--card-vid {
+.section__shop__card-vid {
   width: 95%;
   margin-inline: auto;
 }
-.--shop--card-vid video {
+.section__shop__card-vid video {
   width: 100%;
   border-radius: 1rem;
 }
-.--shop--card-vid video:hover {
+.section__shop__card-vid video:hover {
   cursor: pointer;
-  -webkit-box-shadow: 0px 0px 20px 38px #0B325E;
   box-shadow: 0px 0px 80px 1px #0B325E;
 }
-.--shop--card-footer {
+.section__shop__card-footer {
   width: 95%;
   margin: 0 auto;
   padding-bottom: 40px;
   font-weight: 600;
 }
-.--shop--card-footer-description {
+.section__shop__card-footer-description {
   font-size: 0.8rem;
   color: #b5b5b8;
 }
@@ -441,7 +450,8 @@ body .logo-text {
   justify-content: center;
 }
 body .logo-text h2:hover {
-  text-decoration: underline #6610f2;
+  -webkit-text-decoration: underline #6610f2;
+          text-decoration: underline #6610f2;
   cursor: pointer;
 }
 body .logo-content {
@@ -460,7 +470,8 @@ body .design-color-text {
   align-items: center;
 }
 body .design-color-text h2:hover {
-  text-decoration: underline #6610f2;
+  -webkit-text-decoration: underline #6610f2;
+          text-decoration: underline #6610f2;
   cursor: pointer;
 }
 body .design-color-content img {
@@ -479,7 +490,8 @@ body .design-component-text {
   align-items: center;
 }
 body .design-component-text h2:hover {
-  text-decoration: underline #6610f2;
+  -webkit-text-decoration: underline #6610f2;
+          text-decoration: underline #6610f2;
   cursor: pointer;
 }
 body .design-component-item {
@@ -516,6 +528,4 @@ body .design-component-button-items {
   align-items: center;
   justify-content: center;
   gap: 10px;
-}
-
-/*# sourceMappingURL=design.css.map */
+}/*# sourceMappingURL=design.css.map */

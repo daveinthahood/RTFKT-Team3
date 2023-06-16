@@ -8,6 +8,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: #1f2028;
   font-family: "Montserrat";
 }
 
@@ -22,9 +23,8 @@ body {
 }
 .who-we-are-section-container > h2 {
   font-family: "Montserrat";
-  font-size: 20px;
+  font-size: 1rem;
   color: #dee2e6;
-  margin-left: 2rem;
 }
 
 #whoWeAre-Container {
@@ -43,6 +43,7 @@ body {
 }
 #whoWeAre-Container .whoWeAre-text p {
   font-weight: 500;
+  color: #6c757d;
 }
 #whoWeAre-Container .whoWeAre-text span {
   font-family: "TT Alientz Grotesque";

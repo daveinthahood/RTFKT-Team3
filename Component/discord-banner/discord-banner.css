@@ -16,12 +16,6 @@ body {
   background-color: #1f2028;
 }
 
-h2,
-span,
-p {
-  color: white;
-}
-
 .discord-banner-section {
   margin: 0 auto;
   border-radius: 15px;
@@ -70,9 +64,11 @@ p {
   font-weight: 500;
   margin: 0 auto;
   padding-top: 0.5rem;
+  color: white;
 }
 .discord-banner-section--conteriner .discord-banner-section--conteriner--left .discord-banner-section--conteriner--left--text span {
   font-family: "TT Alientz Grotesque";
+  color: white;
 }
 .discord-banner-section--conteriner .discord-banner-center {
   display: flex;
@@ -113,6 +109,7 @@ p {
   letter-spacing: 3px;
   font-size: 12px;
   margin: 0;
+  color: white;
 }
 .discord-banner-section--conteriner .discord-banner-section--conteiner--right discord-banner-winner {
   display: block;
@@ -174,6 +171,9 @@ p {
   display: flex;
   flex-direction: column;
   width: 100%;
+}
+.discord-banner-section--conteriner .discord-banner-section--conteiner--right span {
+  color: white;
 }
 .discord-banner-section--conteriner .discord-banner-winners-third {
   display: flex;

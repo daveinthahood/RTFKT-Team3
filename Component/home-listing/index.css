@@ -8,6 +8,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: #1f2028;
   font-family: "Montserrat";
 }
 
@@ -29,6 +30,8 @@ body {
 }
 .section__title {
   text-transform: uppercase;
+  color: #e9ecef;
+  font-size: 1rem;
 }
 .section__shop {
   gap: 10px;
@@ -68,7 +71,6 @@ body {
 }
 .section__shop__card-vid video:hover {
   cursor: pointer;
-  -webkit-box-shadow: 0px 0px 20px 38px #0b325e;
   box-shadow: 0px 0px 80px 1px #0b325e;
 }
 .section__shop__card-footer {
@@ -96,6 +98,4 @@ body {
 .section > button:hover {
   background-color: white;
   color: black;
-}
-
-/*# sourceMappingURL=index.css.map */
+}/*# sourceMappingURL=index.css.map */

@@ -590,6 +590,8 @@ body {
 }
 .section__title {
   text-transform: uppercase;
+  color: #e9ecef;
+  font-size: 1rem;
 }
 .section__shop {
   gap: 10px;
@@ -674,12 +676,6 @@ body {
   background-color: #1f2028;
 }
 
-h2,
-span,
-p {
-  color: white;
-}
-
 .discord-banner-section {
   margin: 0 auto;
   border-radius: 15px;
@@ -728,9 +724,11 @@ p {
   font-weight: 500;
   margin: 0 auto;
   padding-top: 0.5rem;
+  color: white;
 }
 .discord-banner-section--conteriner .discord-banner-section--conteriner--left .discord-banner-section--conteriner--left--text span {
   font-family: "TT Alientz Grotesque";
+  color: white;
 }
 .discord-banner-section--conteriner .discord-banner-center {
   display: flex;
@@ -771,6 +769,7 @@ p {
   letter-spacing: 3px;
   font-size: 12px;
   margin: 0;
+  color: white;
 }
 .discord-banner-section--conteriner .discord-banner-section--conteiner--right discord-banner-winner {
   display: block;
@@ -832,6 +831,9 @@ p {
   display: flex;
   flex-direction: column;
   width: 100%;
+}
+.discord-banner-section--conteriner .discord-banner-section--conteiner--right span {
+  color: white;
 }
 .discord-banner-section--conteriner .discord-banner-winners-third {
   display: flex;
@@ -947,9 +949,8 @@ body {
 }
 .who-we-are-section-container > h2 {
   font-family: "Montserrat";
-  font-size: 20px;
+  font-size: 1rem;
   color: #dee2e6;
-  margin-left: 2rem;
 }
 
 #whoWeAre-Container {
@@ -968,6 +969,7 @@ body {
 }
 #whoWeAre-Container .whoWeAre-text p {
   font-weight: 500;
+  color: #6c757d;
 }
 #whoWeAre-Container .whoWeAre-text span {
   font-family: "TT Alientz Grotesque";

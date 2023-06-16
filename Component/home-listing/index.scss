@@ -18,6 +18,8 @@
   margin: 0 auto;
   &__title {
     text-transform: uppercase;
+    color: $color-gray-200;
+    font-size: 1rem;
   }
   &__shop {
     gap: 10px;
