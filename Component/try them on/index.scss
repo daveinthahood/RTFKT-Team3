@@ -1,0 +1,75 @@
+@import "../common.scss";
+
+body {
+  background-color: $color-body-bg;
+}
+
+.try-them-on {
+  display: flex;
+  flex-direction: column;
+  padding: 0 24px;
+  //   margin: 64px 60px;
+
+  .section-name {
+    color: $color-white;
+  }
+
+  &__cards-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    height: 40.7rem;
+    overflow-x: scroll;
+
+    .try-them-on__snap-card {
+      display: flex;
+      width: 100%;
+      background-color: $color-gray-700;
+      border-radius: 16px;
+      padding: 1rem;
+      height: 100%;
+      box-sizing: border-box;
+
+      &--title {
+        display: flex;
+
+        a {
+          color: $color-white;
+          text-decoration: none;
+          font-size: 0.75rem;
+          font-weight: 600;
+          writing-mode: vertical-rl;
+          transform: rotate(180deg);
+        }
+      }
+
+      &--media {
+        position: relative;
+
+        .display-video {
+          display: flex;
+          height: 100%;
+
+          video {
+            border-radius: 1rem;
+            max-width: 100%;
+            margin: 0 0 0 15%;
+            cursor: pointer;
+          }
+        }
+
+        img {
+          display: flex;
+          position: absolute;
+          top: calc(50% - 1rem - 114px / 2);
+          left: 0px;
+          vertical-align: middle;
+          height: 114px;
+          width: 114px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
