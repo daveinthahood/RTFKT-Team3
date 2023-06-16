@@ -13,14 +13,15 @@ body {
 // }
 
 .discord-banner-section {
-  margin: 0 auto;
+   margin: 0 auto;
   border-radius: 15px;
   background-image: linear-gradient(to right, transparent, rgb(39, 41, 50) 68%),
     url(../../Asset/image/Grid2x.png);
   box-shadow: 0 0.1rem 0.2rem rgba(0, 0, 0, 0.3);
   background-size: cover;
   max-width: 1380px;
-  margin-top: 2rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem ;
   // max-height: 400px;
 }
 

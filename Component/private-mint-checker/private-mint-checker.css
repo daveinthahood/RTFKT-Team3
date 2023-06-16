@@ -15,9 +15,7 @@ body {
 section {
   display: flex;
   flex-direction: column;
-  width: 100%;
-  margin: 0 auto;
-  margin-bottom: 2rem;
+  margin-bottom: 5rem;
 }
 section > h2 {
   font-family: "Montserrat";
@@ -111,11 +109,13 @@ section > h2 {
 }
 
 @media screen and (max-width: 1000px) {
-  section {
+  .private-mint-checker-section {
     max-width: 688px;
     max-height: 670px;
+    margin-bottom: 5rem;
+    margin: 0 auto;
   }
-  section h2 {
+  .private-mint-checker-section h2 {
     margin-left: 0;
   }
   .container {

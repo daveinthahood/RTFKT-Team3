@@ -29,6 +29,7 @@ nav .navbar {
   font-size: 0.83rem;
   font-weight: 700;
   letter-spacing: 0.1rem;
+  margin-bottom: 2rem;
 }
 nav .navbar a {
   transform: scale(1, 0.9);
