@@ -2,78 +2,87 @@
 
 
 
-body{
-    background-color: $color-body-bg;
-    margin:0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
+// body{
+//     background-color: $color-body-bg;
+//     margin:0;
+//     padding: 0;
+//     box-sizing: border-box;
+// }
 section {
-    margin-left: 4rem;
-    margin-right: 9rem;
-}
-section > h2 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;
+    
+
+ > h2 {
     font-family: $primary-font;
-    margin-left: 2.9rem;
+    margin: 2rem 5rem;
     color: $color-gray-300;
     font-size: 1rem;
 }
+}
 .container {
     display: inline-flex;
-    max-width:100%;
-    width: 1392px;
-    max-height: 450px;
-    margin-left: 3rem;
-    margin-right: 3rem;
-    box-shadow: 0 .5rem 1rem #00000026;
+    max-width:1350px;
+    width: 100%;
+    margin: 0 auto;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1490196078);
     border-radius: 1.5rem;
 }
 
 .card{
     display: inline-flex;
+    flex-direction: row;
     background-color: $color-gray-700;
     border-radius: 1.5rem;
     box-shadow: 0 .5rem 1rem #00000026;
 
+    & .img {
+        width: 75%;
+        display: block;
+        position: relative;
+    }
     & .forgive-img {
         border-radius: 1.5rem;
         box-shadow: 0 .5rem 1rem #00000026;
-        max-width: 60%;
-
-        
+        max-width: 100%;
+        height: 100%;
+        position: relative;
     }
 
     & .text-right {
-        padding-left: 1.5rem;
-        padding-right: 1.5rem;
-        margin: 0 auto;
-        width: 20%;
-        height: 93%;
-        display: flex;
-        flex-direction: column;
-        margin-top:2rem;
+        padding: 2rem 2.5rem;
+        width: 25%;
+        display: block;
+        margin: 1rem 6rem;
        
-    }
-    & h2 {
+    
+    >h2 {
         color:$color-gray-200;
         font-family: $primary-font;
-        font-size: 22px;
+        font-size: 18px;
         margin-bottom: 1rem;
     }
 
     & p {
         color: $color-gray-500;
         font-family: $primary-font;
-        font-size: 12px;
+        font-size: 14px;
         margin-bottom: 3rem;
+        letter-spacing: 0.5px;
     }
+}
 
-    & .input {
+
+    & .footer{
+        display: flex;
+        flex-direction: column;
+    
+    > .input {
         width: 100%;
         height: 100%;
         max-height: 45px;
-        padding: 10px 1rem;
+        padding: 13px 1rem;
         background: transparent;
         outline: none;
         border: 0.5px solid $color-gray-300;
@@ -89,7 +98,7 @@ section > h2 {
         }
     }
 
-    & .check-it{
+    >.check-it{
         background-color: $color-white;
         font-family: $primary-font;
         font-weight: bold;
@@ -106,6 +115,72 @@ section > h2 {
         }
     }
     }
+}
 
 
+
+
+  @media screen and (max-width:1000px){
+
+    .private-mint-checker-section {
+        max-width:688px;
+        max-height:670px;
+        margin-bottom: 5rem;
+        margin: 0 auto;
+        & h2 {
+            margin-left: 0;
+        }
+        
+    }
+
+    .container{
+        width: 100%;
+        max-height: 100%;
+        height: 300px;
+        margin:0;
+        display: block;
+        flex-direction: row;
+    }
+
+    .card {
+        display: block;
+        width: 100%;
+
+    
+    .img{
+        display: block;
+        width: 100%;
+        height: 120%;
+
+        > .forgive-img{
+            width: 100%;
+        }
+    }
+
+    .text-right{
+        width: 95%;
+        margin: 0;
+        padding: 1rem;
+        >p {
+            margin-bottom: 1rem;
+        }
+        > .footer{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            >.input{
+                width: 100%;
+                padding: 17px 1rem;
+                font-size: 15px;
+            }
+            >.check-it{
+                width: 100%;
+                padding: 14px;
+                font-size: 15px;
+            }
+        }
+    }
+    }
+  }
 

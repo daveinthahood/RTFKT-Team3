@@ -1,15 +1,568 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="../common.css">
-    <link rel="stylesheet" href="./index.css">
-</head>
-<body>
+    <link rel="stylesheet" href="../common.css" />
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <!--//**! INSERT YOUR CODE HERE -->
 
-   <!--//**! INSERT YOUR CODE HERE -->
+    <!--Inizio Navbar -->
+    <nav>
+      <div class="navbar">
+        <div class="navbar-left">
+          <div class="navbar-left__img">
+            <a href="#">
+              <img src="../../Asset/image/rtfkt_logotype.svg" alt="" />
+            </a>
+            <a href="">
+              <img src="../../Asset/image/rtfkt_swoosh.svg" alt="" />
+            </a>
+          </div>
+        </div>
+        <div class="navbar-right">
+          <div class="navbar-right__menu" id="menu-box-content">
+            <a href="#">DROPS ARCHIVE</a>
+            <a href="#">CREATORS</a>
+            <div class="navbar-right__menu-dropdown">
+              <a href="#" class="navbar-right__menu-dropdown--collections">
+                COLLECTIONS
+                <img
+                  src="https://cdn.rtfkt.com/assets/icons/arrow-down-white.svg"
+                  alt=""
+                />
+              </a>
+              <div class="navbar-right__menu-dropdown--floating">
+                <a href="#">RIMOWA</a>
+                <a href="#">BYREDO</a>
+                <a href="#">SPACE DRIP FORGING</a>
+                <a href="#">MNLTH</a>
+                <a href="#">CLONE X</a>
+                <a href="#">PUNK PROJECT</a>
+                <a href="#">JEFF STAPLE</a>
+                <a href="#">FEWOCIOUS</a>
+                <a href="#">SPACE DRIP 1.2</a>
+                <a href="#">SPACE DRIP</a>
+                <a href="#">CREATORS</a>
+                <a href="#">EXODUS</a>
+              </div>
+            </div>
+            <a href="#">WTF</a>
+          </div>
+          <div class="navbar-right__signIn-button" id="buttonBX">
+            <button
+              class="navbar-right__signIn-button--signIn"
+              id="signIn-navbar"
+            >
+              <span>SIGN IN</span>
+            </button>
+            <button class="navbar-right__signIn-button--open" id="burger">
+              <img src="../../Asset/image/hamburger-white.svg" alt="" />
+            </button>
+            <button
+              class="navbar-right__signIn-button--close"
+              id="burger-close"
+            >
+              <img src="../../Asset/image/close-white.svg" alt="" />
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="navbar-right__menu--modal" id="menu-button__modal">
+        <div class="modal-menuTop">
+          <a href="#">DROPS ARCHIVE</a>
+          <a href="#">CREATORS</a>
+          <a href="#" class="navbar-right__menu-dropdown--collections">
+            COLLECTIONS
+            <img
+              src="https://cdn.rtfkt.com/assets/icons/arrow-down-white.svg"
+              alt=""
+            />
+          </a>
+          <a href="#">WTF</a>
+        </div>
+        <div class="modal-menuBottom">
+          <p>FOLLOW US</p>
+          <div class="modal-menuBottom__links">
+            <a href="#">
+              <span>Instagram</span>
+            </a>
+            <a href="#">
+              <span>Discord</span>
+            </a>
+            <a href="#">
+              <span>Twitter</span>
+            </a>
+            <a href="#">
+              <span>Snapchat</span>
+            </a>
+            <a href="#">
+              <span>Tiktok</span>
+            </a>
+          </div>
+        </div>
+        <button>
+          <span>SIGN IN</span>
+        </button>
+      </div>
+    </nav>
+    <!--Fine Navbar -->
+    <!-- Inizio Card Main Section -->
+    <main>
+      <!-- INIZIO MAIN SECTION -->
+      <div class="main__section">
+        <!-- INIZIO SEZIONE LEFT -->
+        <div class="main__section__left">
+          <!-- TITOLO SECTION -->
+          <div class="main__section__left__title">
+            <div class="main__section__left__title--up">RTFKT X RIMOWA</div>
+            <h1>
+              <span class="main__section__left__title--main">rimova</span>
+              <span>Forgin Event</span>
+            </h1>
+            <span class="main__section__left__title--sub">is now open</span>
+          </div>
+          <!-- FINE TITOLO -->
+
+          <!-- INIZIO BOTTONI -->
+          <div class="main__section__left__buttons">
+            <button class="main__section__left__buttons--darker">
+              sign in
+            </button>
+            <button class="main__section__left__buttons--lighter">
+              learn more
+            </button>
+          </div>
+          <!--  FINE BOTTONI -->
+
+          <!--  INIZO COUNNT DOWN DIV -->
+          <div class="main__section__left__countdown">
+            <!-- COUNNT DOWN TEXT -->
+            <div class="main__section__left__countdown--text">
+              <span>Forging ⚒️ event ends in:</span>
+            </div>
+
+            <!-- COUNNT DOWN FUNC DISPLAY -->
+            <div class="main__section__left__countdown--items">
+              <!-- INIZIO DIV ITEMS -->
+
+              <!-- INIZIO DIV CHILD -->
+              <div class="main__section__left__countdown--items-item">
+                <div class="main__section__left__countdown--items-item-number">
+                  03
+                </div>
+                <div class="main__section__left__countdown--items-item-text">
+                  Days
+                </div>
+              </div>
+              <!-- FINE DIV CHILD -->
+
+              <div class="main__section__left__countdown--items-slash"></div>
+
+              <!-- INIZIO DIV CHILD -->
+              <div class="main__section__left__countdown--items-item">
+                <div class="main__section__left__countdown--items-item-number">
+                  03
+                </div>
+                <div class="main__section__left__countdown--items-item-text">
+                  Hours
+                </div>
+              </div>
+              <!-- FINE DIV CHILD -->
+              <div class="main__section__left__countdown--items-slash"></div>
+
+              <!-- INIZIO DIV CHILD -->
+              <div class="main__section__left__countdown--items-item">
+                <div class="main__section__left__countdown--items-item-number">
+                  03
+                </div>
+                <div class="main__section__left__countdown--items-item-text">
+                  Minutes
+                </div>
+              </div>
+              <!-- FINE DIV CHILD -->
+              <!-- FINE DIV ITEMS -->
+            </div>
+          </div>
+          <!-- FINE COUNT DOWN -->
+        </div>
+        <!-- FINE SEZIONE LEFT -->
+
+        <!-- INIZIO  RIGHT -->
+        <div class="main__section__right">
+          <!-- INIZIO CARD -->
+          <div class="main__section__right__card">
+            <!-- SEZIONE SUPERIORE -->
+            <div class="main__section__right__card--up">
+              <div class="main__section__right__card--up-video">
+                <video id="videoElement" autoplay muted loop plays-inline>
+                  <source
+                    src="../../Asset/Video/Card-Main.mp4"
+                    type="video/mp4"
+                  />
+                </video>
+                <div class="main__section__right__card--up-text">
+                  <img
+                    src="../../Asset/image/logo-card-text-main-section.png"
+                    alt=""
+                  />
+                  <span> @rtfkt x rimowa</span>
+                </div>
+              </div>
+            </div>
+            <!--  SEZIONE INFERIORE -->
+            <div class="main__section__right__card--bottom">
+              <div class="main__section__right__card--bottom-title">
+                @RTFKT x RIMOWA "Meta-Artisan"
+              </div>
+              <div class="main__section__right__card--bottom-description">
+                1/389
+              </div>
+            </div>
+          </div>
+          <!-- FINE CARD -->
+        </div>
+      </div>
+    </main>
+    <!--Fine Card Main Section-->
    
-</body>
+    <!--Inizio Private Mint Checker-->
+    <section class="private-mint-checker-section">
+      <h2>PRIVATE MINT CHECKER</h2>
+      <div class="container">
+        <div class="card">
+          <div class="img">
+            <img
+              src="../../Asset/image/forgive_event.png"
+              alt="forgive_event_pic"
+              class="forgive-img"
+            />
+          </div>
+          <div class="text-right">
+            <h2>Plan on getting your hands on a RTFKT NFT?</h2>
+            <p>
+              Before copping a RTFKT NFT that can unlock other NFTs or a forging
+              event, check here first to make sure it's still eligible and
+              hasn't already been claimed or forged. Keep in mind the status may
+              change between the time of checking and buying.
+            </p>
+
+            <div class="footer">
+              <input
+                class="input"
+                placeholder="Paste the NFT OpenSea link here"
+              />
+              <button class="check-it">CHECK IT NOW</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Fine Private Mint Checker-->
+    <!-- SHOP CARD -->
+    <section>
+      <div class="section">
+        <h2 class="section__title">featured drops</h2>
+        <!-- SHOP CARD -->
+        <div class="section__shop">
+          <div class="section__shop__card">
+            <!-- CARD TITLE -->
+            <div class="section__shop__card-title">
+              <img src="../../Asset/image/blank-profile.jpg" alt="" />
+              <span> @RTFKT</span>
+            </div>
+            <!--  CARD VID -->
+            <div class="section__shop__card-vid">
+              <video autoplay muted loop plays-inline>
+                <source src="../../Asset/Video/Card1.mp4" type="video/mp4" />
+              </video>
+            </div>
+            <!-- CARD FOOTER -->
+            <div class="section__shop__card-footer">
+              <div class="section__shop__card-footer-title">
+                RTFKT x Nike Dunk Genesis
+              </div>
+              <div class="section__shop__card-footer-description">1/20000</div>
+            </div>
+          </div>
+          <!-- FINE CARD -->
+
+          <!-- SHOP CARD -->
+          <div class="section__shop__card">
+            <!-- CARD TITLE -->
+            <div class="section__shop__card-title">
+              <img src="../../Asset/image/blank-profile.jpg" alt="" />
+              <span> @RTFKT</span>
+            </div>
+            <!--  CARD VID -->
+            <div class="section__shop__card-vid">
+              <video autoplay muted loop plays-inline>
+                <source src="../../Asset/Video/Card 2.mp4" type="video/mp4" />
+              </video>
+            </div>
+            <!-- CARD FOOTER -->
+            <div class="section__shop__card-footer">
+              <div class="section__shop__card-footer-title">
+                RTFKT x Nike Dunk Genesis
+              </div>
+              <div class="section__shop__card-footer-description">1/20000</div>
+            </div>
+          </div>
+          <!-- FINE CARD -->
+
+          <!-- SHOP CARD -->
+          <div class="section__shop__card">
+            <!-- CARD TITLE -->
+            <div class="section__shop__card-title">
+              <img src="../../Asset/image/blank-profile.jpg" alt="" />
+              <span> @RTFKT</span>
+            </div>
+            <!--  CARD VID -->
+            <div class="section__shop__card-vid">
+              <video autoplay muted loop plays-inline>
+                <source src="../../Asset/Video/Card5.mp4" type="video/mp4" />
+              </video>
+            </div>
+            <!-- CARD FOOTER -->
+            <div class="section__shop__card-footer">
+              <div class="section__shop__card-footer-title">
+                RTFKT x Nike Dunk Genesis
+              </div>
+              <div class="section__shop__card-footer-description">1/20000</div>
+            </div>
+          </div>
+          <!-- FINE CARD -->
+
+          <!-- SHOP CARD -->
+          <div class="section__shop__card">
+            <!-- CARD TITLE -->
+            <div class="section__shop__card-title">
+              <img src="../../Asset/image/blank-profile.jpg" alt="" />
+              <span> @RTFKT</span>
+            </div>
+            <!--  CARD VID -->
+            <div class="section__shop__card-vid">
+              <video autoplay muted loop plays-inline>
+                <source src="../../Asset/Video/Card6.mp4" type="video/mp4" />
+              </video>
+            </div>
+            <!-- CARD FOOTER -->
+            <div class="section__shop__card-footer">
+              <div class="section__shop__card-footer-title">
+                RTFKT x Nike Dunk Genesis
+              </div>
+              <div class="section__shop__card-footer-description">1/20000</div>
+            </div>
+          </div>
+          <!-- FINE CARD -->
+        </div>
+        <button class="section--button--drop">see all the drop</button>
+      </div>
+    </section>
+
+    <!--Snapchat-->
+    <div class="try-them-on">
+      <div class="section-name">
+        <h2>TRY THEM ON</h2>
+      </div>
+      <div class="try-them-on__cards-container">
+        <div class="try-them-on__snap-card">
+          <div class="try-them-on__snap-card--title">
+            <a href="#"> Fewo x Rtfkt EPIC </a>
+          </div>
+          <div class="try-them-on__snap-card--media">
+            <div class="display-video">
+              <video autoplay loop muted>
+                <source src="../../Asset/Video/VideoSnapchat1.mp4" />
+              </video>
+            </div>
+            <img src="../../Asset/image/snapcode-shoeViolet.svg" alt="" />
+          </div>
+        </div>
+        <div class="try-them-on__snap-card">
+          <div class="try-them-on__snap-card--title">
+            <a href="#"> Meta Pidgeon - Jeff Staple </a>
+          </div>
+          <div class="try-them-on__snap-card--media">
+            <div class="display-video">
+              <video autoplay loop muted>
+                <source src="../../Asset/Video/VideoSnapchat2.mp4" />
+              </video>
+            </div>
+            <img src="../../Asset/image/snapcode-pidgeon.svg" alt="" />
+          </div>
+        </div>
+        <div class="try-them-on__snap-card">
+          <div class="try-them-on__snap-card--title">
+            <a href="#"> Dunk Genesis </a>
+          </div>
+          <div class="try-them-on__snap-card--media">
+            <div class="display-video">
+              <video autoplay loop muted>
+                <source src="../../Asset/Video/VideoSnapchat3.mp4" />
+              </video>
+            </div>
+            <img src="../../Asset/image/snapcode-shoeLightBlue.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+  
+
+    <!--Discord -->
+    <div class="discord-banner-section">
+      <div class="discord-banner-section--conteriner">
+        <!-- Parte sinistra -->
+        <div class="discord-banner-section--conteriner--left">
+          <div class="discord-banner-section--conteriner--left--text">
+            <h2>
+              Join <span> our discord</span> and participate in the next RTFKT
+              <span> creator contest.</span>
+            </h2>
+          </div>
+          <a
+            href="https://discord.com/invite/rtfkt"
+            type="button"
+            class="discord-button"
+            ><button class="discord-button1">JOIN US ON DISCORD</button></a
+          >
+        </div>
+        <!-- 
+              Parte Centrale -->
+        <div class="discord-banner-center">
+          <div class="discord-banner-center-image">
+            <img
+              src="../../Asset/image/creator1.png"
+              alt="primo-creator"
+              class="creator"
+            />
+          </div>
+        </div>
+
+        <!-- Parte Destra -->
+        <div class="discord-banner-section--conteiner--right">
+          <p>LAST CHALLENGE WINNERS</p>
+          <div class="discord-banner-winners">
+            <div class="discord-banner-winners-first">
+              <span class="discord-winners-number"> 1st </span>
+              <img src="../../Asset/image/blank-profile.jpg" class="logo" />
+              <div class="discord-banner-winners-firs-info-tag">
+                <span> WINNER </span>
+                <span> @Vini </span>
+              </div>
+            </div>
+          </div>
+
+          <div class="discord-banner-winners">
+            <div class="discord-banner-winners-second">
+              <span class="discord-winners-number"> 2st </span>
+              <img src="../../Asset/image/blank-profile.jpg" class="logo" />
+              <div class="discord-banner-winners-firs-info-tag">
+                <span> @Tosco_E </span>
+              </div>
+            </div>
+          </div>
+
+          <div class="discord-banner-winners">
+            <div class="discord-banner-winners-third">
+              <span class="discord-winners-number"> 3st </span>
+              <img src="../../Asset/image/blank-profile.jpg" class="logo" />
+              <div class="discord-banner-winners-firs-info-tag">
+                <span> @JstFredrik </span>
+              </div>
+            </div>
+          </div>
+          <button class="disable">DISCOVER NOW</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="who-we-are-section-container">
+      <h2>WHO WE ARE</h2>
+      <div id="whoWeAre-Container">
+        <img src="../../Asset/image/about-us2.svg" alt="" />
+        <div class="whoWeAre-text">
+          <p>
+            We are a <span>creator</span> led organisation.
+            <span>RTFKT</span> uses the latest in <span>game engines</span>,
+            <span>NFT</span>, <span>blockchain</span> authentication and
+            <span>augmented reality</span>, combined with
+            <span>manufacturing</span> expertise to create one of a kind
+            <span>sneakers</span> and <span>digital artifacts.</span>
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+    <!--Footer -->
+    <footer id="footer">
+      <div id="footer2">
+        <div id="left-side">
+          <?xml version="1.0" encoding="UTF-8"?>
+          <svg
+            width="151px"
+            height="24px"
+            viewBox="0 0 151 24"
+            version="1.1"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink">
+            <g
+              id="Page-1"
+              stroke="none"
+              stroke-width="1"
+              fill="none"
+              fill-rule="evenodd">
+              <g
+                id="C_Header/1440px/Regular"
+                transform="translate(-24.000000, -27.000000)"
+                fill="#FFFFFF">
+                <g id="Group-15" transform="translate(24.000000, 26.999948)">
+                  <path
+                    d="M0,7.10542736e-15 C0,7.10542736e-15 1.20119417,0.356036011 3.10064447,0.902234072 L3.61166202,1.04892515 C3.87475983,1.12431848 4.14899318,1.20270167 4.43324599,1.28370665 L5.01478022,1.44910326 C6.89651529,1.98323817 9.1502974,2.61269255 11.4926013,3.24395695 L12.234888,3.44325471 C12.7312666,3.57601457 13.2302459,3.70841839 13.7291803,3.83959366 L14.4772175,4.03532608 C18.7121566,5.13801904 22.8482839,6.12042914 25.2609199,6.4467209 C25.4970453,6.47865598 25.8841993,6.55667182 26.2957801,6.60183499 L26.4510206,6.61707705 C27.9060029,6.7420854 29.4663526,6.34378181 25.7040084,2.03789586 L25.7040084,2.03789586 L36.1901813,5.75101119 C38.392034,6.53075253 40.2623395,8.04357959 41.4908333,10.0389441 L41.4908333,10.0389441 L50.0869565,24.0000516 C50.0869565,24.0000516 45.9009505,21.6704572 41.2561072,19.126385 L40.6202254,18.7783354 L40.6202254,18.7783354 L39.6603319,18.2538827 C36.1345858,16.3297546 32.588986,14.4201819 30.5959318,13.4174795 C30.3481402,13.2928416 29.7912639,13.0291421 29.156925,12.799588 L28.982177,12.7379591 C28.8352432,12.687524 28.6853958,12.639666 28.535354,12.5964183 L28.3553845,12.5468642 C26.4683794,12.0525152 24.7231752,12.4192324 28.5589552,17.7144342 L28.5589552,17.7144342 Z M67.0696085,5.26522377 C67.2653064,5.2553471 71.7663591,5.06824181 71.7663591,8.75357025 L71.7663591,8.75357025 L71.7667129,8.8130099 C71.7627752,9.18510364 71.6496551,11.1967042 69.6844489,11.7748494 C69.6844489,11.7748494 72.0515919,12.5202949 72.0434783,14.9718657 C72.0423534,15.3100479 72.0415388,15.6084137 72.0409703,15.8715131 L72.0400795,16.4058941 C72.0400207,16.4590839 72.0399742,16.5102828 72.0399391,16.5595619 L72.0399993,17.0633115 C72.0400391,17.0983698 72.0400862,17.1317927 72.0401397,17.1636513 L72.0407657,17.4100615 C72.0408483,17.433174 72.0409342,17.4549355 72.0410225,17.475417 L72.0418531,17.6271114 C72.0419464,17.640553 72.042039,17.652928 72.04213,17.6643073 L72.0428764,17.7417606 C72.0429483,17.7478063 72.0430155,17.7530697 72.043077,17.7576219 L72.0434783,17.7826602 L67.6726005,17.7826602 L67.6724398,15.6937792 C67.6685583,15.5784616 67.5746714,13.8486978 65.4348225,13.8486978 L65.4348225,13.8486978 L57.8222315,13.8486978 L57.8222315,17.7826602 L53.2608696,17.7826602 L53.2608696,5.26557521 Z M91.8695652,5.26092112 L91.8695652,8.6599361 L84.7346557,8.6599361 L84.7346557,17.7826602 L80.2341703,17.7826602 L80.2341703,8.6599361 L73.0869565,8.6599361 L73.0869565,5.26092112 L91.8695652,5.26092112 Z M150.3044,5.26092112 L150.3044,8.6599361 L143.169471,8.6599361 L143.169471,17.7826602 L138.668973,17.7826602 L138.668973,8.6599361 L131.521739,8.6599361 L131.521739,5.26092112 L150.3044,5.26092112 Z M109.608696,5.26092112 L109.608696,8.66339644 L97.2790868,8.66339644 L97.2790868,10.4882491 L105.321638,10.4882491 L105.321638,13.6699923 L97.2790868,13.6699923 L97.2790868,17.7826602 L92.9130435,17.7826602 L92.9130435,5.26567073 L94.837902,5.26567073 L94.837902,5.26092112 L109.608696,5.26092112 Z M115.188631,5.26092112 L115.188631,9.47092827 L122.318179,5.26092112 L129.622166,5.28417806 L119.996115,10.9493698 L130.478261,17.7826602 L123.205414,17.7826602 L115.188631,12.5368438 L115.188631,17.7826602 L110.652174,17.7826602 L110.652174,5.26092112 L115.188631,5.26092112 Z M59.6462039,8.66389052 L57.8222315,8.66332684 L57.8222315,10.80892 L65.9835084,10.80892 C65.9835084,10.80892 67.2968385,10.9391605 67.2968385,9.66825339 C67.2968385,8.99680247 66.8916873,8.69857427 66.1160223,8.68082556 C65.7985974,8.673667 64.3528733,8.66943693 62.7551267,8.66693735 L62.2182533,8.66616661 C62.1282823,8.66604828 62.038177,8.66593489 61.9481047,8.66582622 L61.4094058,8.66522926 C61.3201351,8.66513867 61.2312321,8.66505239 61.1428643,8.66497022 L59.8784124,8.66402014 C59.7995816,8.66397392 59.722123,8.66393079 59.6462039,8.66389052 Z"
+                    id="Combined-Shape"></path>
+                </g>
+              </g>
+            </g>
+          </svg>
+          <p id="we-are-creator">
+            We are a creator led organisation. RTFKT uses the latest in game
+            engines, NFT, blockchain authentication and augmented reality,
+            combined with manufacturing expertise to create one of a kind
+            sneakers and digital artifacts.
+          </p>
+        </div>
+        <div id="anchor-faq">
+          <a href="#" class="a-hover">FAQ</a>
+          <a href="#" class="a-hover">Legal Overview</a>
+          <a href="#" class="a-hover">Privacy Policy</a>
+          <a href="#" class="a-hover">Terms & Conditions</a>
+          <a href="#" class="a-hover">Press Info</a>
+        </div>
+        <div id="anchor-social">
+          <a href="#" class="a-hover">Instagram</a>
+          <a href="#" class="a-hover">Discord</a>
+          <a href="#" class="a-hover">Twitter</a>
+          <a href="#" class="a-hover">Youtube</a>
+          <a href="#" class="a-hover">TikTok</a>
+        </div>
+      </div>
+      <div id="bottom-section-para">
+        <p id="para1">
+          RTFKT is a registered trademark of RTFKT Inc. All Rights Reserved.
+          RTFKT
+        </p>
+        <p id="para2">
+          All logos are registered trademarks of their respective owners. All
+          contents of this document, unless otherwise credited, are copyright ©
+          2023 RTFKT Inc.
+        </p>
+      </div>
+    </footer>
+
+    <script src="../navbar/menu.js"></script>
+  </body>
 </html>

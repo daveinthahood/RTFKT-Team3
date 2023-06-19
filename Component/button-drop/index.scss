@@ -1,9 +1,7 @@
 @import '../common.scss';
-body{
-    background-color: black;
-}
 
-.--button--drop{
+
+.section--button--drop{
     background-color: transparent;
     border: 1px solid $color-gray-600;
     text-transform: uppercase;
