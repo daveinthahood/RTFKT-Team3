@@ -8,6 +8,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: #1f2028;
   font-family: "Montserrat";
 }
 
@@ -73,6 +74,4 @@ body {
   height: 114px;
   width: 114px;
   cursor: pointer;
-}
-
-/*# sourceMappingURL=index.css.map */
+}/*# sourceMappingURL=index.css.map */
