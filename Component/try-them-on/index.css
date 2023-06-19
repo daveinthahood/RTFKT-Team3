@@ -8,6 +8,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: #1f2028;
   font-family: "Montserrat";
 }
 
@@ -54,17 +55,18 @@ body {
 }
 .try-them-on__cards-container .try-them-on__snap-card--media {
   position: relative;
+  width: 100%;
 }
 .try-them-on__cards-container .try-them-on__snap-card--media .display-video {
   display: flex;
   height: 100%;
 }
 .try-them-on__cards-container .try-them-on__snap-card--media .display-video video {
+  margin: 0 0 0 15%;
   border-radius: 1rem;
   max-width: 100%;
   cursor: pointer;
   object-fit: cover;
-  margin: 0 0 0 15%;
 }
 .try-them-on__cards-container .try-them-on__snap-card--media img {
   display: flex;
@@ -140,27 +142,43 @@ body {
   .try-them-on .section-name {
     display: flex;
     align-items: left;
-    width: 672px;
+    width: 664px;
+  }
+  .try-them-on__snap-card--media {
+    margin: 0 0 0 38.188px;
+    width: fit-content;
+    flex: 1 1 0%;
+  }
+  .try-them-on__snap-card--media .display-video {
+    width: 100%;
   }
   .try-them-on__cards-container {
     display: flex;
     height: 457.969px;
-    width: 672px;
+    max-width: 672px;
+    justify-content: unset;
     overflow-x: scroll;
     overflow-y: hidden;
     padding-bottom: 24px;
   }
   .try-them-on__cards-container .try-them-on__snap-card {
-    width: 312px;
+    width: 100%;
     height: 457.969px;
     margin-right: 16px;
   }
   .try-them-on__cards-container .try-them-on__snap-card--media .display-video {
+    width: 100%;
+    height: 100%;
     display: flex;
   }
   .try-them-on__cards-container .try-them-on__snap-card--media .display-video video {
-    width: 239.609;
-    height: 457.969px;
+    flex-shrink: 0;
+    max-width: 239.609px;
+    height: 100%;
+    margin: 0;
+  }
+  .try-them-on__cards-container .try-them-on__snap-card--media img {
+    left: -22%;
   }
 }
 @media (min-width: 428px) and (max-width: 767px) {
