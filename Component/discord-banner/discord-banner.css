@@ -98,6 +98,9 @@ p {
   transform: scale(1.1);
   cursor: pointer;
 }
+.discord-banner-section--conteriner .creator2, .discord-banner-section--conteriner .creator3 {
+  display: none;
+}
 .discord-banner-section--conteriner .discord-banner-section--conteiner--right {
   display: flex;
   flex-direction: column;

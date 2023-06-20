@@ -96,6 +96,10 @@ p {
     cursor: pointer;
   }
 
+  & .creator2, .creator3{
+    display: none;
+  }
+
   .discord-banner-section--conteiner--right {
     display: flex;
     flex-direction: column;
