@@ -1,1 +1,26 @@
-@import '../common.scss'
+@import '../common.scss';
+@import '../navbar/index.scss';
+@import '../banner-Drops-Archive/banner.scss';
+@import '../filter-button-hider/index.scss';
+@import '../filter-button/index.scss';
+@import '../filter-menu/index.scss';
+@import '../shop-card/index.scss';
+@import '../footer/style.scss';
+
+
+.main-section-secondPage {
+    max-width: 1450px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    gap:1.5rem;
+    padding-top: 2rem;
+    & .card{
+        display: flex;
+        flex-wrap: wrap;
+        gap:15px;
+
+    }
+  
+}
