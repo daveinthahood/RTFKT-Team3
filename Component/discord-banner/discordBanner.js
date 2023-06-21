@@ -5,34 +5,45 @@ const $discordBannerCenterImg = document.querySelector(".discord-banner-center-i
 const $creator1 = document.querySelector(".creator");  // primo creator pic
 const $creator2 = document.querySelector(".creator2"); // secondo creator pic
 const $creator3 = document.querySelector(".creator3"); // terzo creator pic 
+const $myImg = document.querySelector("img");
+
+
+
+
 
 
 //creo l'event listner sul banner numero 2 
-$discordBannerSecondWinner.addEventListener('mouseover', () => {
-
-    $discordBannerCenterImg.innerHTML = $creator2;
-    console.log("funciont");
-})
-
-$discordBannerSecondWinner.addEventListener('mouseleave', () => {
+$discordBannerSecondWinner.addEventListener("mouseover", (event) => {
+    let target = event.target;
+    if (target.classList.contains('discord-banner-winners-second')){
+        const id = target.dataset.id;
+        $myImg.src="https://cdn.rtfkt.com/assets/images/creatorChallenge/creator2.png";
     
-    $discordBannerCenterImg.innerHTML = $creator1;
-
-    console.log("CIAO 2");
+    }
 })
 
-
-//creo l'event listner sul banner numero 3
-$discordBannerThirdWinner.addEventListener('mouseover', () => {
+$discordBannerSecondWinner.addEventListener("mouseleave", (event) => {
+    let target = event.target;
+    if (target.classList.contains('discord-banner-winners-second')){
+        const id = target.dataset.id;
+        $myImg.src="https://cdn.rtfkt.com/assets/images/creatorChallenge/creator1.png";
     
-    $discordBannerCenterImg.innerHTML = $creator3;
-    console.log("OK");
+    }
 })
 
-$discordBannerThirdWinner.addEventListener('mouseleave', () => {
-   
-    $discordBannerCenterImg.innerHTML = $creator1;
-    console.log("CIAO3");
-})
 
+$discordBannerThirdWinner.addEventListener("mouseover", (event) => {
+    let target = event.target;
+    if (target.classList.contains('discord-banner-winners-third')){
+        const id = target.dataset.id;
+        $myImg.src="https://cdn.rtfkt.com/assets/images/creatorChallenge/creator3.png";
+    }
+})
+$discordBannerThirdWinner.addEventListener("mouseleave", (event) => {
+    let target = event.target;
+    if (target.classList.contains('discord-banner-winners-third')){
+        const id = target.dataset.id;
+        $myImg.src="https://cdn.rtfkt.com/assets/images/creatorChallenge/creator1.png";
+    }
+})
 
