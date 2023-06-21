@@ -12,6 +12,16 @@ body {
   font-family: "Montserrat";
 }
 
+body {
+  background-color: #1f2028;
+}
+
+h2,
+span,
+p {
+  color: white;
+}
+
 .discord-banner-section {
   margin: 0 auto;
   border-radius: 15px;
@@ -19,8 +29,8 @@ body {
   box-shadow: 0 0.1rem 0.2rem rgba(0, 0, 0, 0.3);
   background-size: cover;
   max-width: 1380px;
-  margin-top: 4rem;
-  margin-bottom: 4rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 
 .discord-banner-section--conteriner {
@@ -62,11 +72,9 @@ body {
   font-weight: 500;
   margin: 0 auto;
   padding-top: 0.5rem;
-  color: white;
 }
 .discord-banner-section--conteriner .discord-banner-section--conteriner--left .discord-banner-section--conteriner--left--text span {
   font-family: "TT Alientz Grotesque";
-  color: white;
 }
 .discord-banner-section--conteriner .discord-banner-center {
   display: flex;
@@ -107,7 +115,6 @@ body {
   letter-spacing: 3px;
   font-size: 12px;
   margin: 0;
-  color: white;
 }
 .discord-banner-section--conteriner .discord-banner-section--conteiner--right discord-banner-winner {
   display: block;
@@ -170,9 +177,6 @@ body {
   flex-direction: column;
   width: 100%;
 }
-.discord-banner-section--conteriner .discord-banner-section--conteiner--right span {
-  color: white;
-}
 .discord-banner-section--conteriner .discord-banner-winners-third {
   display: flex;
   gap: 10px;
@@ -201,7 +205,7 @@ body {
   width: 100%;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 992px) {
   .discord-banner-section {
     max-width: 688px;
     background-image: linear-gradient(to bottom, transparent, rgb(39, 41, 50) 68%), url(../../Asset/image/Grid2x.png);

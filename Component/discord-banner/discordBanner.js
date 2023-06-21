@@ -5,7 +5,7 @@ const $discordBannerCenterImg = document.querySelector(".discord-banner-center-i
 const $creator1 = document.querySelector(".creator");  // primo creator pic
 const $creator2 = document.querySelector(".creator2"); // secondo creator pic
 const $creator3 = document.querySelector(".creator3"); // terzo creator pic 
-const $myImg = document.querySelector("img");
+const $myImg = document.getElementById("creator");
 
 
 
