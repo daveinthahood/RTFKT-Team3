@@ -1,10 +1,11 @@
-@import '../Component/common.scss',
-'../Component/buttons/index.scss',
-'../Component/filter-button/index.scss',
-'../Component/filter-button-hider/',
-'../Component/card-main-section/index.scss',
-'../Component/button-drop/index.scss',
-'../Component/shop-card/index.scss';
+@import '../Component/common.scss';
+@import'../Component/buttons/index.scss';
+@import'../Component/filter-button/index.scss';
+@import'../Component/filter-button-hider/';
+@import '../Component/button-drop/index.scss';
+@import'../Component/shop-card/index.scss';
+@import '../Component/card-main-section/index.scss';
+@import '../Component/discord-banner/discord-banner.scss';
 
 
 body{
