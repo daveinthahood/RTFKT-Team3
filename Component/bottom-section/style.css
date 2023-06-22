@@ -42,6 +42,8 @@ body {
   padding: 15px;
   margin: 0 auto;
   display: flex;
+  color: white;
+  font-weight: 700;
 }
 .bottom-section #brands #awesome-people #awesome-people-para {
   color: white;
