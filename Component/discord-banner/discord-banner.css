@@ -16,12 +16,6 @@ body {
   background-color: #1f2028;
 }
 
-h2,
-span,
-p {
-  color: white;
-}
-
 .discord-banner-section {
   margin: 0 auto;
   border-radius: 15px;
@@ -72,9 +66,11 @@ p {
   font-weight: 500;
   margin: 0 auto;
   padding-top: 0.5rem;
+  color: white;
 }
 .discord-banner-section--conteriner .discord-banner-section--conteriner--left .discord-banner-section--conteriner--left--text span {
   font-family: "TT Alientz Grotesque";
+  color: white;
 }
 .discord-banner-section--conteriner .discord-banner-center {
   display: flex;
@@ -115,6 +111,7 @@ p {
   letter-spacing: 3px;
   font-size: 12px;
   margin: 0;
+  color: white;
 }
 .discord-banner-section--conteriner .discord-banner-section--conteiner--right discord-banner-winner {
   display: block;
@@ -140,6 +137,7 @@ p {
   border-radius: 19px;
   font-family: "TT Alientz Grotesque";
   font-size: 25px;
+  color: white;
 }
 .discord-banner-section--conteriner .discord-banner-section--conteiner--right .logo {
   width: 10%;
@@ -149,6 +147,7 @@ p {
   display: flex;
   flex-direction: column;
   width: 100%;
+  color: white;
 }
 .discord-banner-section--conteriner .discord-banner-section--conteiner--right .discord-banner-winners-second {
   display: flex;
@@ -167,6 +166,7 @@ p {
   border-radius: 19px;
   font-family: "TT Alientz Grotesque";
   font-size: 25px;
+  color: white;
 }
 .discord-banner-section--conteriner .discord-banner-section--conteiner--right .logo {
   width: 10%;
@@ -194,6 +194,7 @@ p {
   border-radius: 19px;
   font-family: "TT Alientz Grotesque";
   font-size: 25px;
+  color: white;
 }
 .discord-banner-section--conteriner .logo {
   width: 10%;
@@ -250,12 +251,14 @@ p {
   }
   .discord-banner-section--conteriner .discord-banner-section--conteiner--right > p {
     letter-spacing: 0.5px;
+    color: white;
   }
   .discord-banner-section--conteriner .discord-banner-section--conteiner--right .discord-banner-winners-first {
     width: 100%;
   }
   .discord-banner-section--conteriner .discord-banner-section--conteiner--right .discord-banner-winners-first .logo {
     width: 10%;
+    color: white;
   }
   .discord-banner-section--conteriner .discord-banner-section--conteiner--right .disable {
     display: flex;

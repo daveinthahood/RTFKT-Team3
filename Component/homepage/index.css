@@ -111,6 +111,7 @@ nav .navbar-right__menu-dropdown--collections {
   gap: 2px;
 }
 nav .navbar-right__menu-dropdown--floating {
+  z-index: 1;
   position: absolute;
   z-index: 1;
   align-items: center;
@@ -345,6 +346,7 @@ body {
   }
 }
 .main__section {
+  z-index: 2;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -449,7 +451,7 @@ body {
   cursor: pointer;
 }
 .main__section__right__card--up-text {
-  color: black;
+  color: black !important;
   font-weight: 500;
   white-space: nowrap;
   padding-inline: 20px;
@@ -757,12 +759,6 @@ body {
   background-color: #1f2028;
 }
 
-h2,
-span,
-p {
-  color: white;
-}
-
 .discord-banner-section {
   margin: 0 auto;
   border-radius: 15px;
@@ -813,9 +809,11 @@ p {
   font-weight: 500;
   margin: 0 auto;
   padding-top: 0.5rem;
+  color: white;
 }
 .discord-banner-section--conteriner .discord-banner-section--conteriner--left .discord-banner-section--conteriner--left--text span {
   font-family: "TT Alientz Grotesque";
+  color: white;
 }
 .discord-banner-section--conteriner .discord-banner-center {
   display: flex;
@@ -856,6 +854,7 @@ p {
   letter-spacing: 3px;
   font-size: 12px;
   margin: 0;
+  color: white;
 }
 .discord-banner-section--conteriner .discord-banner-section--conteiner--right discord-banner-winner {
   display: block;
@@ -881,6 +880,7 @@ p {
   border-radius: 19px;
   font-family: "TT Alientz Grotesque";
   font-size: 25px;
+  color: white;
 }
 .discord-banner-section--conteriner .discord-banner-section--conteiner--right .logo {
   width: 10%;
@@ -890,6 +890,7 @@ p {
   display: flex;
   flex-direction: column;
   width: 100%;
+  color: white;
 }
 .discord-banner-section--conteriner .discord-banner-section--conteiner--right .discord-banner-winners-second {
   display: flex;
@@ -908,6 +909,7 @@ p {
   border-radius: 19px;
   font-family: "TT Alientz Grotesque";
   font-size: 25px;
+  color: white;
 }
 .discord-banner-section--conteriner .discord-banner-section--conteiner--right .logo {
   width: 10%;
@@ -935,6 +937,7 @@ p {
   border-radius: 19px;
   font-family: "TT Alientz Grotesque";
   font-size: 25px;
+  color: white;
 }
 .discord-banner-section--conteriner .logo {
   width: 10%;
@@ -991,12 +994,14 @@ p {
   }
   .discord-banner-section--conteriner .discord-banner-section--conteiner--right > p {
     letter-spacing: 0.5px;
+    color: white;
   }
   .discord-banner-section--conteriner .discord-banner-section--conteiner--right .discord-banner-winners-first {
     width: 100%;
   }
   .discord-banner-section--conteriner .discord-banner-section--conteiner--right .discord-banner-winners-first .logo {
     width: 10%;
+    color: white;
   }
   .discord-banner-section--conteriner .discord-banner-section--conteiner--right .disable {
     display: flex;

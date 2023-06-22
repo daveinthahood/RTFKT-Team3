@@ -26,6 +26,7 @@
 }
 
 .main__section {
+  z-index: 2;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -133,7 +134,7 @@
           }
         }
         &-text {
-          color: $color-black;
+          color: $color-black !important;
           font-weight: 500;
           white-space: nowrap;
           padding-inline: 20px;

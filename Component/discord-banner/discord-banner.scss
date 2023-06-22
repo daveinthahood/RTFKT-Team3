@@ -4,11 +4,11 @@ body {
   background-color: $color-body-bg;
 }
 
-h2,
-span,
-p {
-  color: white;
-}
+// h2,
+// span,
+// p {
+//   color: white;
+// }
 
 .discord-banner-section {
   margin: 0 auto;
@@ -62,9 +62,11 @@ p {
         font-weight: 500;
         margin: 0 auto;
         padding-top: 0.5rem;
+        color: $color-white;
       }
       & span {
         font-family: $special-font;
+        color: $color-white;
       }
     }
   }
@@ -115,11 +117,13 @@ p {
       letter-spacing: 3px;
       font-size: 12px;
       margin: 0;
+      color: $color-white;
     }
 
     & discord-banner-winner {
       display: block;
       padding-right: 2px;
+
     }
 
     & .disable {
@@ -148,6 +152,7 @@ p {
         border-radius: 19px;
         font-family: $special-font;
         font-size: 25px;
+        color: $color-white;
       }
     }
     & .logo {
@@ -158,6 +163,7 @@ p {
       display: flex;
       flex-direction: column;
       width: 100%;
+      color: $color-white;
     }
 
     //**! Second Winner
@@ -182,6 +188,7 @@ p {
         border-radius: 19px;
         font-family: $special-font;
         font-size: 25px;
+        color: $color-white;
       }
     }
     & .logo {
@@ -217,6 +224,7 @@ p {
       border-radius: 19px;
       font-family: $special-font;
       font-size: 25px;
+      color: $color-white;
     }
   }
   & .logo {
@@ -283,12 +291,14 @@ p {
       margin: 0;
       > p {
         letter-spacing: 0.5px;
+        color: $color-white;
       }
 
       .discord-banner-winners-first{
         width: 100%;
         & .logo {
           width: 10%;
+          color: $color-white;
         }
       }
 

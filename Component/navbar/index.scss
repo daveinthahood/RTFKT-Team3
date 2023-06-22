@@ -72,6 +72,7 @@ nav {
           }
 
           &--floating {
+            z-index: 1;
             position: absolute;
             z-index: 1;
             align-items: center;
