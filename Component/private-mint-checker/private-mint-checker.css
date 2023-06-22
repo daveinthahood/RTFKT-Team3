@@ -12,6 +12,10 @@ body {
   font-family: "Montserrat";
 }
 
+body {
+  background-color: #1f2028;
+}
+
 .private-mint-checker-section {
   display: flex;
   flex-direction: column;
