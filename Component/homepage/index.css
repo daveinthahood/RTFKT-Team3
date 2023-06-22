@@ -93,7 +93,6 @@ nav .navbar-right__menu-dropdown {
   align-items: center;
   justify-content: center;
   height: 100%;
-  width: -moz-fit-content;
   width: fit-content;
 }
 nav .navbar-right__menu-dropdown a {
@@ -112,6 +111,7 @@ nav .navbar-right__menu-dropdown--collections {
   gap: 2px;
 }
 nav .navbar-right__menu-dropdown--floating {
+  z-index: 1;
   position: absolute;
   align-items: center;
   text-align: center;
@@ -345,6 +345,7 @@ body {
   }
 }
 .main__section {
+  z-index: 2;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -444,6 +445,7 @@ body {
   border-radius: 1rem;
 }
 .main__section__right__card--up-video > video:hover {
+  -webkit-box-shadow: 0px 100px 47px -47px #0b325e;
   box-shadow: 0px 100px 47px -47px #0b325e;
   cursor: pointer;
 }
@@ -462,6 +464,7 @@ body {
   border-radius: 1rem;
   bottom: 10;
   left: 10;
+  -webkit-box-shadow: 2px 5px 16px 0px #0b325e, -2px 2px 2px 5px rgba(0, 0, 0, 0);
   box-shadow: 2px 5px 16px 0px #0b325e, -2px 2px 2px 5px rgba(0, 0, 0, 0);
 }
 .main__section__right__card--up-text:hover {
@@ -711,6 +714,7 @@ body {
 }
 .section__shop__card-vid video:hover {
   cursor: pointer;
+  -webkit-box-shadow: 0px 0px 20px 38px #0b325e;
   box-shadow: 0px 0px 80px 1px #0b325e;
 }
 .section__shop__card-footer {
@@ -1053,8 +1057,7 @@ body {
   color: #dee2e6;
 }
 #whoWeAre-Container .whoWeAre-text span:hover {
-  -webkit-text-decoration: underline #6610f2;
-          text-decoration: underline #6610f2;
+  text-decoration: underline #6610f2;
   cursor: pointer;
 }
 
@@ -1072,8 +1075,7 @@ body {
   color: #dee2e6;
 }
 .whoWeAre-text span:hover {
-  -webkit-text-decoration: underline #6610f2;
-          text-decoration: underline #6610f2;
+  text-decoration: underline #6610f2;
   cursor: pointer;
 }
 
@@ -1267,8 +1269,7 @@ body {
   border-radius: 1rem;
   max-width: 100%;
   cursor: pointer;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 .try-them-on__cards-container .try-them-on__snap-card--media img {
   display: flex;
@@ -1348,7 +1349,6 @@ body {
   }
   .try-them-on__snap-card--media {
     margin: 0 0 0 38.188px;
-    width: -moz-fit-content;
     width: fit-content;
     flex: 1 1 0%;
   }
@@ -1399,7 +1399,6 @@ body {
   }
   .try-them-on__snap-card--media {
     margin: 0 0 0 22.5px;
-    width: -moz-fit-content;
     width: fit-content;
     flex: 1 1 0%;
   }
@@ -1545,4 +1544,6 @@ body {
     height: 100px;
     border-radius: 20px;
   }
-}/*# sourceMappingURL=index.css.map */
+}
+
+/*# sourceMappingURL=index.css.map */
