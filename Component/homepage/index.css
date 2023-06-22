@@ -61,7 +61,6 @@ nav .navbar {
   font-size: 0.83rem;
   font-weight: 700;
   letter-spacing: 0.1rem;
-  margin-bottom: 2rem;
 }
 nav .navbar a {
   transform: scale(1, 0.9);
@@ -113,6 +112,7 @@ nav .navbar-right__menu-dropdown--collections {
 }
 nav .navbar-right__menu-dropdown--floating {
   position: absolute;
+  z-index: 1;
   align-items: center;
   text-align: center;
   min-width: 228px;
@@ -349,6 +349,7 @@ body {
   justify-content: space-between;
   flex-wrap: wrap;
   max-width: 1350px;
+  z-index: 2;
   gap: 40px;
   margin: 0 auto;
 }
