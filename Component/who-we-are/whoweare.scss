@@ -45,7 +45,35 @@ body {
             }
         }
     }
-}
+
+//     .pic{
+//         position: relative;
+//         display: inline-block;
+//         cursor: pointer;
+//         &::after {
+//             content: ''; // content vuoto per lavoarlo con limg di bg
+//             position: absolute;
+//             top: 0;
+//             left: 0;
+//             width: quello che ti serve;
+//             background-image: url("url img");
+//             background-size: cover;
+//             opacity: 0;
+//             pointer-events: none;
+          
+//           }
+//           &::after :hover::after {
+//             opacity: 1;
+//           }
+//       }
+      
+      
+      
+//       .pic::after :hover::after {
+//         opacity: 1;
+//       }
+// }
+
 
 // .whoWeAre-text {
 //     font-family: $primary-font;
@@ -75,3 +103,4 @@ body {
 
 
 
+}
