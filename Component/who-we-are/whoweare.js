@@ -18,6 +18,14 @@ $span.addEventListener("mouseover", (event) => {
     }
 })
 
+$span.addEventListener("mouseleave", (event) => {
+    const target = event.target;
+    if(target.classList.contains("pic")){
+        const id = target.dataset.id;
+        $myPic.src="";   
+    }
+})
+
 
 // Seconda Immagine 
 $span1.addEventListener("mouseover", (event) => {
@@ -25,6 +33,13 @@ $span1.addEventListener("mouseover", (event) => {
     if(target.classList.contains("pic1")){
         const id = target.dataset.id;
         $myPic.src="https://cdn.rtfkt.com/assets/whoarewe/RTFKT.png";   
+    }
+})
+$span1.addEventListener("mouseleave", (event) => {
+    const target = event.target;
+    if(target.classList.contains("pic1")){
+        const id = target.dataset.id;
+        $myPic.src="";   
     }
 })
 
@@ -37,6 +52,14 @@ $span2.addEventListener("mouseover", (event) => {
         $myPic.src="https://cdn.rtfkt.com/assets/whoarewe/game-engine.png";   
     }
 })
+$span2.addEventListener("mouseleave", (event) => {
+    const target = event.target;
+    if(target.classList.contains("pic2")){
+        const id = target.dataset.id;
+        $myPic.src="";   
+    }
+})
+
 
 // Quarta Immagine
 $span3.addEventListener("mouseover", (event) => {
@@ -46,6 +69,15 @@ $span3.addEventListener("mouseover", (event) => {
         $myPic.src="https://cdn.rtfkt.com/assets/whoarewe/clonex-nft.png";   
     }
 })
+$span3.addEventListener("mouseleave", (event) => {
+    const target = event.target;
+    if(target.classList.contains("pic3")){
+        const id = target.dataset.id;
+        $myPic.src="";   
+    }
+})
+
+
 // Quinta Immagine 
 $span4.addEventListener("mouseover", (event) => {
     const target = event.target;
@@ -54,6 +86,15 @@ $span4.addEventListener("mouseover", (event) => {
         $myPic.src="https://cdn.rtfkt.com/assets/whoarewe/blockchain.png";   
     }
 })
+$span4.addEventListener("mouseleave", (event) => {
+    const target = event.target;
+    if(target.classList.contains("pic4")){
+        const id = target.dataset.id;
+        $myPic.src="";   
+    }
+})
+
+
 // Sesta Immagine
 $span5.addEventListener("mouseover", (event) => {
     const target = event.target;
@@ -62,6 +103,15 @@ $span5.addEventListener("mouseover", (event) => {
         $myPic.src="https://cdn.rtfkt.com/assets/whoarewe/augmented-reality.png";   
     }
 })
+$span5.addEventListener("mouseleave", (event) => {
+    const target = event.target;
+    if(target.classList.contains("pic5")){
+        const id = target.dataset.id;
+        $myPic.src="";   
+    }
+})
+
+
 // SEttima Immagine
 $span6.addEventListener("mouseover", (event) => {
     const target = event.target;
@@ -70,6 +120,15 @@ $span6.addEventListener("mouseover", (event) => {
         $myPic.src="https://cdn.rtfkt.com/assets/whoarewe/manufacturing.png";   
     }
 })
+$span6.addEventListener("mouseleave", (event) => {
+    const target = event.target;
+    if(target.classList.contains("pic6")){
+        const id = target.dataset.id;
+        $myPic.src="";   
+    }
+})
+
+
 // Ottava Immagine
 $span7.addEventListener("mouseover", (event) => {
     const target = event.target;
@@ -78,11 +137,28 @@ $span7.addEventListener("mouseover", (event) => {
         $myPic.src="https://cdn.rtfkt.com/assets/whoarewe/sneakers.png";   
     }
 })
+$span7.addEventListener("mouseleave", (event) => {
+    const target = event.target;
+    if(target.classList.contains("pic7")){
+        const id = target.dataset.id;
+        $myPic.src="";   
+    }
+})
+
+
+
 // Nona Immagine 
 $span8.addEventListener("mouseover", (event) => {
     const target = event.target;
     if(target.classList.contains("pic8")){
         const id = target.dataset.id;
         $myPic.src="https://cdn.rtfkt.com/assets/whoarewe/digital-artefacts.png";   
+    }
+})
+$span8.addEventListener("mouseleave", (event) => {
+    const target = event.target;
+    if(target.classList.contains("pic8")){
+        const id = target.dataset.id;
+        $myPic.src="";   
     }
 })
