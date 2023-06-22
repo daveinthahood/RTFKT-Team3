@@ -133,7 +133,7 @@
           }
         }
         &-text {
-          color: $color-black;
+          color: $color-black !important;
           font-weight: 500;
           white-space: nowrap;
           padding-inline: 20px;

@@ -181,7 +181,7 @@ body {
   cursor: pointer;
 }
 .main__section__right__card--up-text {
-  color: black;
+  color: black !important;
   font-weight: 500;
   white-space: nowrap;
   padding-inline: 20px;
