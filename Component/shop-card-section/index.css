@@ -1,0 +1,254 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("//db.onlinewebfonts.com/c/ebaf90e665954316d40b79a1c7c942c0?family=TT+Alientz+Grotesque");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("//db.onlinewebfonts.com/c/ebaf90e665954316d40b79a1c7c942c0?family=TT+Alientz+Grotesque");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("//db.onlinewebfonts.com/c/ebaf90e665954316d40b79a1c7c942c0?family=TT+Alientz+Grotesque");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("//db.onlinewebfonts.com/c/ebaf90e665954316d40b79a1c7c942c0?family=TT+Alientz+Grotesque");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("//db.onlinewebfonts.com/c/ebaf90e665954316d40b79a1c7c942c0?family=TT+Alientz+Grotesque");
+@font-face {
+  font-family: "TT Alientz Grotesque";
+  src: url("//db.onlinewebfonts.com/t/ebaf90e665954316d40b79a1c7c942c0.eot"), url("//db.onlinewebfonts.com/t/ebaf90e665954316d40b79a1c7c942c0.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/ebaf90e665954316d40b79a1c7c942c0.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/ebaf90e665954316d40b79a1c7c942c0.woff") format("woff"), url("//db.onlinewebfonts.com/t/ebaf90e665954316d40b79a1c7c942c0.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/ebaf90e665954316d40b79a1c7c942c0.svg#TT Alientz Grotesque") format("svg");
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #1f2028;
+  font-family: "Montserrat";
+}
+
+@font-face {
+  font-family: "TT Alientz Grotesque";
+  src: url("//db.onlinewebfonts.com/t/ebaf90e665954316d40b79a1c7c942c0.eot"), url("//db.onlinewebfonts.com/t/ebaf90e665954316d40b79a1c7c942c0.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/ebaf90e665954316d40b79a1c7c942c0.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/ebaf90e665954316d40b79a1c7c942c0.woff") format("woff"), url("//db.onlinewebfonts.com/t/ebaf90e665954316d40b79a1c7c942c0.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/ebaf90e665954316d40b79a1c7c942c0.svg#TT Alientz Grotesque") format("svg");
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #1f2028;
+  font-family: "Montserrat";
+}
+
+.button--hide {
+  background-color: transparent;
+  max-height: 40px;
+  white-space: nowrap;
+  border-radius: 1.5rem;
+  border: 1px solid #ced4da;
+  color: white;
+  padding: 5px 10px;
+  font-family: "Montserrat";
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.button--hide:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+@font-face {
+  font-family: "TT Alientz Grotesque";
+  src: url("//db.onlinewebfonts.com/t/ebaf90e665954316d40b79a1c7c942c0.eot"), url("//db.onlinewebfonts.com/t/ebaf90e665954316d40b79a1c7c942c0.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/ebaf90e665954316d40b79a1c7c942c0.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/ebaf90e665954316d40b79a1c7c942c0.woff") format("woff"), url("//db.onlinewebfonts.com/t/ebaf90e665954316d40b79a1c7c942c0.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/ebaf90e665954316d40b79a1c7c942c0.svg#TT Alientz Grotesque") format("svg");
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #1f2028;
+  font-family: "Montserrat";
+}
+
+body {
+  background-color: black;
+}
+
+.button--filter {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border-radius: 1.5rem;
+  border: 1px solid #ced4da;
+  color: white;
+  padding: 7px 15px;
+  font-family: "Montserrat";
+  font-size: 12px;
+  white-space: nowrap;
+  font-weight: 600;
+  text-transform: capitalize;
+  max-height: 40px;
+  gap: 8px;
+  line-height: 1rem;
+}
+.button--filter > img {
+  display: block;
+  width: 1.5rem;
+  border-radius: 50%;
+}
+.button--filter:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+@font-face {
+  font-family: "TT Alientz Grotesque";
+  src: url("//db.onlinewebfonts.com/t/ebaf90e665954316d40b79a1c7c942c0.eot"), url("//db.onlinewebfonts.com/t/ebaf90e665954316d40b79a1c7c942c0.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/ebaf90e665954316d40b79a1c7c942c0.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/ebaf90e665954316d40b79a1c7c942c0.woff") format("woff"), url("//db.onlinewebfonts.com/t/ebaf90e665954316d40b79a1c7c942c0.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/ebaf90e665954316d40b79a1c7c942c0.svg#TT Alientz Grotesque") format("svg");
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #1f2028;
+  font-family: "Montserrat";
+}
+
+body {
+  background-color: black;
+}
+
+.aside {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  width: 100%;
+  max-width: 340px;
+}
+.aside__section--hide {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+.aside__slash {
+  width: 95%;
+  height: 1px;
+  background-color: #6c757d;
+}
+.aside__section {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: flex-start;
+}
+.aside__section--text {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.aside__section--text--title {
+  display: flex;
+  gap: 4px;
+}
+.aside__section--text--title span:last-child {
+  color: #6c757d;
+  font-weight: 500;
+}
+.aside__section--text--b > button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+}
+.aside__section--text--b > button:hover {
+  cursor: pointer;
+}
+.aside__section--button {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.aside__section--footer {
+  text-align: left;
+  font-size: 1rem;
+  color: #6c757d;
+  font-weight: 600;
+}
+.aside__section--footer span > a {
+  text-decoration: none;
+  color: #e9ecef;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "TT Alientz Grotesque";
+  src: url("//db.onlinewebfonts.com/t/ebaf90e665954316d40b79a1c7c942c0.eot"), url("//db.onlinewebfonts.com/t/ebaf90e665954316d40b79a1c7c942c0.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/ebaf90e665954316d40b79a1c7c942c0.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/ebaf90e665954316d40b79a1c7c942c0.woff") format("woff"), url("//db.onlinewebfonts.com/t/ebaf90e665954316d40b79a1c7c942c0.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/ebaf90e665954316d40b79a1c7c942c0.svg#TT Alientz Grotesque") format("svg");
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #1f2028;
+  font-family: "Montserrat";
+}
+
+.section__shop__card {
+  background-color: #272932;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 20px;
+  color: #e9ecef;
+  border-radius: 1rem;
+  width: 350px;
+}
+.section__shop__card-title {
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  gap: 10px;
+  font-weight: 700;
+  align-items: center;
+  padding-top: 10px;
+}
+.section__shop__card-title img {
+  width: 30px;
+  border-radius: 50%;
+}
+.section__shop__card-vid {
+  width: 95%;
+  overflow: hidden;
+  margin-inline: auto;
+  border-radius: 1rem;
+}
+.section__shop__card-vid video {
+  width: 100%;
+  border-radius: 1rem;
+  transition: transform 0.9s ease;
+}
+.section__shop__card-vid video:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  box-shadow: 0px 0px 80px 1px #0b325e;
+}
+.section__shop__card-footer {
+  width: 95%;
+  margin: 0 auto;
+  padding-bottom: 40px;
+  font-weight: 600;
+}
+.section__shop__card-footer-description {
+  font-size: 0.8rem;
+  color: #b5b5b8;
+}
+
+.main__head_ {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+.main__head__inpsrc form input {
+  padding: 10px;
+  border-radius: 4rem;
+}/*# sourceMappingURL=index.css.map */

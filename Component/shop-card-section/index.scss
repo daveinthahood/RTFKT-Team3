@@ -1,0 +1,22 @@
+@import "../common.scss";
+@import "../filter-button-hider/index.scss";
+@import "../filter-button/index.scss";
+@import "../filter-menu/index.scss";
+@import "../shop-card/index.scss";
+
+.main_ {
+  &_head_ {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    &_inp {
+      &src form {
+        & input {
+          padding: 10px;
+          border-radius: 4rem;
+        }
+        & button[btn='src']
+      }
+    }
+  }
+}
