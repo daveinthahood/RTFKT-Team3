@@ -6,7 +6,7 @@
 @import '../discord-banner/discord-banner.scss';
 @import '../who-we-are/whoweare.scss';
 @import '../footer/style.scss';
-@import '../try-them-on/index.scss';
+// @import '../try-them-on/index.scss';
 @import '../bottom-section/style.scss';
 
 
@@ -22,3 +22,11 @@
         background: linear-gradient(-135deg,rgba(0,0,0,0) 0%,rgb(0,0,0) 100%,rgb(0,0,0) 100%);
 }
 
+#videoBackGround{
+        content: "";
+    position: absolute;
+    top: 0;
+    height: inherit;
+    width: 100%;
+    background: radial-gradient(ellipse 100% 100% at 50% 0%,rgba(0,0,0,0) 0%,rgb(31,32,40) 100%);
+}
