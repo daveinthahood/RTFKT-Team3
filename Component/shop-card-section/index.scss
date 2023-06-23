@@ -27,6 +27,15 @@
             border-radius: 4rem;
           }
           & button[btn="src"] {
+       position: relative;
+            color: white;
+            bottom: 0;
+            right: 37;
+            background-color: $color-white;
+            border-radius: 50%;
+            padding: 8px;     
+          }
+          & button[btn="cls"]{
             position: relative;
             color: white;
             bottom: 0;

@@ -276,4 +276,13 @@ body {
   background-color: white;
   border-radius: 50%;
   padding: 8px;
+}
+.main__head__inpsrc form button[btn=cls] {
+  position: relative;
+  color: white;
+  bottom: 0;
+  right: 37;
+  background-color: white;
+  border-radius: 50%;
+  padding: 8px;
 }/*# sourceMappingURL=index.css.map */
