@@ -4,18 +4,38 @@
 @import "../filter-menu/index.scss";
 @import "../shop-card/index.scss";
 
-.main_ {
-  &_head_ {
-    padding: 10px;
+
+.main {
+  display: flex;
+  flex-direction: column;
+  max-width: 85%;
+  margin: 0 auto;
+  &__head {
     display: flex;
-    justify-content: center;
-    &_inp {
-      &src form {
-        & input {
-          padding: 10px;
-          border-radius: 4rem;
+    justify-content: space-between;
+
+    &__inp {
+        display: flex;
+        gap: 5%;
+      position: relative;
+      &src {
+        position: relative;
+        form {
+          display: flex;
+          & input {
+            padding: 10px;
+            border-radius: 4rem;
+          }
+          & button[btn="src"] {
+            position: relative;
+            color: white;
+            bottom: 0;
+            right: 37;
+            background-color: $color-white;
+            border-radius: 50%;
+            padding: 8px;
+          }
         }
-        & button[btn='src']
       }
     }
   }

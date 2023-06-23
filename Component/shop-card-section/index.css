@@ -243,12 +243,37 @@ body {
   color: #b5b5b8;
 }
 
-.main__head_ {
-  padding: 10px;
+.main {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  max-width: 85%;
+  margin: 0 auto;
+}
+.main__head {
+  display: flex;
+  justify-content: space-between;
+}
+.main__head__inp {
+  display: flex;
+  gap: 5%;
+  position: relative;
+}
+.main__head__inpsrc {
+  position: relative;
+}
+.main__head__inpsrc form {
+  display: flex;
 }
 .main__head__inpsrc form input {
   padding: 10px;
   border-radius: 4rem;
+}
+.main__head__inpsrc form button[btn=src] {
+  position: relative;
+  color: white;
+  bottom: 0;
+  right: 37;
+  background-color: white;
+  border-radius: 50%;
+  padding: 8px;
 }/*# sourceMappingURL=index.css.map */
