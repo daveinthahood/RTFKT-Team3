@@ -1,7 +1,7 @@
-@import '../common.scss';
+@import "../common.scss";
 
-.section{
-    &__shop__card{
+.section {
+  &__shop__card {
     background-color: $color-gray-700;
     display: flex;
     flex-direction: column;
@@ -10,48 +10,45 @@
     color: $color-gray-200;
     border-radius: 1rem;
     width: 350px;
-    &-title{
-        width: 95%;
-        margin: 0 auto;
-        display: flex;
-        gap: 10px;
-        font-weight: 700;
-        align-items: center;
-        padding-top: 10px;
-        & img{
-            width: 30px;
-            border-radius: 50%;
-        }
-
+    &-title {
+      width: 95%;
+      margin: 0 auto;
+      display: flex;
+      gap: 10px;
+      font-weight: 700;
+      align-items: center;
+      padding-top: 10px;
+      & img {
+        width: 30px;
+        border-radius: 50%;
+      }
     }
-    &-vid{
-        width: 95%;
-        overflow: hidden;
-        margin-inline: auto;
+    &-vid {
+      width: 95%;
+      overflow: hidden;
+      margin-inline: auto;
+      border-radius: 1rem;
+      video {
+        width: 100%;
         border-radius: 1rem;
-        video{
-            width: 100%;
-            border-radius: 1rem;
-            transition: transform 0.3s ease;
-            
-            &:hover{
-                transform: scale(1.2);
-                cursor: pointer;
-                -webkit-box-shadow: 0px 0px 20px 38px  #0B325E; 
-                box-shadow: 0px 0px 80px 1px #0B325E;
-            }
+        transition: transform 0.9s ease;
+        &:hover {
+          transform: scale(1.1);
+          cursor: pointer;
+          -webkit-box-shadow: 0px 0px 20px 38px #0b325e;
+          box-shadow: 0px 0px 80px 1px #0b325e;
         }
-
+      }
     }
-    &-footer{
-        width: 95%;
-        margin: 0 auto;
-        padding-bottom: 40px;
-        font-weight: 600;
-        &-description{
-            font-size: 0.8rem;
-            color: $color-gray-500;
-        }
-
+    &-footer {
+      width: 95%;
+      margin: 0 auto;
+      padding-bottom: 40px;
+      font-weight: 600;
+      &-description {
+        font-size: 0.8rem;
+        color: $color-gray-500;
+      }
     }
-}}
+  }
+}

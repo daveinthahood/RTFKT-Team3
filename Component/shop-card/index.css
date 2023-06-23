@@ -44,12 +44,12 @@ body {
 .section__shop__card-vid video {
   width: 100%;
   border-radius: 1rem;
-  transition: transform 0.3s ease;
+  transition: transform 0.9s ease;
 }
 .section__shop__card-vid video:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
   cursor: pointer;
-  box-shadow: 0px 0px 80px 1px #0B325E;
+  box-shadow: 0px 0px 80px 1px #0b325e;
 }
 .section__shop__card-footer {
   width: 95%;
