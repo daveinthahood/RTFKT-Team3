@@ -60,6 +60,7 @@ nav .navbar-right__menu-dropdown {
   align-items: center;
   justify-content: center;
   height: 100%;
+  width: -moz-fit-content;
   width: fit-content;
 }
 nav .navbar-right__menu-dropdown a {
@@ -238,6 +239,4 @@ nav .navbar-right__signIn-button--close {
   nav .navbar-left__img :last-child img {
     display: none;
   }
-}
-
-/*# sourceMappingURL=index.css.map */
+}/*# sourceMappingURL=index.css.map */

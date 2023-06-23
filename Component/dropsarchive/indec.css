@@ -105,7 +105,9 @@ nav .navbar-right__menu-dropdown--collections {
   gap: 2px;
 }
 nav .navbar-right__menu-dropdown--floating {
+  z-index: 1;
   position: absolute;
+  z-index: 1;
   align-items: center;
   text-align: center;
   min-width: 228px;
@@ -501,11 +503,11 @@ body {
   width: 95%;
   margin-inline: auto;
 }
-.section__shop__card-vid video {
+.section__shop__card-vid iframe {
   width: 100%;
   border-radius: 1rem;
 }
-.section__shop__card-vid video:hover {
+.section__shop__card-vid iframe:hover {
   cursor: pointer;
   box-shadow: 0px 0px 80px 1px #0B325E;
 }

@@ -37,13 +37,17 @@ body {
 }
 .section__shop__card-vid {
   width: 95%;
+  overflow: hidden;
   margin-inline: auto;
+  border-radius: 1rem;
 }
 .section__shop__card-vid video {
   width: 100%;
   border-radius: 1rem;
+  transition: transform 0.3s ease;
 }
 .section__shop__card-vid video:hover {
+  transform: scale(1.2);
   cursor: pointer;
   box-shadow: 0px 0px 80px 1px #0B325E;
 }

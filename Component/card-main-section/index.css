@@ -177,7 +177,6 @@ body {
   border-radius: 1rem;
 }
 .main__section__right__card--up-video > video:hover {
-  -webkit-box-shadow: 0px 100px 47px -47px #0b325e;
   box-shadow: 0px 100px 47px -47px #0b325e;
   cursor: pointer;
 }
@@ -196,7 +195,6 @@ body {
   border-radius: 1rem;
   bottom: 10;
   left: 10;
-  -webkit-box-shadow: 2px 5px 16px 0px #0b325e, -2px 2px 2px 5px rgba(0, 0, 0, 0);
   box-shadow: 2px 5px 16px 0px #0b325e, -2px 2px 2px 5px rgba(0, 0, 0, 0);
 }
 .main__section__right__card--up-text:hover {
@@ -213,6 +211,4 @@ body {
   align-items: flex-start;
   padding: 20px 15px;
   gap: 5px;
-}
-
-/*# sourceMappingURL=index.css.map */
+}/*# sourceMappingURL=index.css.map */
