@@ -677,7 +677,7 @@ body {
   width: 100%;
   padding-bottom: 25px;
 }
-.section__shop__header--show {
+.section__shop__header--show button {
   display: none;
 }
 .section__shop__header--search {

@@ -46,8 +46,11 @@
       margin: 0 auto;
       width: 100%;
       padding-bottom: 25px;
-      &--show{
-        display: none;
+      &--show{ 
+        & button {
+          display: none;
+
+        }
       }
       &--search{
         margin-left: auto;
