@@ -694,6 +694,7 @@ body {
   width: 100%;
   transform: scale(0);
   opacity: 0;
+  transition: all 300ms ease-out;
 }
 .section__shop__header--search button {
   border: 1px solid white;
