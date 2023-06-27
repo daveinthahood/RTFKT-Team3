@@ -9,7 +9,7 @@ const $buttonSearch = document.querySelector("#searchbtn")
 $hideButton.addEventListener("click", ()=> {
     $menu.style.display = $menu.style.display === "flex" ? "none" : "flex";
     $buttonShow.style.display = $buttonShow.style.display === "none" ? "block" : "none";
-    $buttonSearch.style.right ="-35px";
+    $buttonSearch.style.right = "-35px";
 })
 
 $buttonShow.addEventListener("click", () => {
