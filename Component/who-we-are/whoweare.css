@@ -53,8 +53,32 @@ body {
           text-decoration: underline #6610f2;
   cursor: pointer;
 }
+#whoWeAre-Container #picHover {
+  z-index: 2;
+  position: absolute;
+  border-radius: 1rem;
+}
+#whoWeAre-Container .pic {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+#whoWeAre-Container .pic::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50px;
+  background-size: cover;
+  opacity: 0;
+  pointer-events: none;
+}
+#whoWeAre-Container .pic:hover::after {
+  opacity: 1;
+}
+
 @media screen and (max-width: 991px) {
-  #whoWeAre-Container .who-we-are-section-container {
+  .who-we-are-section-container {
     max-width: 720px;
   }
 }/*# sourceMappingURL=whoweare.css.map */

@@ -46,27 +46,33 @@ body {
         }
     }
 
-//     .pic{
-//         position: relative;
-//         display: inline-block;
-//         cursor: pointer;
-//         &::after {
-//             content: ''; // content vuoto per lavoarlo con limg di bg
-//             position: absolute;
-//             top: 0;
-//             left: 0;
-//             width: 50px;
-//             background-image: url("https://cdn.rtfkt.com/assets/whoarewe/creator.gif");
-//             background-size: cover;
-//             opacity: 0;
-//             pointer-events: none;
-//           };
-//           &:hover::after {
-//             opacity: 1;
-//           }
-//       }
+    #picHover{
+        z-index: 2;
+        position: absolute;
+        border-radius: 1rem;
+    }
+
+    .pic{
+        position: relative;
+        display: inline-block;
+        cursor: pointer;
+        &::after {
+            content: ''; // content vuoto per lavoarlo con limg di bg
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 50px;
+            // background-image: url("https://cdn.rtfkt.com/assets/whoarewe/creator.gif");
+            background-size: cover;
+            opacity: 0;
+            pointer-events: none;
+          };
+          &:hover::after {
+            opacity: 1;
+          }
+      }
       
-// }
+}
 
 
 
@@ -77,4 +83,3 @@ body {
     }
 
 
-}
