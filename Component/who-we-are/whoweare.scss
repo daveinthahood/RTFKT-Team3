@@ -80,6 +80,7 @@ body {
     cursor: pointer;
     #picHover::after {
         content: ''; // content vuoto per lavoarlo con limg di bg
+        transition: transform 0.5s ;
         position: absolute;
         top: 150px;
         left: 0;
@@ -90,6 +91,7 @@ body {
         pointer-events: none;
       };
       &:hover::after {
+        transform: rotateY('180deb');
         opacity: 1;
       }
   }
