@@ -69,11 +69,32 @@ body {
   top: 0;
   left: 0;
   width: 50px;
+  background-image: url("https://cdn.rtfkt.com/assets/whoarewe/creator.gif");
   background-size: cover;
   opacity: 0;
   pointer-events: none;
 }
 #whoWeAre-Container .pic:hover::after {
+  opacity: 1;
+}
+
+.pic1 {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+.pic1 #picHover::after {
+  content: "";
+  position: absolute;
+  top: 150px;
+  left: 0;
+  width: 50px;
+  background-image: url("https://cdn.rtfkt.com/assets/whoarewe/RTFKT.png");
+  background-size: cover;
+  opacity: 0;
+  pointer-events: none;
+}
+.pic1:hover::after {
   opacity: 1;
 }
 

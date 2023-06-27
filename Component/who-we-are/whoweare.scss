@@ -62,7 +62,7 @@ body {
             top: 0;
             left: 0;
             width: 50px;
-            // background-image: url("https://cdn.rtfkt.com/assets/whoarewe/creator.gif");
+            background-image: url("https://cdn.rtfkt.com/assets/whoarewe/creator.gif");
             background-size: cover;
             opacity: 0;
             pointer-events: none;
@@ -73,6 +73,28 @@ body {
       }
       
 }
+
+.pic1{
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    #picHover::after {
+        content: ''; // content vuoto per lavoarlo con limg di bg
+        position: absolute;
+        top: 150px;
+        left: 0;
+        width: 50px;
+        background-image: url("https://cdn.rtfkt.com/assets/whoarewe/RTFKT.png");
+        background-size: cover;
+        opacity: 0;
+        pointer-events: none;
+      };
+      &:hover::after {
+        opacity: 1;
+      }
+  }
+  
+
 
 
 

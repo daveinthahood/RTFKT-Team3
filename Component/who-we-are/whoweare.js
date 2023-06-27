@@ -25,10 +25,11 @@ $span.addEventListener("mouseleave", (event) => {
         $myPic.src="";   
     }
 })
-$span.addEventListener('mousemove', (event) => {
-    const cursor = document.querySelector('pic');
-    cursor.style.top = event.clientY + 'px';
-    cursor.style.left = event.clientX + 'px';
+
+$span.addEventListener('mouseover', (event) => {
+    const cursor = document.querySelector('.pic');
+    // cursor.style.top = event.clientY + 'px';
+    // cursor.style.left = event.clientX + 'px';
   })
 
 
@@ -47,6 +48,13 @@ $span1.addEventListener("mouseleave", (event) => {
         $myPic.src="";   
     }
 })
+
+$span1.addEventListener('mouseover', (event) => {
+    const cursor = document.querySelector('.pic1');
+    // cursor.style.top = event.clientY + 'px';
+    // cursor.style.left = event.clientX + 'px';
+  })
+
 
 
 // Terza Immagine
