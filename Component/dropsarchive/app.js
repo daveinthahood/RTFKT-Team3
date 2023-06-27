@@ -14,10 +14,14 @@ const $large = document.querySelector("#large");
 const $small = document.querySelector("#small");
 const $card = document.querySelectorAll(".section__shop__main__card");
 
+if($menu.style.display === "none"){
+
+}
+
 $large.addEventListener("click", () => {
     $small.classList.add("transparent");
     $large.classList.remove("transparent");
-    $large.style.transform = "scale(1.3)";
+    $large.style.transform = "scale(1.1)";
     $small.style.transform = "";
     [...$card].forEach(el => {
         el.style.flex = "1 0 45%"
@@ -27,7 +31,7 @@ $large.addEventListener("click", () => {
 $small.addEventListener("click", () => {
     $large.classList.add("transparent");
     $small.classList.remove("transparent");
-    $small.style.transform = "scale(1.3)";
+    $small.style.transform = "scale(1.1)";
     $large.style.transform = "";
     [...$card].forEach(el => {
         el.style.flex = "1 0 30%"
@@ -38,8 +42,8 @@ $small.addEventListener("click", () => {
 $hideButton.addEventListener("click", ()=> {
     $menu.style.display = $menu.style.display === "flex" ? "none" : "flex";
     $buttonShow.style.display = $buttonShow.style.display === "none" ? "block" : "none";
-    $buttonSearch.style.right = "-30px";
-    $inputSearch.style.right = "-33px";
+    // $buttonSearch.style.right = "-30px";
+    // $inputSearch.style.right = "-33px";
 
 })
 
