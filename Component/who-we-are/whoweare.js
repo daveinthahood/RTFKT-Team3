@@ -10,7 +10,7 @@ const $span8 = document.querySelector(".pic8");
 const $myPic = document.getElementById('picHover');
 
 // prima immagine 
-$span.addEventListener("mouseover", (event) => {
+$span.addEventListener("mousemove", (event) => {
     const target = event.target;
     if(target.classList.contains("pic")){
         const id = target.dataset.id;
@@ -26,15 +26,17 @@ $span.addEventListener("mouseleave", (event) => {
     }
 })
 
-$span.addEventListener('mouseover', (event) => {
-    const cursor = document.querySelector('.pic');
-    // cursor.style.top = event.clientY + 'px';
-    // cursor.style.left = event.clientX + 'px';
+$span.addEventListener('mousemove', (event) => {
+    const cursor = document.querySelector('#picHover');
+    cursor.style.top = event.clientY + 'px';
+    cursor.style.left = event.clientX + 'px';
+    cursor.style.zIndex = "1";
+    cursor.style.opacity = "1";
   })
 
 
 // Seconda Immagine 
-$span1.addEventListener("mouseover", (event) => {
+$span1.addEventListener("mousemove", (event) => {
     const target = event.target;
     if(target.classList.contains("pic1")){
         const id = target.dataset.id;
@@ -49,16 +51,18 @@ $span1.addEventListener("mouseleave", (event) => {
     }
 })
 
-$span1.addEventListener('mouseover', (event) => {
-    const cursor = document.querySelector('.pic1');
-    // cursor.style.top = event.clientY + 'px';
-    // cursor.style.left = event.clientX + 'px';
+$span1.addEventListener('mousemove', (event) => {
+    const cursor = document.querySelector('#picHover');
+    cursor.style.top = event.clientY + 'px';
+    cursor.style.left = event.clientX + 'px';
+    cursor.style.zIndex = "1";
+    cursor.style.opacity = "1";
   })
 
 
 
 // Terza Immagine
-$span2.addEventListener("mouseover", (event) => {
+$span2.addEventListener("mousemove", (event) => {
     const target = event.target;
     if(target.classList.contains("pic2")){
         const id = target.dataset.id;
@@ -72,10 +76,19 @@ $span2.addEventListener("mouseleave", (event) => {
         $myPic.src="";   
     }
 })
+$span2.addEventListener('mousemove', (event) => {
+    const cursor = document.querySelector('#picHover');
+    cursor.style.top = event.clientY + 'px';
+    cursor.style.left = event.clientX + 'px';
+    cursor.style.zIndex = "1";
+    cursor.style.opacity = "1";
+  })
+
+
 
 
 // Quarta Immagine
-$span3.addEventListener("mouseover", (event) => {
+$span3.addEventListener("mousemove", (event) => {
     const target = event.target;
     if(target.classList.contains("pic3")){
         const id = target.dataset.id;
@@ -89,10 +102,19 @@ $span3.addEventListener("mouseleave", (event) => {
         $myPic.src="";   
     }
 })
+$span3.addEventListener('mousemove', (event) => {
+    const cursor = document.querySelector('#picHover');
+    cursor.style.top = event.clientY + 'px';
+    cursor.style.left = event.clientX + 'px';
+    cursor.style.zIndex = "1";
+    cursor.style.opacity = "1";
+  })
+
+
 
 
 // Quinta Immagine 
-$span4.addEventListener("mouseover", (event) => {
+$span4.addEventListener("mousemove", (event) => {
     const target = event.target;
     if(target.classList.contains("pic4")){
         const id = target.dataset.id;
@@ -106,10 +128,17 @@ $span4.addEventListener("mouseleave", (event) => {
         $myPic.src="";   
     }
 })
+$span4.addEventListener('mousemove', (event) => {
+    const cursor = document.querySelector('#picHover');
+    cursor.style.top = event.clientY + 'px';
+    cursor.style.left = event.clientX + 'px';
+    cursor.style.zIndex = "1";
+    cursor.style.opacity = "1";
+  })
 
 
 // Sesta Immagine
-$span5.addEventListener("mouseover", (event) => {
+$span5.addEventListener("mousemove", (event) => {
     const target = event.target;
     if(target.classList.contains("pic5")){
         const id = target.dataset.id;
@@ -123,10 +152,18 @@ $span5.addEventListener("mouseleave", (event) => {
         $myPic.src="";   
     }
 })
+$span5.addEventListener('mousemove', (event) => {
+    const cursor = document.querySelector('#picHover');
+    cursor.style.top = event.clientY + 'px';
+    cursor.style.left = event.clientX + 'px';
+    cursor.style.zIndex = "1";
+    cursor.style.opacity = "1";
+  })
+
 
 
 // SEttima Immagine
-$span6.addEventListener("mouseover", (event) => {
+$span6.addEventListener("mousemove", (event) => {
     const target = event.target;
     if(target.classList.contains("pic6")){
         const id = target.dataset.id;
@@ -140,10 +177,18 @@ $span6.addEventListener("mouseleave", (event) => {
         $myPic.src="";   
     }
 })
+$span6.addEventListener('mousemove', (event) => {
+    const cursor = document.querySelector('#picHover');
+    cursor.style.top = event.clientY + 'px';
+    cursor.style.left = event.clientX + 'px';
+    cursor.style.zIndex = "1";
+    cursor.style.opacity = "1";
+  })
+
 
 
 // Ottava Immagine
-$span7.addEventListener("mouseover", (event) => {
+$span7.addEventListener("mousemove", (event) => {
     const target = event.target;
     if(target.classList.contains("pic7")){
         const id = target.dataset.id;
@@ -157,11 +202,19 @@ $span7.addEventListener("mouseleave", (event) => {
         $myPic.src="";   
     }
 })
+$span7.addEventListener('mousemove', (event) => {
+    const cursor = document.querySelector('#picHover');
+    cursor.style.top = event.clientY + 'px';
+    cursor.style.left = event.clientX + 'px';
+    cursor.style.zIndex = "1";
+    cursor.style.opacity = "1";
+  })
+
 
 
 
 // Nona Immagine 
-$span8.addEventListener("mouseover", (event) => {
+$span8.addEventListener("mousemove", (event) => {
     const target = event.target;
     if(target.classList.contains("pic8")){
         const id = target.dataset.id;
@@ -175,3 +228,11 @@ $span8.addEventListener("mouseleave", (event) => {
         $myPic.src="";   
     }
 })
+$span8.addEventListener('mousemove', (event) => {
+    const cursor = document.querySelector('#picHover');
+    cursor.style.top = event.clientY + 'px';
+    cursor.style.left = event.clientX + 'px';
+    cursor.style.zIndex = "1";
+    cursor.style.opacity = "1";
+  })
+
