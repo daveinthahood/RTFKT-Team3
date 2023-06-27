@@ -692,17 +692,26 @@ body {
   right: -60px;
   bottom: -18px;
   width: 100%;
-  transform: scale(0);
+  transform: translateX(0);
   opacity: 0;
-  transition: all 300ms ease-out;
+  transition: all 300ms ease-in;
 }
-.section__shop__header--search button {
+.section__shop__header--search #searchbtn {
   border: 1px solid white;
   background-color: #272932;
   border-radius: 50%;
   padding: 8px;
   position: absolute;
   right: -58px;
+  top: -18px;
+}
+.section__shop__header--search #clssrcbtn {
+  display: none;
+  border-radius: 50%;
+  border: 1px solid #272932;
+  padding: 8px;
+  position: absolute;
+  right: -57px;
   top: -18px;
 }
 .section__shop__header--layout {
