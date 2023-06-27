@@ -58,8 +58,8 @@
             padding: 10px;
             border-radius: 2rem;
             position: absolute;
-            right: 50px;
-            bottom: -10px;
+            right: -60px;
+            bottom: -18px;
             width: 100%;
             transform: scale(0);
             opacity: 0;
@@ -70,14 +70,23 @@
             border-radius: 50%;
             padding: 8px;
             position: absolute;
-            right: 53px;
-            top: -26px;
+            right: -58px;
+            top: -18px;
         }
       }
       &--layout{
         margin-left: auto;
-        & input[type="checkbox"]{
-            border-radius: 50%;
+        border:  1px solid $color-gray-500;
+        border-radius: 2rem;
+        & button{
+          padding: 5px;
+          transform: scale(1.2);
+          border-radius: 50%;
+          border: none;
+          & img{
+            width: 20px;
+          }
+
         }
 
       }

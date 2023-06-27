@@ -689,8 +689,8 @@ body {
   padding: 10px;
   border-radius: 2rem;
   position: absolute;
-  right: 50px;
-  bottom: -10px;
+  right: -60px;
+  bottom: -18px;
   width: 100%;
   transform: scale(0);
   opacity: 0;
@@ -701,14 +701,22 @@ body {
   border-radius: 50%;
   padding: 8px;
   position: absolute;
-  right: 53px;
-  top: -26px;
+  right: -58px;
+  top: -18px;
 }
 .section__shop__header--layout {
   margin-left: auto;
+  border: 1px solid #b5b5b8;
+  border-radius: 2rem;
 }
-.section__shop__header--layout input[type='checkbox'] {
+.section__shop__header--layout button {
+  padding: 5px;
+  transform: scale(1.2);
   border-radius: 50%;
+  border: none;
+}
+.section__shop__header--layout button img {
+  width: 20px;
 }
 .section__shop__main {
   display: flex;
