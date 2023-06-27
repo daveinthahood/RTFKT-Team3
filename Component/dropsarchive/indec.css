@@ -664,6 +664,10 @@ body {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+.aside__section--text--title:hover {
+  cursor: pointer;
+}
+
 .section__shop {
   width: 1350px;
   display: flex;
@@ -694,7 +698,7 @@ body {
   width: 100%;
   transform: translateX(0);
   opacity: 0;
-  transition: all 300ms ease-in;
+  transition: all 100ms ease-in;
 }
 .section__shop__header--search #searchbtn {
   border: 1px solid white;
@@ -705,6 +709,9 @@ body {
   right: -58px;
   top: -18px;
 }
+.section__shop__header--search #searchbtn:hover {
+  cursor: pointer;
+}
 .section__shop__header--search #clssrcbtn {
   display: none;
   border-radius: 50%;
@@ -714,19 +721,29 @@ body {
   right: -57px;
   top: -18px;
 }
+.section__shop__header--search #clssrcbtn:hover {
+  cursor: pointer;
+}
 .section__shop__header--layout {
   margin-left: auto;
   border: 1px solid #b5b5b8;
   border-radius: 2rem;
+  padding: 4px;
+}
+.section__shop__header--layout .transparent {
+  background-color: transparent;
 }
 .section__shop__header--layout button {
   padding: 5px;
-  transform: scale(1.2);
   border-radius: 50%;
   border: none;
 }
-.section__shop__header--layout button img {
-  width: 20px;
+.section__shop__header--layout button .layouticon {
+  font-size: 20px;
+  width: 100%;
+}
+.section__shop__header--layout button:hover {
+  cursor: pointer;
 }
 .section__shop__main {
   display: flex;

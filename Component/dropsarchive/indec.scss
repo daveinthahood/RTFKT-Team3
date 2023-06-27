@@ -34,6 +34,9 @@
       }
     }
   }
+  .aside__section--text--title:hover{
+    cursor: pointer;
+  }
   
   .section__shop {
     width: 1350px;
@@ -65,7 +68,7 @@
             width: 100%;
             transform: translateX(0);
             opacity: 0;
-            transition: all 300ms ease-in;
+            transition: all 100ms ease-in;
         }
         & #searchbtn{
             border: 1px solid $color-white;
@@ -75,7 +78,11 @@
             position: absolute;
             right: -58px;
             top: -18px;
-        }
+            &:hover{
+              cursor: pointer;
+            }
+          }
+        
         & #clssrcbtn{
           display: none;
           border-radius: 50%;
@@ -84,21 +91,31 @@
           position: absolute;
           right: -57px;
           top: -18px;
+          &:hover{
+            cursor: pointer;
+          }
         }
       }
       &--layout{
         margin-left: auto;
         border:  1px solid $color-gray-500;
         border-radius: 2rem;
+        padding: 4px;
+        .transparent{
+          background-color: transparent;
+        }
+        
         & button{
           padding: 5px;
-          transform: scale(1.2);
           border-radius: 50%;
           border: none;
-          & img{
-            width: 20px;
+          .layouticon{
+            font-size: 20px;
+            width: 100%;
           }
-
+          &:hover{
+            cursor: pointer;
+          }
         }
 
       }
@@ -171,4 +188,5 @@
       }
   }
   }
+
   
