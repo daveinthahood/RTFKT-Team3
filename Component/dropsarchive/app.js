@@ -607,6 +607,10 @@ const generateCreatorBtn = (item) => {
   </button>
   `;
 };
+const renderCreatorsBtn = (items) => {
+  const HTML =[...items].map((item) => generateCreatorBtn(item)).join("");
+  $creators.innerHTML = HTML;
+};
 const generateCategoriesBtn = (item) => {
   return `
   <button class="button--filter" data-id=${item.categories.title}>
@@ -616,27 +620,32 @@ const generateCategoriesBtn = (item) => {
   `;
 };
 
-const cleanArray = (array) => {
-  let uniqueValues = [];
-  for (let i = 0; i < array.length; i++) {
-    let currentItem = array[i];
-    if (uniqueValues.indexOf(currentItem) === false) {
-      uniqueValues.push(currentItem);
-}}
-  return uniqueValues;
+
+function getUniqueCreator(arr) {
+  const uniqueCreators = [];
+  
+  arr.map(item => {
+    if (item.creator === arr.creator && !uniqueCreators.includes(item)) {
+      uniqueCreators.push(item.creator);
+    }
+  });
+  
+  return uniqueCreators;
 }
-const renderCreatorsBtn = (items) => {
-  const HTML =[...items].map((item) => generateCreatorBtn(item)).join("");
-  $creators.innerHTML = HTML;
-};
+
+const newaRR = getUniqueCreator(state.cards);
+console.log(newaRR);
+
 const renderCategoriesBtn = (items) => {
   const HTML =[...items].map((item) => generateCategoriesBtn(item)).join("");
   $categories.innerHTML = HTML;
 };
+
 const renderHTML = (cards) => {
-  const HTML = [...cards].map((card) => generateCard(card));
+  const HTML = [...cards].map((card) => generateCard(card)).join("");
   $section.innerHTML = HTML;
 };
+
 
 const init = () => {
   renderHTML(state.cards);
