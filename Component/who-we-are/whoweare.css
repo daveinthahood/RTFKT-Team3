@@ -8,11 +8,8 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-body {
   background-color: #1f2028;
-  margin: 0;
+  font-family: "Montserrat";
 }
 
 .who-we-are-section-container {
@@ -21,9 +18,8 @@ body {
 }
 .who-we-are-section-container > h2 {
   font-family: "Montserrat";
-  font-size: 20px;
+  font-size: 1rem;
   color: #dee2e6;
-  margin-left: 2rem;
 }
 
 #whoWeAre-Container {
@@ -42,6 +38,7 @@ body {
 }
 #whoWeAre-Container .whoWeAre-text p {
   font-weight: 500;
+  color: #6c757d;
 }
 #whoWeAre-Container .whoWeAre-text span {
   font-family: "TT Alientz Grotesque";
@@ -67,6 +64,15 @@ body {
   100% {
     transform: translateZ(160px) rotateY(180deg);
   }
+}
+.whoWeAre-text span {
+  font-family: "TT Alientz Grotesque";
+  color: #dee2e6;
+}
+.whoWeAre-text span:hover {
+  -webkit-text-decoration: underline #6610f2;
+          text-decoration: underline #6610f2;
+  cursor: pointer;
 }
 @media screen and (max-width: 991px) {
   .who-we-are-section-container {
