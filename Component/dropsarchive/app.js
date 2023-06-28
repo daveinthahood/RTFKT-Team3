@@ -77,7 +77,7 @@ const state = {
       },
       categories: {
         title: "Wearable",
-        img: "../../Asset/image/wearable.jpg",
+        img: "../../Asset/image/wearable.png",
       },
     },
     {
@@ -93,7 +93,7 @@ const state = {
       },
       categories: {
         title: "Wearable",
-        img: "../../Asset/image/wearable.jpg",
+        img: "../../Asset/image/wearable.png",
       },
     },
     {
@@ -109,7 +109,7 @@ const state = {
       },
       categories: {
         title: "Toys",
-        img: "../../Asset/image/toys.jpg",
+        img: "../../Asset/image/toys.png",
       },
     },
     {
@@ -125,7 +125,7 @@ const state = {
       },
       categories: {
         title: "Toys",
-        img: "../../Asset/image/toys.jpg",
+        img: "../../Asset/image/toys.png",
       },
     },
     {
@@ -141,7 +141,7 @@ const state = {
       },
       categories: {
         title: "Toys",
-        img: "../../Asset/image/toys.jpg",
+        img: "../../Asset/image/toys.png",
       },
     },
     {
@@ -157,7 +157,7 @@ const state = {
       },
       categories: {
         title: "Wearable",
-        img: "../../Asset/image/wearable.jpg",
+        img: "../../Asset/image/wearable.png",
       },
     },
     {
@@ -173,7 +173,7 @@ const state = {
       },
       categories: {
         title: "Wearable",
-        img: "../../Asset/image/wearable.jpg",
+        img: "../../Asset/image/wearable.png",
       },
     },
     {
@@ -189,7 +189,7 @@ const state = {
       },
       categories: {
         title: "Wearable",
-        img: "../../Asset/image/wearable.jpg",
+        img: "../../Asset/image/wearable.png",
       },
     },
     {
@@ -205,7 +205,7 @@ const state = {
       },
       categories: {
         title: "Toys",
-        img: "../../Asset/image/toys.jpg",
+        img: "../../Asset/image/toys.png",
       },
     },
     {
@@ -269,7 +269,7 @@ const state = {
       },
       categories: {
         title: "Wearable",
-        img: "../../Asset/image/wearable.jpg",
+        img: "../../Asset/image/wearable.png",
       },
     },
     {
@@ -285,7 +285,7 @@ const state = {
       },
       categories: {
         title: "Wearable",
-        img: "../../Asset/image/wearable.jpg",
+        img: "../../Asset/image/wearable.png",
       },
     },
     {
@@ -301,7 +301,7 @@ const state = {
       },
       categories: {
         title: "Toys",
-        img: "../../Asset/image/toys.jpg",
+        img: "../../Asset/image/toys.png",
       },
     },
     {
@@ -317,7 +317,7 @@ const state = {
       },
       categories: {
         title: "Wearable",
-        img: "../../Asset/image/wearable.jpg",
+        img: "../../Asset/image/wearable.png",
       },
     },
     {
@@ -333,7 +333,7 @@ const state = {
       },
       categories: {
         title: "Wearable",
-        img: "../../Asset/image/wearable.jpg",
+        img: "../../Asset/image/wearable.png",
       },
     },
     {
@@ -349,7 +349,7 @@ const state = {
       },
       categories: {
         title: "Toys",
-        img: "../../Asset/image/toys.jpg",
+        img: "../../Asset/image/toys.png",
       },
     },
     {
@@ -365,7 +365,7 @@ const state = {
       },
       categories: {
         title: "Toys",
-        img: "../../Asset/image/toys.jpg",
+        img: "../../Asset/image/toys.png",
       },
     },
     {
@@ -381,7 +381,7 @@ const state = {
       },
       categories: {
         title: "Toys",
-        img: "../../Asset/image/toys.jpg",
+        img: "../../Asset/image/toys.png",
       },
     },
     {
@@ -429,7 +429,7 @@ const state = {
       },
       categories: {
         title: "Toys",
-        img: "../../Asset/image/toys.jpg",
+        img: "../../Asset/image/toys.png",
       },
     },
     {
@@ -445,7 +445,7 @@ const state = {
       },
       categories: {
         title: "Toys",
-        img: "../../Asset/image/toys.jpg",
+        img: "../../Asset/image/toys.png",
       },
     },
     {
@@ -461,7 +461,7 @@ const state = {
       },
       categories: {
         title: "Toys",
-        img: "../../Asset/image/toys.jpg",
+        img: "../../Asset/image/toys.png",
       },
     },
     {
@@ -477,7 +477,7 @@ const state = {
       },
       categories: {
         title: "Toys",
-        img: "../../Asset/image/toys.jpg",
+        img: "../../Asset/image/toys.png",
       },
     },
   ],
@@ -559,7 +559,7 @@ const state = {
       },
       categories: {
         title: "Wearable",
-        img: "../../Asset/image/wearable.jpg",
+        img: "../../Asset/image/wearable.png",
       },
     },
     {
@@ -575,7 +575,7 @@ const state = {
       },
       categories: {
         title: "Wearable",
-        img: "../../Asset/image/wearable.jpg",
+        img: "../../Asset/image/wearable.png",
       },
     },
     {
@@ -591,7 +591,7 @@ const state = {
       },
       categories: {
         title: "Toys",
-        img: "../../Asset/image/toys.jpg",
+        img: "../../Asset/image/toys.png",
       },
     },
     {
@@ -607,7 +607,7 @@ const state = {
       },
       categories: {
         title: "Toys",
-        img: "../../Asset/image/toys.jpg",
+        img: "../../Asset/image/toys.png",
       },
     },
     {
@@ -623,7 +623,7 @@ const state = {
       },
       categories: {
         title: "Toys",
-        img: "../../Asset/image/toys.jpg",
+        img: "../../Asset/image/toys.png",
       },
     },
     {
@@ -639,7 +639,7 @@ const state = {
       },
       categories: {
         title: "Wearable",
-        img: "../../Asset/image/wearable.jpg",
+        img: "../../Asset/image/wearable.png",
       },
     },
     {
@@ -655,7 +655,7 @@ const state = {
       },
       categories: {
         title: "Wearable",
-        img: "../../Asset/image/wearable.jpg",
+        img: "../../Asset/image/wearable.png",
       },
     },
     {
@@ -671,7 +671,7 @@ const state = {
       },
       categories: {
         title: "Wearable",
-        img: "../../Asset/image/wearable.jpg",
+        img: "../../Asset/image/wearable.png",
       },
     },
     {
@@ -687,7 +687,7 @@ const state = {
       },
       categories: {
         title: "Toys",
-        img: "../../Asset/image/toys.jpg",
+        img: "../../Asset/image/toys.png",
       },
     },
     {
@@ -751,7 +751,7 @@ const state = {
       },
       categories: {
         title: "Wearable",
-        img: "../../Asset/image/wearable.jpg",
+        img: "../../Asset/image/wearable.png",
       },
     },
     {
@@ -767,7 +767,7 @@ const state = {
       },
       categories: {
         title: "Wearable",
-        img: "../../Asset/image/wearable.jpg",
+        img: "../../Asset/image/wearable.png",
       },
     },
     {
@@ -783,7 +783,7 @@ const state = {
       },
       categories: {
         title: "Toys",
-        img: "../../Asset/image/toys.jpg",
+        img: "../../Asset/image/toys.png",
       },
     },
     {
@@ -799,7 +799,7 @@ const state = {
       },
       categories: {
         title: "Wearable",
-        img: "../../Asset/image/wearable.jpg",
+        img: "../../Asset/image/wearable.png",
       },
     },
     {
@@ -815,7 +815,7 @@ const state = {
       },
       categories: {
         title: "Wearable",
-        img: "../../Asset/image/wearable.jpg",
+        img: "../../Asset/image/wearable.png",
       },
     },
     {
@@ -831,7 +831,7 @@ const state = {
       },
       categories: {
         title: "Toys",
-        img: "../../Asset/image/toys.jpg",
+        img: "../../Asset/image/toys.png",
       },
     },
     {
@@ -847,7 +847,7 @@ const state = {
       },
       categories: {
         title: "Toys",
-        img: "../../Asset/image/toys.jpg",
+        img: "../../Asset/image/toys.png",
       },
     },
     {
@@ -863,7 +863,7 @@ const state = {
       },
       categories: {
         title: "Toys",
-        img: "../../Asset/image/toys.jpg",
+        img: "../../Asset/image/toys.png",
       },
     },
     {
@@ -911,7 +911,7 @@ const state = {
       },
       categories: {
         title: "Toys",
-        img: "../../Asset/image/toys.jpg",
+        img: "../../Asset/image/toys.png",
       },
     },
     {
@@ -927,7 +927,7 @@ const state = {
       },
       categories: {
         title: "Toys",
-        img: "../../Asset/image/toys.jpg",
+        img: "../../Asset/image/toys.png",
       },
     },
     {
@@ -943,7 +943,7 @@ const state = {
       },
       categories: {
         title: "Toys",
-        img: "../../Asset/image/toys.jpg",
+        img: "../../Asset/image/toys.png",
       },
     },
     {
@@ -959,7 +959,7 @@ const state = {
       },
       categories: {
         title: "Toys",
-        img: "../../Asset/image/toys.jpg",
+        img: "../../Asset/image/toys.png",
       },
     },
   ],
@@ -1040,7 +1040,7 @@ $buttonCloseSrc.addEventListener("click", () => {
   $inputSearch.style.opacity = "";
   $buttonCloseSrc.style.display = "none";
 });
-
+//* nascondi.toggle menu filtri
 $clearCat.addEventListener("click", () => {
   $categories.style.display = "none";
 });
@@ -1056,6 +1056,30 @@ $showCreat.addEventListener("click", () => {
   $creators.style.display = "flex";
 });
 
+//* "pulisco" l'array restituiendo solo value unici e non ripetuti
+const uniqueValue = (array1, array2, key) => {
+  const uniqueMap = new Map();
+  const unique = [];
+
+  array1.forEach(el => {
+    if (el[key] && el[key].title && array2.some(obj => obj[key] && obj[key].title === el[key].title)) {
+      const keyValue = el[key].title;
+      if (!uniqueMap.has(keyValue)) {
+        uniqueMap.set(keyValue, el[key]);
+        unique.push(el[key]);
+      }
+    }
+  });
+
+  return unique;
+};
+
+const creators = uniqueValue(state.cards, state.__cards, "creator"); //+ salvo creators univoci
+const categories = uniqueValue(state.cards, state.__cards, "categories"); //+ salvo categories univoche
+
+
+
+//* genera le card dall'array di oggetti (state.cards)
 const generateCard = (card) => {
   return `
     <div class="section__shop__main__card" data-id="${card.id}">
@@ -1081,66 +1105,27 @@ const generateCard = (card) => {
     `;
 };
 
-const generateCreatorBtn = (item) => {
+const generateFilterBtn = (item) => { //* genero i bottoni per il menù filtri
+  console.log(item.img);
   return `
   <button class="button--filter" data-id=${item.title}>
-  <img src=${item.pic} />
-  <span>${item.title}</span>
-  </button>
-  `;
-};
-const renderCreatorsBtn = (items) => {
-  const HTML =[...items].map((item) => generateCreatorBtn(item)).join("");
-  $creators.innerHTML = HTML;
-};
-const generateCategoriesBtn = (item) => {
-  return `
-  <button class="button--filter" data-id=${item.title}>
-  <img src=${item.pic} />
+  <img src=${item.img} />
   <span>${item.title}</span>
   </button>
   `;
 };
 
-const uniqueValue = (array1, array2, key) => {
-  const uniqueMap = new Map();
-  const unique = [];
 
-  array1.forEach(el => {
-    if (el[key] && el[key].title && array2.some(obj => obj[key] && obj[key].title === el[key].title)) {
-      const keyValue = el[key].title;
-      if (!uniqueMap.has(keyValue)) {
-        uniqueMap.set(keyValue, el[key]);
-        unique.push(el[key]);
-      }
-    }
-  });
-
-  return unique;
-};
-
-
-const creators = uniqueValue(state.cards, state.__cards, "creator");
-const categories = uniqueValue(state.cards, state.__cards, "categories");
-
-console.log(creators);
-console.log(categories);
-
-
-const renderCategoriesBtn = (items) => {
-  const HTML =[...items].map((item) => generateCategoriesBtn(item)).join("");
-  $categories.innerHTML = HTML;
-};
-
-const renderHTML = (cards) => {
-  const HTML = [...cards].map((card) => generateCard(card)).join("");
-  $section.innerHTML = HTML;
+const renderHTML = (items, sectionToAppend, callback) => {
+  const HTML = [...items].map((item) => callback(item)).join("");
+  sectionToAppend.innerHTML = HTML;
 };
 
 
 const init = () => {
-  renderHTML(state.cards);
-  renderCreatorsBtn(creators);
-  renderCategoriesBtn(categories);
+  renderHTML(state.cards, $section, generateCard);
+  renderHTML(creators, $creators, generateFilterBtn);
+  renderHTML(categories, $categories, generateFilterBtn);
+
 };
 init();
