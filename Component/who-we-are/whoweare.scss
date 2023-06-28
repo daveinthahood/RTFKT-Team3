@@ -1,79 +1,88 @@
-@import '../common.scss';
+@import "../common.scss";
 
 
 body {
-    background-color: $color-body-bg;
-    margin: 0;
+  background-color: $color-body-bg;
+  margin: 0;
 }
 
-
-.who-we-are-section-container{
-    margin: 0 auto;
-    max-width: 1350px;
-    > h2 {
-        font-family: $primary-font;
-        font-size: 20px;
-        color: $color-gray-300;
-        margin-left: 2rem;
-    }
+.who-we-are-section-container {
+  margin: 0 auto;
+  max-width: 1350px;
+  > h2 {
+    font-family: $primary-font;
+    font-size: 20px;
+    color: $color-gray-300;
+    margin-left: 2rem;
+  }
 }
 
-#whoWeAre-Container{
+#whoWeAre-Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  .whoWeAre-text {
+    font-family: $primary-font;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    max-width: 1000px;
-    margin: 0 auto;
-    .whoWeAre-text {
-        font-family: $primary-font;
-        display: flex;
-        text-align: center;
-        font-size: 30px;
+    text-align: center;
+    font-size: 30px;
+    & p {
+      font-weight: 500;
+    }
+    & span {
+      font-family: $special-font;
+      color: $color-gray-300;
+      cursor: pointer;
+      &:hover {
+        text-decoration: underline $color-indigo;
+        cursor: pointer;  
+        -webkit-animation: flip-vertical-fwd 0.3s forwards;
+        animation: flip-vertical-fwd 0.3s forwards;  
         
-        & p {
-            font-weight: 500;
-        }
-        & span {
-            font-family: $special-font;
-            color: $color-gray-300;
-            cursor: pointer;
-            &:hover{
-                text-decoration: underline $color-indigo;
-                cursor: pointer;
-               
-            }
-        }
+      }
     }
 
-    #picHover{
-        position: absolute;
-        border-radius: 1rem;
-        max-width: 260px;
-        opacity: 20;
-        .flip-vertical-fwd {
-            animation: flip-vertical-fwd 0.2s ease-in 0.3s both;
-        }  
-    }
+    #picHover {
+      position: absolute;
+      border-radius: 1rem;
+      max-width: 260px;
+      opacity: 20;
+     }
+    
+  }
 
-
-  @keyframes flip-vertical-fwd {
+}
+//keyframe
+@-webkit-keyframes flip-vertical-fwd {
     0% {
-      transform: translateZ(0) rotateY(0);
+      -webkit-transform: translateZ(0) rotateY(0);
+              transform: translateZ(0) rotateY(0);
     }
     100% {
-      transform: translateZ(160px) rotateY(180deg);
+      -webkit-transform: translateZ(160px) rotateY(180deg);
+              transform: translateZ(160px) rotateY(180deg);
     }
   }
-  
-  
-}
-
-
-
-@media screen and (max-width:991px){
-    .who-we-are-section-container{
-        max-width: 650px;
-        }
+  @keyframes flip-vertical-fwd {
+    0% {
+      -webkit-transform: translateZ(0) rotateY(0);
+              transform: translateZ(0) rotateY(0);
     }
+    100% {
+      -webkit-transform: translateZ(160px) rotateY(180deg);
+              transform: translateZ(160px) rotateY(180deg);
+    }
+  }
 
+  
+
+
+
+@media screen and (max-width: 991px) {
+  .who-we-are-section-container {
+    max-width: 650px;
+  }
+}

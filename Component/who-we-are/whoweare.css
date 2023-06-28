@@ -52,15 +52,13 @@ body {
   -webkit-text-decoration: underline #6610f2;
           text-decoration: underline #6610f2;
   cursor: pointer;
+  animation: flip-vertical-fwd 0.3s forwards;
 }
-#whoWeAre-Container #picHover {
+#whoWeAre-Container .whoWeAre-text #picHover {
   position: absolute;
   border-radius: 1rem;
   max-width: 260px;
   opacity: 20;
-}
-#whoWeAre-Container #picHover .flip-vertical-fwd {
-  animation: flip-vertical-fwd 0.2s ease-in 0.3s both;
 }
 @keyframes flip-vertical-fwd {
   0% {
@@ -70,7 +68,6 @@ body {
     transform: translateZ(160px) rotateY(180deg);
   }
 }
-
 @media screen and (max-width: 991px) {
   .who-we-are-section-container {
     max-width: 650px;
