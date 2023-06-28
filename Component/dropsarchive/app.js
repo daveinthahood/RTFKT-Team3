@@ -963,6 +963,13 @@ const state = {
       },
     },
   ],
+  paginationInfo: {
+    page: 3,
+    totalPages: 1,
+    limit: 10,
+    hasPrevPage: false,
+    hasNextPage: false,
+}
 };
 
 const $menu = document.querySelector(".aside");
@@ -982,6 +989,41 @@ const $showCreat = document.querySelector("#showcreat");
 const $clearCreat = document.querySelector("#clearcreat");
 const $large = document.querySelector("#large");
 const $small = document.querySelector("#small");
+const $next = document.querySelector("#next")
+const $prev = document.querySelector("#prev")
+
+const manipulateData = () => {
+  const startIndex = state.paginationInfo.limit * (state.paginationInfo.page - 1);    
+  state.cards = [...state.__cards].splice(startIndex, state.paginationInfo.limit)
+  state.paginationInfo.totalPages = Math.ceil([state.__cards].length / state.paginationInfo.limit);
+  state.paginationInfo.hasPrevPage = state.paginationInfo.page > 1 ;
+  state.paginationInfo.hasNextPage = state.paginationInfo.page < state.paginationInfo.limit ;
+
+  if(!state.paginationInfo.hasNextPage){
+      $next.setAttribute("disabled", true)
+  }else{
+      $next.removeAttribute("disabled")
+  }
+
+  if(!state.paginationInfo.hasPrevPage){
+      $prev.setAttribute("disabled", true)
+  }else{
+      $prev.removeAttribute("disabled")
+  }
+}
+
+const setEventListener = () => {
+  $next.addEventListener("click", () => {
+      state.paginationInfo.page += 1;
+      manipulateData();
+      renderHTML([...state.__cards], $section, generateCard);
+  })
+  $prev.addEventListener("click", () => {
+      state.paginationInfo.page -= 1;
+      manipulateData();
+      renderHTML([...state.__cards], $section, generateCard);
+  })
+}
 
 document.addEventListener("click", (event) => {
   const target = event.target;
@@ -994,6 +1036,7 @@ document.addEventListener("click", (event) => {
     [...document.querySelectorAll(".section__shop__main__card")].forEach(
       (el) => {
         el.style.flex = "1 0 30%";
+        el.style.maxWidth = "350px"
       }
     );
   }
@@ -1006,8 +1049,20 @@ document.addEventListener("click", (event) => {
     [...document.querySelectorAll(".section__shop__main__card")].forEach(
       (el) => {
         el.style.flex = "1 0 45%";
+        el.style.maxWidth = "45%"
       }
     );
+  }
+
+  if(target.classList.contains("cat")){
+    const id = target.dataset.id;
+    state.cards = [...state.__cards].filter((card) => card.categories.title === id )
+    renderHTML(state.cards, $section, generateCard)
+  }
+  if(target.classList.contains("creat")){ 
+    const id = target.dataset.id;
+    state.cards = [...state.__cards].filter((card) => card.creator.title === id )
+    renderHTML(state.cards, $section, generateCard)
   }
 });
 
@@ -1105,10 +1160,17 @@ const generateCard = (card) => {
     `;
 };
 
-const generateFilterBtn = (item) => { //* genero i bottoni per il menù filtri
-  console.log(item.img);
+const generateCatBtn = (item) => { //* genero i bottoni per il menù filtri
   return `
-  <button class="button--filter" data-id=${item.title}>
+  <button class="button--filter cat" data-id=${item.title}>
+  <img src=${item.img} />
+  <span>${item.title}</span>
+  </button>
+  `;
+};
+const generateCreatrBtn = (item) => { //* genero i bottoni per il menù filtri
+  return `
+  <button class="button--filter creat" data-id=${item.title}>
   <img src=${item.img} />
   <span>${item.title}</span>
   </button>
@@ -1123,9 +1185,11 @@ const renderHTML = (items, sectionToAppend, callback) => {
 
 
 const init = () => {
+  manipulateData();
+  setEventListener();
   renderHTML(state.cards, $section, generateCard);
-  renderHTML(creators, $creators, generateFilterBtn);
-  renderHTML(categories, $categories, generateFilterBtn);
+  renderHTML(creators, $creators, generateCreatrBtn);
+  renderHTML(categories, $categories, generateCatBtn);
 
 };
 init();
