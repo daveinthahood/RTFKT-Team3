@@ -54,54 +54,25 @@ body {
   cursor: pointer;
 }
 #whoWeAre-Container #picHover {
-  z-index: 2;
   position: absolute;
   border-radius: 1rem;
+  max-width: 260px;
+  opacity: 20;
 }
-#whoWeAre-Container .pic {
-  position: relative;
-  display: inline-block;
-  cursor: pointer;
+#whoWeAre-Container #picHover .flip-vertical-fwd {
+  animation: flip-vertical-fwd 0.2s ease-in 0.3s both;
 }
-#whoWeAre-Container .pic::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 50px;
-  background-image: url("https://cdn.rtfkt.com/assets/whoarewe/creator.gif");
-  background-size: cover;
-  opacity: 0;
-  pointer-events: none;
-}
-#whoWeAre-Container .pic:hover::after {
-  opacity: 1;
-}
-
-.pic1 {
-  position: relative;
-  display: inline-block;
-  cursor: pointer;
-}
-.pic1 #picHover::after {
-  content: "";
-  transition: transform 0.5s;
-  position: absolute;
-  top: 150px;
-  left: 0;
-  width: 50px;
-  background-image: url("https://cdn.rtfkt.com/assets/whoarewe/RTFKT.png");
-  background-size: cover;
-  opacity: 0;
-  pointer-events: none;
-}
-.pic1:hover::after {
-  transform: rotateY("180deb");
-  opacity: 1;
+@keyframes flip-vertical-fwd {
+  0% {
+    transform: translateZ(0) rotateY(0);
+  }
+  100% {
+    transform: translateZ(160px) rotateY(180deg);
+  }
 }
 
 @media screen and (max-width: 991px) {
   .who-we-are-section-container {
-    max-width: 720px;
+    max-width: 650px;
   }
 }/*# sourceMappingURL=whoweare.css.map */
