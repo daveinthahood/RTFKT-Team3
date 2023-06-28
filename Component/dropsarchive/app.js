@@ -481,6 +481,488 @@ const state = {
       },
     },
   ],
+  __cards: [
+    {
+      id: "1",
+      logo: "../../Asset/image/blank-profile.jpg",
+      headTitle: "@RTFKT",
+      video: "../../Asset/Video/Card1.mp4",
+      title: "RTFKT x Nike Dunk Genesis",
+      amount: "1/10000",
+      creator: {
+        title: "@VIII",
+        img: "../../Asset/image/VIII.jpg",
+      },
+      categories: {
+        title: "Sneakers",
+        img: "../../Asset/image/RTFKT.jpg",
+      },
+    },
+    {
+      id: "2",
+      logo: "../../Asset/image/blank-profile.jpg",
+      headTitle: "@RTFKT",
+      video: "../../Asset/Video/Card1.mp4",
+      title: "RTFKT x Nike Dunk Genesis",
+      amount: "2/10000",
+      creator: {
+        title: "@PETIO",
+        img: "../../Asset/image/Petio.jpg",
+      },
+      categories: {
+        title: "Sneakers",
+        img: "../../Asset/image/RTFKT.jpg",
+      },
+    },
+    {
+      id: "3",
+      logo: "../../Asset/image/blank-profile.jpg",
+      headTitle: "@RTFKT",
+      video: "../../Asset/Video/Card1.mp4",
+      title: "RTFKT x Nike Dunk Genesis",
+      amount: "3/10000",
+      creator: {
+        title: "@RTFKT x NIKE",
+        img: "../../Asset/image/RTFKT.jpg",
+      },
+      categories: {
+        title: "Sneakers",
+        img: "../../Asset/image/RTFKT.jpg",
+      },
+    },
+    {
+      id: "4",
+      logo: "../../Asset/image/blank-profile.jpg",
+      headTitle: "@RTFKT",
+      video: "../../Asset/Video/Card1.mp4",
+      title: "RTFKT x Nike Dunk Genesis",
+      amount: "4/10000",
+      creator: {
+        title: "@RTFKT x NIKE",
+        img: "../../Asset/image/RTFKT.jpg",
+      },
+      categories: {
+        title: "Sneakers",
+        img: "../../Asset/image/RTFKT.jpg",
+      },
+    },
+    {
+      id: "5",
+      logo: "../../Asset/image/MURAKAMI-x-RTFKTCreat.jpg",
+      headTitle: "@RTFKT",
+      video: "../../Asset/Video/Card8.mp4",
+      title: "Undead Hoodie",
+      amount: "1/1000",
+      creator: {
+        title: "@MURAKAMI x RTFKT",
+        img: "../../Asset/image/MURAKAMI-x-RTFKTCreat.jpg",
+      },
+      categories: {
+        title: "Wearable",
+        img: "../../Asset/image/wearable.jpg",
+      },
+    },
+    {
+      id: "6",
+      logo: "../../Asset/image/MURAKAMI-x-RTFKTCreat.jpg",
+      headTitle: "@RTFKT",
+      video: "../../Asset/Video/Card7.mp4",
+      title: "Murakami Drip T-Shirt",
+      amount: "2/196",
+      creator: {
+        title: "@MURAKAMI x RTFKT",
+        img: "../../Asset/image/MURAKAMI-x-RTFKTCreat.jpg",
+      },
+      categories: {
+        title: "Wearable",
+        img: "../../Asset/image/wearable.jpg",
+      },
+    },
+    {
+      id: "7",
+      logo: "../../Asset/image/blank-profile.jpg",
+      headTitle: "@RTFKT",
+      video: "../../Asset/Video/Card5.mp4",
+      title: "MMGXS",
+      amount: "12/1000",
+      creator: {
+        title: "@MGXS",
+        img: "../../Asset/image/MGXS.jpg",
+      },
+      categories: {
+        title: "Toys",
+        img: "../../Asset/image/toys.jpg",
+      },
+    },
+    {
+      id: "8",
+      logo: "../../Asset/image/blank-profile.jpg",
+      headTitle: "@RTFKT",
+      video: "../../Asset/Video/Card5.mp4",
+      title: "RTFKT x Nike Dunk Genesis",
+      amount: "2/1000",
+      creator: {
+        title: "@MGXS",
+        img: "../../Asset/image/MGXS.jpg",
+      },
+      categories: {
+        title: "Toys",
+        img: "../../Asset/image/toys.jpg",
+      },
+    },
+    {
+      id: "9",
+      logo: "../../Asset/image/blank-profile.jpg",
+      headTitle: "@RTFKT",
+      video: "../../Asset/Video/Card5.mp4",
+      title: "MGXS",
+      amount: "3/1000",
+      creator: {
+        title: "@MGXS",
+        img: "../../Asset/image/MGXS.jpg",
+      },
+      categories: {
+        title: "Toys",
+        img: "../../Asset/image/toys.jpg",
+      },
+    },
+    {
+      id: "10",
+      logo: "../../Asset/image/MURAKAMI-x-RTFKTCreat.jpg",
+      headTitle: "@RTFKT",
+      video: "../../Asset/Video/Card6.mp4",
+      title: "Undead Pants",
+      amount: "3/1000",
+      creator: {
+        title: "@SEAN WILLIAMS",
+        img: "../../Asset/image/Sean-Williams.jpg",
+      },
+      categories: {
+        title: "Wearable",
+        img: "../../Asset/image/wearable.jpg",
+      },
+    },
+    {
+      id: "11",
+      logo: "../../Asset/image/blank-profile.jpg",
+      headTitle: "@RTFKT",
+      video: "../../Asset/Video/Card6.mp4",
+      title: "Reptille Pants",
+      amount: "1/121",
+      creator: {
+        title: "@RETROCOIN",
+        img: "../../Asset/image/Retrocoin.jpg",
+      },
+      categories: {
+        title: "Wearable",
+        img: "../../Asset/image/wearable.jpg",
+      },
+    },
+    {
+      id: "12",
+      logo: "../../Asset/image/blank-profile.jpg",
+      headTitle: "@RTFKT",
+      video: "../../Asset/Video/Card6.mp4",
+      title: "Murakami DNA Pants",
+      amount: "2/1000",
+      creator: {
+        title: "@MURAKAMI x RTFKT",
+        img: "../../Asset/image/MURAKAMI-x-RTFKTCreat.jpg",
+      },
+      categories: {
+        title: "Wearable",
+        img: "../../Asset/image/wearable.jpg",
+      },
+    },
+    {
+      id: "13",
+      logo: "../../Asset/image/blank-profile.jpg",
+      headTitle: "@RTFKT",
+      video: "../../Asset/Video/Card 2.mp4",
+      title: "SKIN VIAL EVO",
+      amount: "1/1000",
+      creator: {
+        title: "@RTFKT",
+        img: "../../Asset/image/RTFKT.jpg",
+      },
+      categories: {
+        title: "Toys",
+        img: "../../Asset/image/toys.jpg",
+      },
+    },
+    {
+      id: "14",
+      logo: "../../Asset/image/blank-profile.jpg",
+      headTitle: "@RTFKT",
+      video: "../../Asset/Video/Card1.mp4",
+      title: "RTFKT x Nike Dunk Genesis",
+      amount: "6/1000",
+      creator: {
+        title: "@RTFKT",
+        img: "../../Asset/image/RTFKT.jpg",
+      },
+      categories: {
+        title: "Sneakers",
+        img: "../../Asset/image/RTFKT.jpg",
+      },
+    },
+    {
+      id: "15",
+      logo: "../../Asset/image/blank-profile.jpg",
+      headTitle: "@RTFKT",
+      video: "../../Asset/Video/Card1.mp4",
+      title: "RTFKT x Nike Dunk Genesis",
+      amount: "10/1928",
+      creator: {
+        title: "@RTFKT",
+        img: "../../Asset/image/RTFKT.jpg",
+      },
+      categories: {
+        title: "Sneakers",
+        img: "../../Asset/image/RTFKT.jpg",
+      },
+    },
+    {
+      id: "16",
+      logo: "../../Asset/image/blank-profile.jpg",
+      headTitle: "@RTFKT",
+      video: "../../Asset/Video/Card1.mp4",
+      title: "RTFKT x Nike Dunk Genesis",
+      amount: "10/1875",
+      creator: {
+        title: "@N804D",
+        img: "../../Asset/image/NB04D.jpg",
+      },
+      categories: {
+        title: "Sneakers",
+        img: "../../Asset/image/RTFKT.jpg",
+      },
+    },
+    {
+      id: "17",
+      logo: "../../Asset/image/blank-profile.jpg",
+      headTitle: "@RTFKT",
+      video: "../../Asset/Video/Card7.mp4",
+      title: "Reptille T-Shirt",
+      amount: "2/1000",
+      creator: {
+        title: "@MURAKAMI x RTFKT",
+        img: "../../Asset/image/MURAKAMI-x-RTFKTCreat.jpg",
+      },
+      categories: {
+        title: "Wearable",
+        img: "../../Asset/image/wearable.jpg",
+      },
+    },
+    {
+      id: "18",
+      logo: "../../Asset/image/blank-profile.jpg",
+      headTitle: "@RTFKT",
+      video: "../../Asset/Video/Card7.mp4",
+      title: "Human T-Shirt",
+      amount: "1/1000",
+      creator: {
+        title: "@MURAKAMI x RTFKT",
+        img: "../../Asset/image/MURAKAMI-x-RTFKTCreat.jpg",
+      },
+      categories: {
+        title: "Wearable",
+        img: "../../Asset/image/wearable.jpg",
+      },
+    },
+    {
+      id: "19",
+      logo: "../../Asset/image/blank-profile.jpg",
+      headTitle: "@RTFKT",
+      video: "../../Asset/Video/Card 2.mp4",
+      title: "RTFKT x Nike Dunk Genesis",
+      amount: "5/1000",
+      creator: {
+        title: "@RTFKT",
+        img: "../../Asset/image/RTFKT.jpg",
+      },
+      categories: {
+        title: "Toys",
+        img: "../../Asset/image/toys.jpg",
+      },
+    },
+    {
+      id: "20",
+      logo: "../../Asset/image/blank-profile.jpg",
+      headTitle: "@RTFKT",
+      video: "../../Asset/Video/Card6.mp4",
+      title: "Angel Pants",
+      amount: "3/1000",
+      creator: {
+        title: "@RTFKT x SUPERRARE",
+        img: "../../Asset/image/RTFKT.jpg",
+      },
+      categories: {
+        title: "Wearable",
+        img: "../../Asset/image/wearable.jpg",
+      },
+    },
+    {
+      id: "21",
+      logo: "../../Asset/image/blank-profile.jpg",
+      headTitle: "@RTFKT",
+      video: "../../Asset/Video/Card6.mp4",
+      title: "Demon Pants",
+      amount: "1/10",
+      creator: {
+        title: "@RTFKT x SUPERRARE",
+        img: "../../Asset/image/RTFKT.jpg",
+      },
+      categories: {
+        title: "Wearable",
+        img: "../../Asset/image/wearable.jpg",
+      },
+    },
+    {
+      id: "22",
+      logo: "../../Asset/image/blank-profile.jpg",
+      headTitle: "@RTFKT",
+      video: "../../Asset/Video/Card5.mp4",
+      title: "RTFKT x BOX",
+      amount: "2/1000",
+      creator: {
+        title: "@RTFKT x BOX",
+        img: "../../Asset/image/RTFKT.jpg",
+      },
+      categories: {
+        title: "Toys",
+        img: "../../Asset/image/toys.jpg",
+      },
+    },
+    {
+      id: "23",
+      logo: "../../Asset/image/blank-profile.jpg",
+      headTitle: "@RTFKT",
+      video: "../../Asset/Video/Card5.mp4",
+      title: "RTFKT x Nike BOX",
+      amount: "2/100",
+      creator: {
+        title: "@RTFKT x BOX",
+        img: "../../Asset/image/RTFKT.jpg",
+      },
+      categories: {
+        title: "Toys",
+        img: "../../Asset/image/toys.jpg",
+      },
+    },
+    {
+      id: "24",
+      logo: "../../Asset/image/blank-profile.jpg",
+      headTitle: "@RTFKT",
+      video: "../../Asset/Video/Card5.mp4",
+      title: "RTFKT x BOX ADIDAS",
+      amount: "6/1000",
+      creator: {
+        title: "@RTFKT x BOX",
+        img: "../../Asset/image/RTFKT.jpg",
+      },
+      categories: {
+        title: "Toys",
+        img: "../../Asset/image/toys.jpg",
+      },
+    },
+    {
+      id: "25",
+      logo: "../../Asset/image/blank-profile.jpg",
+      headTitle: "@RTFKT",
+      video: "../../Asset/Video/Card1.mp4",
+      title: "RTFKT x NIKE",
+      amount: "2/1000",
+      creator: {
+        title: "@RTFKT",
+        img: "../../Asset/image/RTFKT.jpg",
+      },
+      categories: {
+        title: "Sneakers",
+        img: "../../Asset/image/RTFKT.jpg",
+      },
+    },
+    {
+      id: "26",
+      logo: "../../Asset/image/blank-profile.jpg",
+      headTitle: "@RTFKT",
+      video: "../../Asset/Video/Card1.mp4",
+      title: "RTFKT x Nike Dunk Genesis",
+      amount: "2/1000",
+      creator: {
+        title: "@RTFKT",
+        img: "../../Asset/image/RTFKT.jpg",
+      },
+      categories: {
+        title: "Sneakers",
+        img: "../../Asset/image/RTFKT.jpg",
+      },
+    },
+    {
+      id: "27",
+      logo: "../../Asset/image/blank-profile.jpg",
+      headTitle: "@RTFKT",
+      video: "../../Asset/Video/Card 2.mp4",
+      title: "RTFKT x Toys x GRINKER",
+      amount: "1/1",
+      creator: {
+        title: "@GRINKER",
+        img: "../../Asset/image/GuiMarconi.jpg",
+      },
+      categories: {
+        title: "Toys",
+        img: "../../Asset/image/toys.jpg",
+      },
+    },
+    {
+      id: "28",
+      logo: "../../Asset/image/blank-profile.jpg",
+      headTitle: "@RTFKT",
+      video: "../../Asset/Video/Card 2.mp4",
+      title: "RTFKT x Toys x SBRILLY",
+      amount: "1/1",
+      creator: {
+        title: "@SBRILLY",
+        img: "../../Asset/image/ZOME.jpg",
+      },
+      categories: {
+        title: "Toys",
+        img: "../../Asset/image/toys.jpg",
+      },
+    },
+    {
+      id: "29",
+      logo: "../../Asset/image/blank-profile.jpg",
+      headTitle: "@RTFKT",
+      video: "../../Asset/Video/Card 2.mp4",
+      title: "RTFKT x Toys x WHOISDAVE",
+      amount: "1/1",
+      creator: {
+        title: "@WHOISDAVE",
+        img: "../../Asset/image/Zaid.jpg",
+      },
+      categories: {
+        title: "Toys",
+        img: "../../Asset/image/toys.jpg",
+      },
+    },
+    {
+      id: "30",
+      logo: "../../Asset/image/blank-profile.jpg",
+      headTitle: "@RTFKT",
+      video: "../../Asset/Video/Card 2.mp4",
+      title: "RTFKT x Toys x Andrew",
+      amount: "1/1",
+      creator: {
+        title: "@ANDREW",
+        img: "../../Asset/image/ClegFX.jpg",
+      },
+      categories: {
+        title: "Toys",
+        img: "../../Asset/image/toys.jpg",
+      },
+    },
+  ],
 };
 
 const $menu = document.querySelector(".aside");
@@ -601,9 +1083,9 @@ const generateCard = (card) => {
 
 const generateCreatorBtn = (item) => {
   return `
-  <button class="button--filter" data-id=${item.creator.title}>
-  <img src=${item.creator.pic} />
-  <span>${item.creator.title}</span>
+  <button class="button--filter" data-id=${item.title}>
+  <img src=${item.pic} />
+  <span>${item.title}</span>
   </button>
   `;
 };
@@ -613,28 +1095,37 @@ const renderCreatorsBtn = (items) => {
 };
 const generateCategoriesBtn = (item) => {
   return `
-  <button class="button--filter" data-id=${item.categories.title}>
-  <img src=${item.categories.pic} />
-  <span>${item.categories.title}</span>
+  <button class="button--filter" data-id=${item.title}>
+  <img src=${item.pic} />
+  <span>${item.title}</span>
   </button>
   `;
 };
 
+const uniqueValue = (array1, array2, key) => {
+  const uniqueMap = new Map();
+  const unique = [];
 
-function getUniqueCreator(arr) {
-  const uniqueCreators = [];
-  
-  arr.map(item => {
-    if (item.creator === arr.creator && !uniqueCreators.includes(item)) {
-      uniqueCreators.push(item.creator);
+  array1.forEach(el => {
+    if (el[key] && el[key].title && array2.some(obj => obj[key] && obj[key].title === el[key].title)) {
+      const keyValue = el[key].title;
+      if (!uniqueMap.has(keyValue)) {
+        uniqueMap.set(keyValue, el[key]);
+        unique.push(el[key]);
+      }
     }
   });
-  
-  return uniqueCreators;
-}
 
-const newaRR = getUniqueCreator(state.cards);
-console.log(newaRR);
+  return unique;
+};
+
+
+const creators = uniqueValue(state.cards, state.__cards, "creator");
+const categories = uniqueValue(state.cards, state.__cards, "categories");
+
+console.log(creators);
+console.log(categories);
+
 
 const renderCategoriesBtn = (items) => {
   const HTML =[...items].map((item) => generateCategoriesBtn(item)).join("");
@@ -649,7 +1140,7 @@ const renderHTML = (cards) => {
 
 const init = () => {
   renderHTML(state.cards);
-  renderCreatorsBtn(state.cards);
-  renderCategoriesBtn(state.cards);
+  renderCreatorsBtn(creators);
+  renderCategoriesBtn(categories);
 };
 init();
