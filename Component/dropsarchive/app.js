@@ -7,8 +7,14 @@ const state = {
       video: "../../Asset/Video/Card1.mp4",
       title: "RTFKT x Nike Dunk Genesis",
       amount: "1/10000",
-      creator: "@RTFKT",
-      categories: "Sneakers",
+      creator: {
+        title: "@VIII",
+        img: "../../Asset/image/VIII.jpg"
+        },
+      categories: {
+        title: "Sneakers",
+        img: "../../Asset/image/RTFKT.jpg",
+        },
     },
     {
       id: "2",
@@ -17,8 +23,13 @@ const state = {
       video: "../../Asset/Video/Card1.mp4",
       title: "RTFKT x Nike Dunk Genesis",
       amount: "2/10000",
-      creator: "@RTFKT",
-      categories: "Sneakers",
+      creator: {
+              title: "@PETIO",
+              img: "../../Asset/image/Petio.jpg" },
+      categories: {
+        title: "Sneakers",
+        img: "../../Asset/image/RTFKT.jpg",
+        },
     },
     {
       id: "3",
@@ -27,8 +38,14 @@ const state = {
       video: "../../Asset/Video/Card1.mp4",
       title: "RTFKT x Nike Dunk Genesis",
       amount: "3/10000",
-      creator: "@RTFKT x Nike",
-      categories: "Sneakers",
+      creator:{
+        title: "@RTFKT x NIKE",
+        img: "../../Asset/image/RTFKT.jpg"
+        },
+      categories: {
+        title: "Sneakers",
+        img: "../../Asset/image/RTFKT.jpg",
+        },
     },
     {
       id: "4",
@@ -37,8 +54,14 @@ const state = {
       video: "../../Asset/Video/Card1.mp4",
       title: "RTFKT x Nike Dunk Genesis",
       amount: "4/10000",
-      creator: "@RTFKT x Nike",
-      categories: "Sneakers",
+      creator: {
+        title: "@RTFKT x NIKE",
+        img: "../../Asset/image/RTFKT.jpg"
+        },
+      categories: {
+        title: "Sneakers",
+        img: "../../Asset/image/RTFKT.jpg",
+        },
     },
     {
       id: "5",
@@ -47,8 +70,14 @@ const state = {
       video: "../../Asset/Video/Card8.mp4",
       title: "Undead Hoodie",
       amount: "1/1000",
-      creator: "@MURAKAMI x RTFKT",
-      categories: "Wearable",
+      creator: {
+        title: "@MURAKAMI x RTFKT",
+        img: "../../Asset/image/MURAKAMI-x-RTFKTCreat.jpg"
+        },
+      categories: {
+        title: "Wearable",
+        img: "../../Asset/image/wearable.jpg",
+        },
     },
     {
       id: "6",
@@ -57,18 +86,30 @@ const state = {
       video: "../../Asset/Video/Card7.mp4",
       title: "Murakami Drip T-Shirt",
       amount: "2/196",
-      creator: "@MURAKAMI x RTFKT",
-      categories: "Wearable",
+      creator: {
+        title: "@MURAKAMI x RTFKT",
+        img: "../../Asset/image/MURAKAMI-x-RTFKTCreat.jpg"
+        },
+      categories:  {
+        title: "Wearable",
+        img: "../../Asset/image/wearable.jpg",
+        },
     },
     {
       id: "7",
       logo: "../../Asset/image/blank-profile.jpg",
       headTitle: "@RTFKT",
       video: "../../Asset/Video/Card5.mp4",
-      title: "MNLTH",
+      title: "MMGXS",
       amount: "12/1000",
-      creator: "MNLTH",
-      categories: "Toys",
+      creator:  {
+        title: "@MGXS",
+        img: "../../Asset/image/MGXS.jpg"
+        },
+      categories:  {
+        title: "Toys",
+        img: "../../Asset/image/toys.jpg",
+        },
     },
     {
       id: "8",
@@ -77,18 +118,30 @@ const state = {
       video: "../../Asset/Video/Card5.mp4",
       title: "RTFKT x Nike Dunk Genesis",
       amount: "2/1000",
-      creator: "MNLTH",
-      categories: "Toys",
+      creator: {
+        title: "@MGXS",
+        img: "../../Asset/image/MGXS.jpg"
+        },
+      categories:  {
+        title: "Toys",
+        img: "../../Asset/image/toys.jpg",
+        },
     },
     {
       id: "9",
       logo: "../../Asset/image/blank-profile.jpg",
       headTitle: "@RTFKT",
       video: "../../Asset/Video/Card5.mp4",
-      title: "MNLTH",
+      title: "MGXS",
       amount: "3/1000",
-      creator: "MNLTH",
-      categories: "Toys",
+      creator:  {
+        title: "@MGXS",
+        img: "../../Asset/image/MGXS.jpg"
+        },
+      categories:  {
+        title: "Toys",
+        img: "../../Asset/image/toys.jpg",
+        },
     },
     {
       id: "10",
@@ -97,8 +150,14 @@ const state = {
       video: "../../Asset/Video/Card6.mp4",
       title: "Undead Pants",
       amount: "3/1000",
-      creator: "@RTFKTSUPERRARE",
-      categories: "Wearable",
+      creator:  {
+        title: "@SEAN WILLIAMS",
+        img: "../../Asset/image/Sean-Williams.jpg"
+        },
+      categories: {
+        title: "Wearable",
+        img: "../../Asset/image/wearable.jpg",
+        },
     },
     {
       id: "11",
@@ -107,8 +166,14 @@ const state = {
       video: "../../Asset/Video/Card6.mp4",
       title: "Reptille Pants",
       amount: "1/121",
-      creator: "@RTFKTSUPERRARE",
-      categories: "Wearable",
+      creator:  {
+        title: "@RETROCOIN",
+        img: "../../Asset/image/Retrocoin.jpg"
+        },
+      categories: {
+        title: "Wearable",
+        img: "../../Asset/image/wearable.jpg",
+        },
     },
     {
       id: "12",
@@ -117,8 +182,14 @@ const state = {
       video: "../../Asset/Video/Card6.mp4",
       title: "Murakami DNA Pants",
       amount: "2/1000",
-      creator: "@MURAKAMI x RTFKT",
-      categories: "Wearable",
+      creator: {
+        title: "@MURAKAMI x RTFKT",
+        img: "../../Asset/image/MURAKAMI-x-RTFKTCreat.jpg"
+        },
+      categories: {
+        title: "Wearable",
+        img: "../../Asset/image/wearable.jpg",
+        },
     },
     {
       id: "13",
@@ -127,8 +198,14 @@ const state = {
       video: "../../Asset/Video/Card 2.mp4",
       title: "SKIN VIAL EVO",
       amount: "1/1000",
-      creator: "@RTFKT",
-      categories: "Toys",
+      creator:  {
+        title: "@RTFKT",
+        img: "../../Asset/image/RTFKT.jpg"
+        },
+      categories: {
+        title: "Toys",
+        img: "../../Asset/image/toys.jpg",
+        },
     },
     {
       id: "14",
@@ -137,8 +214,14 @@ const state = {
       video: "../../Asset/Video/Card1.mp4",
       title: "RTFKT x Nike Dunk Genesis",
       amount: "6/1000",
-      creator: "@RTFKT",
-      categories: "Sneakers",
+      creator:  {
+        title: "@RTFKT",
+        img: "../../Asset/image/RTFKT.jpg"
+        },
+      categories:  {
+        title: "Sneakers",
+        img: "../../Asset/image/RTFKT.jpg",
+        },
     },
     {
       id: "15",
@@ -147,8 +230,14 @@ const state = {
       video: "../../Asset/Video/Card1.mp4",
       title: "RTFKT x Nike Dunk Genesis",
       amount: "10/1928",
-      creator: "@RTFKT",
-      categories: "Sneakers",
+      creator:   {
+        title: "@RTFKT",
+        img: "../../Asset/image/RTFKT.jpg"
+        },
+      categories:  {
+        title: "Sneakers",
+        img: "../../Asset/image/RTFKT.jpg",
+        },
     },
     {
       id: "16",
@@ -157,8 +246,14 @@ const state = {
       video: "../../Asset/Video/Card1.mp4",
       title: "RTFKT x Nike Dunk Genesis",
       amount: "10/1875",
-      creator: "@RTFKT",
-      categories: "Sneakers",
+      creator:   {
+        title: "@N804D",
+        img: "../../Asset/image/NB04D.jpg"
+        },
+      categories:  {
+        title: "Sneakers",
+        img: "../../Asset/image/RTFKT.jpg",
+        },
     },
     {
       id: "17",
@@ -167,8 +262,14 @@ const state = {
       video: "../../Asset/Video/Card7.mp4",
       title: "Reptille T-Shirt",
       amount: "2/1000",
-      creator: "@MURAKAMI x RTFKT",
-      categories: "Wearable",
+      creator:  {
+        title: "@MURAKAMI x RTFKT",
+        img: "../../Asset/image/MURAKAMI-x-RTFKTCreat.jpg"
+        },
+      categories:  {
+        title: "Wearable",
+        img: "../../Asset/image/wearable.jpg",
+        },
     },
     {
       id: "18",
@@ -177,8 +278,14 @@ const state = {
       video: "../../Asset/Video/Card7.mp4",
       title: "Human T-Shirt",
       amount: "1/1000",
-      creator: "@MURAKAMI x RTFKT",
-      categories: "Wearable",
+      creator:  {
+        title: "@MURAKAMI x RTFKT",
+        img: "../../Asset/image/MURAKAMI-x-RTFKTCreat.jpg"
+        },
+      categories:  {
+        title: "Wearable",
+        img: "../../Asset/image/wearable.jpg",
+        },
     },
     {
       id: "19",
@@ -187,8 +294,14 @@ const state = {
       video: "../../Asset/Video/Card 2.mp4",
       title: "RTFKT x Nike Dunk Genesis",
       amount: "5/1000",
-      creator: "@RTFKT",
-      categories: "Toys",
+      creator:   {
+        title: "@RTFKT",
+        img: "../../Asset/image/RTFKT.jpg"
+        },
+      categories: {
+        title: "Toys",
+        img: "../../Asset/image/toys.jpg",
+        },
     },
     {
       id: "20",
@@ -197,8 +310,14 @@ const state = {
       video: "../../Asset/Video/Card6.mp4",
       title: "Angel Pants",
       amount: "3/1000",
-      creator: "@RTFKTSUPERRARE",
-      categories: "Wearable",
+      creator:  {
+        title: "@RTFKT x SUPERRARE",
+        img: "../../Asset/image/RTFKT.jpg"
+        },
+      categories:  {
+        title: "Wearable",
+        img: "../../Asset/image/wearable.jpg",
+        },
     },
     {
       id: "21",
@@ -207,8 +326,14 @@ const state = {
       video: "../../Asset/Video/Card6.mp4",
       title: "Demon Pants",
       amount: "1/10",
-      creator: "@RTFKTSUPERRARE",
-      categories: "Wearable",
+      creator:   {
+        title: "@RTFKT x SUPERRARE",
+        img: "../../Asset/image/RTFKT.jpg"
+        },
+      categories:  {
+        title: "Wearable",
+        img: "../../Asset/image/wearable.jpg",
+        },
     },
     {
       id: "22",
@@ -217,8 +342,14 @@ const state = {
       video: "../../Asset/Video/Card5.mp4",
       title: "RTFKT x BOX",
       amount: "2/1000",
-      creator: "@RTFKT x BOX",
-      categories: "Toys",
+      creator:   {
+        title: "@RTFKT x BOX",
+        img: "../../Asset/image/RTFKT.jpg"
+        },
+      categories:  {
+        title: "Toys",
+        img: "../../Asset/image/toys.jpg",
+        },
     },
     {
       id: "23",
@@ -227,8 +358,14 @@ const state = {
       video: "../../Asset/Video/Card5.mp4",
       title: "RTFKT x Nike BOX",
       amount: "2/100",
-      creator: "@RTFKT x BOX",
-      categories: "Toys",
+      creator:   {
+        title: "@RTFKT x BOX",
+        img: "../../Asset/image/RTFKT.jpg"
+        },
+      categories:  {
+        title: "Toys",
+        img: "../../Asset/image/toys.jpg",
+        },
     },
     {
       id: "24",
@@ -237,8 +374,14 @@ const state = {
       video: "../../Asset/Video/Card5.mp4",
       title: "RTFKT x BOX ADIDAS",
       amount: "6/1000",
-      creator: "@RTFKT x BOX",
-      categories: "toys",
+      creator:   {
+        title: "@RTFKT x BOX",
+        img: "../../Asset/image/RTFKT.jpg"
+        },
+      categories:  {
+        title: "Toys",
+        img: "../../Asset/image/toys.jpg",
+        },
     },
     {
       id: "25",
@@ -247,8 +390,14 @@ const state = {
       video: "../../Asset/Video/Card1.mp4",
       title: "RTFKT x NIKE",
       amount: "2/1000",
-      creator: "@RTFKT",
-      categories: "Sneakers",
+      creator:   {
+        title: "@RTFKT",
+        img: "../../Asset/image/RTFKT.jpg"
+        },
+      categories:  {
+        title: "Sneakers",
+        img: "../../Asset/image/RTFKT.jpg",
+        },
     },
     {
       id: "26",
@@ -257,8 +406,14 @@ const state = {
       video: "../../Asset/Video/Card1.mp4",
       title: "RTFKT x Nike Dunk Genesis",
       amount: "2/1000",
-      creator: "@RTFKT",
-      categories: "Sneakers",
+      creator:   {
+        title: "@RTFKT",
+        img: "../../Asset/image/RTFKT.jpg"
+        },
+      categories:  {
+        title: "Sneakers",
+        img: "../../Asset/image/RTFKT.jpg",
+        },
     },
     {
       id: "27",
@@ -267,8 +422,14 @@ const state = {
       video: "../../Asset/Video/Card 2.mp4",
       title: "RTFKT x Toys x GRINKER",
       amount: "1/1",
-      creator: "@GRINKER",
-      categories: "Toys",
+      creator:{
+        title: "@GRINKER",
+        img: "../../Asset/image/GuiMarconi.jpg"
+        },
+      categories:  {
+        title: "Toys",
+        img: "../../Asset/image/toys.jpg",
+        },
     },
     {
       id: "28",
@@ -277,8 +438,14 @@ const state = {
       video: "../../Asset/Video/Card 2.mp4",
       title: "RTFKT x Toys x SBRILLY",
       amount: "1/1",
-      creator: "@SBRILLY",
-      categories: "Toys",
+      creator: {
+        title: "@SBRILLY",
+        img: "../../Asset/image/ZOME.jpg"
+        },
+      categories:  {
+        title: "Toys",
+        img: "../../Asset/image/toys.jpg",
+        },
     },
     {
       id: "29",
@@ -287,8 +454,14 @@ const state = {
       video: "../../Asset/Video/Card 2.mp4",
       title: "RTFKT x Toys x WHOISDAVE",
       amount: "1/1",
-      creator: "@WHOISDAVE",
-      categories: "Toys",
+      creator: {
+        title: "@WHOISDAVE",
+        img: "../../Asset/image/Zaid.jpg"
+        },
+      categories:  {
+        title: "Toys",
+        img: "../../Asset/image/toys.jpg",
+        },
     },
     {
       id: "30",
@@ -297,8 +470,14 @@ const state = {
       video: "../../Asset/Video/Card 2.mp4",
       title: "RTFKT x Toys x Andrew",
       amount: "1/1",
-      creator: "@ANDREW",
-      categories: "Toys",
+      creator: {
+        title: "@ANDREW",
+        img: "../../Asset/image/ClegFX.jpg"
+        },
+      categories:  {
+        title: "Toys",
+        img: "../../Asset/image/toys.jpg",
+        },
     },
   ]};
 
@@ -321,28 +500,32 @@ const $showCreat = document.querySelector("#showcreat");
 const $clearCreat = document.querySelector("#clearcreat");
 const $large = document.querySelector("#large");
 const $small = document.querySelector("#small");
-const $card = document.querySelectorAll(".section__shop__main__card");
 
 
-$large.addEventListener("click", () => {
-    $small.classList.add("transparent");
-    $large.classList.remove("transparent");
-    $large.style.transform = "scale(1.1)";
-    $small.style.transform = "";
-    [...$card].forEach(el => {
-        el.style.flex = "1 0 45%"
-    })
-})
-
-$small.addEventListener("click", () => {
-    $large.classList.add("transparent");
-    $small.classList.remove("transparent");
-    $small.style.transform = "scale(1.1)";
-    $large.style.transform = "";
-    [...$card].forEach(el => {
+document.addEventListener( "click", (event) => {
+    const target = event.target;
+    
+    if(target.classList.contains("small")){
+      $large.classList.add("transparent");
+      $small.classList.remove("transparent");
+      $small.style.transform = "scale(1.1)";
+      $large.style.transform = "";
+      [...document.querySelectorAll(".section__shop__main__card")].forEach(el => {
         el.style.flex = "1 0 30%"
+  })
+    }
+
+    if(target.classList.contains("large")){
+      $small.classList.add("transparent");
+      $large.classList.remove("transparent");
+      $large.style.transform = "scale(1.1)";
+      $small.style.transform = "";
+      [...document.querySelectorAll(".section__shop__main__card")].forEach(el => {
+          el.style.flex = "1 0 45%"
     })
-})
+  }})
+
+
 
 //*nasconde il menù filtri
 $hideButton.addEventListener("click", ()=> {
@@ -394,7 +577,7 @@ const generateCard = (card) => {
     return `
     <div class="section__shop__main__card">
     <!-- CARD TITLE -->
-    <div class="section__shop__main__card-title">
+    <div  class="section__shop__main__card-title">
       <img src="../../Asset/image/blank-profile.jpg" alt="" />
       <span> ${card.headTitle}</span>
     </div>
@@ -415,6 +598,32 @@ const generateCard = (card) => {
     `
 }
 
+const generateBtn = (item) => {
+  return `
+  <button class="button--filter" data-id=${item.title}>
+  <img src=${item.pic} />
+  <span>${item.title}</span>
+  </button>
+  `
+
+}
+// const renderBtn = (items) => {
+//   // Creiamo un nuovo array per tenere traccia dei valori unici
+//   let uniqueValues = [];
+//   for (var i = 0; i < items.length; i++) {
+//     let currentItem = items[i];
+//     if (uniqueValues.indexOf(currentItem) === false) {
+//       uniqueValues.push(currentItem);
+
+//       // Creiamo un elemento button HTML
+//       var button = document.createElement("button");
+//       button.innerHTML = currentItem;
+
+//       // Aggiungiamo il bottone alla pagina (o ad un elemento specifico)
+//       document.body.appendChild(button);
+//     }
+//   }
+// }
 const renderHTML = (cards) => {
    const HTML = [...cards].map(card => generateCard(card))
    $section.innerHTML = HTML;
