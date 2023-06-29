@@ -300,3 +300,4 @@ const arrayObject = [
     categories: "Toys",
   },
 ];
+export default arrayObject;

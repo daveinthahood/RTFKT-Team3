@@ -379,6 +379,11 @@ body {
   color: black;
   cursor: pointer;
 }
+.button--filter:active {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
 
 @font-face {
   font-family: "TT Alientz Grotesque";
@@ -658,4 +663,162 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 15px;
+}
+
+@media only screen and (max-width: 991px) {
+  body .section {
+    max-width: 668px;
+    margin: 0 auto;
+  }
+  body .section__shop {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+.aside__section--text--title:hover {
+  cursor: pointer;
+}
+
+.section__shop {
+  width: 1350px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.section__shop__header {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  width: 100%;
+  padding-bottom: 25px;
+}
+.section__shop__header--show button {
+  display: none;
+}
+.section__shop__header--search {
+  margin-left: auto;
+  width: 80%;
+  position: relative;
+}
+.section__shop__header--search input {
+  padding: 10px;
+  border-radius: 2rem;
+  position: absolute;
+  right: 0;
+  bottom: -18px;
+  width: 100%;
+  transform: translateX(0);
+  opacity: 0;
+  transition: all 100ms ease-in;
+}
+.section__shop__header--search #searchbtn {
+  border: 1px solid white;
+  background-color: #272932;
+  border-radius: 50%;
+  padding: 8px;
+  position: absolute;
+  right: 0;
+  top: -18px;
+}
+.section__shop__header--search #searchbtn:hover {
+  cursor: pointer;
+}
+.section__shop__header--search #clssrcbtn {
+  display: none;
+  border-radius: 50%;
+  border: 1px solid #272932;
+  padding: 8px;
+  position: absolute;
+  right: 0;
+  top: -18px;
+}
+.section__shop__header--search #clssrcbtn:hover {
+  cursor: pointer;
+}
+.section__shop__header--layout {
+  margin-left: 10px;
+  border: 1px solid #b5b5b8;
+  border-radius: 2rem;
+}
+.section__shop__header--layout .transparent {
+  background-color: transparent;
+}
+.section__shop__header--layout button {
+  padding: 8px;
+  border-radius: 50%;
+  border: none;
+}
+.section__shop__header--layout button .layouticon {
+  font-size: 20px;
+  width: 16px;
+}
+.section__shop__header--layout button:hover {
+  cursor: pointer;
+}
+.section__shop__main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.section__shop__main__card {
+  background-color: #272932;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 20px;
+  color: #e9ecef;
+  border-radius: 1rem;
+  flex: 1 0 30%;
+  max-width: 350px;
+}
+.section__shop__main__card-title {
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  gap: 10px;
+  font-weight: 700;
+  align-items: center;
+  padding-top: 10px;
+}
+.section__shop__main__card-title img {
+  width: 30px;
+  border-radius: 50%;
+}
+.section__shop__main__card-vid {
+  width: 95%;
+  margin-inline: auto;
+}
+.section__shop__main__card-vid video {
+  width: 100%;
+  border-radius: 1rem;
+}
+.section__shop__main__card-vid video:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 80px 1px #0b325e;
+}
+.section__shop__main__card-footer {
+  width: 95%;
+  margin: 0 auto;
+  padding-bottom: 40px;
+  font-weight: 600;
+}
+.section__shop__main__card-footer-description {
+  font-size: 0.8rem;
+  color: #b5b5b8;
+}
+.section__shop > button {
+  background-color: transparent;
+  border: 1px solid #6c757d;
+  margin: 0 auto;
+  text-transform: uppercase;
+  width: 100%;
+  max-width: 555px;
+  padding: 10px;
+  border-radius: 1rem;
+  color: white;
+  font-weight: 600;
+}
+.section__shop > button:hover {
+  background-color: white;
+  color: black;
 }/*# sourceMappingURL=indec.css.map */

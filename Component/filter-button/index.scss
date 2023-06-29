@@ -31,4 +31,9 @@ body{
         color: $color-black;
         cursor: pointer;
     }
+    &:active{
+        background-color: $color-white;
+        color: $color-black;
+        cursor: pointer;
+    }
 }

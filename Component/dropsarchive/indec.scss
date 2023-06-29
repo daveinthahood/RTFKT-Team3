@@ -24,3 +24,171 @@
     }
   
 }
+
+@media only screen and (max-width: 991px) {
+    body .section {
+      max-width: 668px;
+      margin: 0 auto;
+      &__shop {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+  }
+  .aside__section--text--title:hover{
+    cursor: pointer;
+  }
+  
+  .section__shop {
+    width: 1350px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    &__header{
+      display: flex;
+      align-items: center;
+      margin: 0 auto;
+      width: 100%;
+      padding-bottom: 25px;
+      &--show{ 
+        & button {
+          display: none;
+        }
+      }
+      &--search{
+        margin-left: auto;
+        width: 80%;
+        position: relative;
+
+        & input{
+            padding: 10px;
+            border-radius: 2rem;
+            position: absolute;
+            right: 0;
+            bottom: -18px;
+            width: 100%;
+            transform: translateX(0);
+            opacity: 0;
+            transition: all 100ms ease-in;
+        }
+        & #searchbtn{
+            border: 1px solid $color-white;
+            background-color: $color-gray-700;
+            border-radius: 50%;
+            padding: 8px;
+            position: absolute;
+            right: 0;
+            top: -18px;
+            &:hover{
+              cursor: pointer;
+            }
+          }
+        
+        & #clssrcbtn{
+          display: none;
+          border-radius: 50%;
+          border: 1px solid $color-gray-700;
+          padding: 8px;
+          position: absolute;
+          right: 0;
+          top: -18px;
+          &:hover{
+            cursor: pointer;
+          }
+        }
+      }
+      &--layout{
+        margin-left: 10px;
+        border:  1px solid $color-gray-500;
+        border-radius: 2rem;
+        
+        .transparent{
+          background-color: transparent;
+        }
+        
+        & button{
+          padding: 8px;
+          border-radius: 50%;
+          border: none;
+          .layouticon{
+            font-size: 20px;
+            width: 16px;
+          }
+          &:hover{
+            cursor: pointer;
+          }
+        }
+
+      }
+    }
+    &__main {
+      display: flex;
+      flex-wrap: wrap;
+      gap:10px;
+      &__card {
+        background-color: $color-gray-700;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 20px;
+        color: $color-gray-200;
+        border-radius: 1rem;
+        flex: 1 0 30%;
+        max-width: 350px;
+        &-title {
+          width: 95%;
+          margin: 0 auto;
+          display: flex;
+          gap: 10px;
+          font-weight: 700;
+          align-items: center;
+          padding-top: 10px;
+          & img {
+            width: 30px;
+            border-radius: 50%;
+          }
+        }
+        &-vid {
+          width: 95%;
+          margin-inline: auto;
+          video {
+            width: 100%;
+            border-radius: 1rem;
+            &:hover {
+              cursor: pointer;
+              -webkit-box-shadow: 0px 0px 20px 38px #0b325e;
+              box-shadow: 0px 0px 80px 1px #0b325e;
+            }
+          }
+        }
+        &-footer {
+          width: 95%;
+          margin: 0 auto;
+          padding-bottom: 40px;
+          font-weight: 600;
+          &-description {
+            font-size: 0.8rem;
+            color: $color-gray-500;
+          }
+        }
+      }
+    }
+    &> button{
+      background-color: transparent;
+      border: 1px solid $color-gray-600;
+      margin: 0 auto;
+      text-transform: uppercase;
+      width: 100%;
+      max-width: 555px;
+      padding: 10px;
+      border-radius: 1rem;
+      color: white;
+      font-weight: 600;
+      &:hover{
+          background-color: $color-white;
+          color: black;
+      }
+  }
+  }
+
+  

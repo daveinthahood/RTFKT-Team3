@@ -6,6 +6,13 @@
     <title>RTFKT | Drops Archive</title>
     <link rel="stylesheet" href="../common.css" />
     <link rel="stylesheet" href="./indec.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <!--Navbar -->
@@ -119,7 +126,7 @@
       <div class="aside">
         <!-- HIDER  -->
         <div class="aside aside__section--hide">
-          <button class="button--hide">hide filter</button>
+          <button class="button--hide" id="hide">hide filter</button>
         </div>
         <!-- FINE HIDER -->
 
@@ -128,17 +135,17 @@
         <!-- INIZIO CAT -->
         <div class="aside aside__section">
           <div class="aside__section--text">
-            <div class="aside__section--text--title">
-              <span> categories </span>
-              <span class="aside__section--text--title--dispaly" id="displayed">
+            <div class="aside__section--text--title"  >
+              <span id="showcat"> categories </span>
+              <span class="aside__section--text--title--dispaly">
                 (1)
               </span>
             </div>
             <div class="aside__section--text--b">
-              <button id="clear">x</button>
+              <button id="clearcat">x</button>
             </div>
           </div>
-          <div class="aside__section--button">
+          <div class="aside__section--button categories">
             <button class="button--filter">
               <img src="../../Asset/image/avatarCat.png" />
               <span>Avatar</span>
@@ -165,16 +172,16 @@
         <div class="aside aside__section">
           <div class="aside__section--text">
             <div class="aside__section--text--title">
-              <span> creators </span>
-              <span class="aside__section--text--title--dispaly" id="displayed">
+              <span id="showcreat"> creators </span>
+              <span class="aside__section--text--title--dispaly">
                 (1)
               </span>
             </div>
             <div class="aside__section--text--b">
-              <button id="clear">x</button>
+              <button id="clearcreat">x</button>
             </div>
           </div>
-          <div class="aside__section--button">
+          <div class="aside__section--button" id="creators">
             <button class="button--filter">
               <img src="../../Asset/image/Cory-Van-LewCreat.jpg" />
               <span>Cory Van Lew</span>
@@ -213,134 +220,28 @@
         </div>
       </div>
 
-      <div class="card">
-        <div class="section__shop__card">
-          <!-- CARD TITLE -->
-          <div class="section__shop__card-title">
-            <img src="../../Asset/image/blank-profile.jpg" alt="" />
-            <span> @RTFKT</span>
+      <div class="section__shop">
+        <div class="section__shop__header">
+          <div class="section__shop__header--show"><button class="button--hide" id="show">show filter</button></div>
+          <div class="section__shop__header--search">
+            <input type="text" name="searcbox" id="searchbox">
+            <button id="searchbtn"><img src="../../Asset/image/search.png" alt=""></button>
+            <button id="clssrcbtn"><img src="../../Asset/image/cross-small.png" alt=""></button>
           </div>
-          <!--  CARD VID -->
-          <div class="section__shop__card-vid">
-            <video play="false" muted loop plays-inline >
-              <source src="../../Asset/Video/Card1.mp4" type="video/mp4" />
-            </video>
-          </div>
-          <!-- CARD FOOTER -->
-          <div class="section__shop__card-footer">
-            <div class="section__shop__card-footer-title">
-              RTFKT x Nike Dunk Genesis
-            </div>
-            <div class="section__shop__card-footer-description">1/20000</div>
+          <div class="section__shop__header--layout">
+            <button id="large" class="transparent"><i class="fa-regular fa-square  layouticon large"></i></button>
+            <button id="small" ><i class="fa-solid fa-grip-vertical layouticon small"></i></button>
           </div>
         </div>
+       <div class="section__shop__main">
 
-        <div class="section__shop__card">
-          <!-- CARD TITLE -->
-          <div class="section__shop__card-title">
-            <img src="../../Asset/image/blank-profile.jpg" alt="" />
-            <span> @RTFKT</span>
-          </div>
-          <!--  CARD VID -->
-          <div class="section__shop__card-vid">
-            <video play="false" muted loop plays-inline>
-              <source src="../../Asset/Video/Card 2.mp4" type="video/mp4" />
-            </video>
-          </div>
-          <!-- CARD FOOTER -->
-          <div class="section__shop__card-footer">
-            <div class="section__shop__card-footer-title">
-              RTFKT x Nike Dunk Genesis
-            </div>
-            <div class="section__shop__card-footer-description">1/20000</div>
-          </div>
-        </div>
-
-        <div class="section__shop__card">
-          <!-- CARD TITLE -->
-          <div class="section__shop__card-title">
-            <img src="../../Asset/image/blank-profile.jpg" alt="" />
-            <span> @RTFKT</span>
-          </div>
-          <!--  CARD VID -->
-          <div class="section__shop__card-vid">
-            <video play="false" muted loop plays-inline>
-              <source src="../../Asset/Video/Card5.mp4" type="video/mp4" />
-            </video>
-          </div>
-          <!-- CARD FOOTER -->
-          <div class="section__shop__card-footer">
-            <div class="section__shop__card-footer-title">
-              RTFKT x Nike Dunk Genesis
-            </div>
-            <div class="section__shop__card-footer-description">1/20000</div>
-          </div>
-        </div>
-
-        <div class="section__shop__card">
-          <!-- CARD TITLE -->
-          <div class="section__shop__card-title">
-            <img src="../../Asset/image/blank-profile.jpg" alt="" />
-            <span> @RTFKT</span>
-          </div>
-          <!--  CARD VID -->
-          <div class="section__shop__card-vid">
-            <video play="false" muted loop plays-inline>
-              <source src="../../Asset/Video/Card6.mp4" type="video/mp4" />
-            </video>
-          </div>
-          <!-- CARD FOOTER -->
-          <div class="section__shop__card-footer">
-            <div class="section__shop__card-footer-title">
-              RTFKT x Nike Dunk Genesis
-            </div>
-            <div class="section__shop__card-footer-description">1/20000</div>
-          </div>
-        </div>
-
-        <div class="section__shop__card">
-          <!-- CARD TITLE -->
-          <div class="section__shop__card-title">
-            <img src="../../Asset/image/blank-profile.jpg" alt="" />
-            <span> @RTFKT</span>
-          </div>
-          <!--  CARD VID -->
-          <div class="section__shop__card-vid">
-            <video play="false" muted loop plays-inline>
-              <source src="../../Asset/Video/Card7.mp4" type="video/mp4" />
-            </video>
-          </div>
-          <!-- CARD FOOTER -->
-          <div class="section__shop__card-footer">
-            <div class="section__shop__card-footer-title">
-              RTFKT x Nike Dunk Genesis
-            </div>
-            <div class="section__shop__card-footer-description">1/20000</div>
-          </div>
-        </div>
-
-        <div class="section__shop__card">
-          <!-- CARD TITLE -->
-          <div class="section__shop__card-title">
-            <img src="../../Asset/image/blank-profile.jpg" alt="" />
-            <span> @RTFKT</span>
-          </div>
-          <!--  CARD VID -->
-          <div class="section__shop__card-vid">
-            <video play="false" muted loop plays-inline>
-              <source src="../../Asset/Video/Card8.mp4" type="video/mp4" />
-            </video>
-          </div>
-          <!-- CARD FOOTER -->
-          <div class="section__shop__card-footer">
-            <div class="section__shop__card-footer-title">
-              RTFKT x Nike Dunk Genesis
-            </div>
-            <div class="section__shop__card-footer-description">1/20000</div>
-          </div>
-        </div>
+      </div>
+      <div class="buttons-pages">
+        <button id="prev">-</button>
+        <button id="next">+</button>
       </div>
     </div>
+  </div>
 
     <!--Footer -->
     <footer id="footer">
@@ -411,7 +312,6 @@
       </div>
     </footer>
 
-    <script src="../filter-menu/app.js"> </script>
-    <script src="../shop-card/app.js"></script>
+    <script src="./app.js"></script>
   </body>
 </html>
