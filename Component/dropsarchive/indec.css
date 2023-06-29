@@ -787,12 +787,16 @@ body {
 .section__shop__main__card-vid {
   width: 95%;
   margin-inline: auto;
+  border-radius: 1rem;
+  overflow: hidden;
 }
 .section__shop__main__card-vid video {
   width: 100%;
   border-radius: 1rem;
+  transition: transform 0.9s ease;
 }
 .section__shop__main__card-vid video:hover {
+  transform: scale(1.1);
   cursor: pointer;
   box-shadow: 0px 0px 80px 1px #0b325e;
 }
