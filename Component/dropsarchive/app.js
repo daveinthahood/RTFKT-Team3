@@ -1026,19 +1026,19 @@ const setEventListener = () => {
 }
 document.addEventListener("mouseover", (event) => {
   const target= event.target;
-  const vid = document.querySelector("video");
+  const vid = document.querySelector("#shopVid");
   if(target.classList.contains("section__shop__main__card")){
     vid.play();  
+    
   }
   
 });
 
 document.addEventListener("mouseout", (event) => {
   const target= event.target;
-  const vid = document.querySelector("video");
+  const vid = document.querySelector("#shopVid");
   if(target.classList.contains("section__shop__main__card")){
     vid.pause(); 
-
   }
 
 
@@ -1164,7 +1164,7 @@ const generateCard = (card) => {
     </div>
     <!--  CARD VID -->
     <div class="section__shop__main__card-vid">
-    <video play="false" frameborder="0" muted loop plays-inline>
+    <video id="shopVid" play="false" frameborder="0" muted loop plays-inline>
         <source src="${card.video}" type="video/mp4" />
       </video>
     </div>
