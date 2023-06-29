@@ -20,18 +20,19 @@ body {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  max-width: 1350px;
+  max-width: 1424px;
+  margin-bottom: 80px;
+  gap: 10px;
 }
 .private-mint-checker-section > h2 {
   font-family: "Montserrat";
-  margin: 2rem 0;
   color: #dee2e6;
   font-size: 1rem;
 }
 
 .container {
   display: inline-flex;
-  max-width: 1350px;
+  max-width: 1424px;
   width: 100%;
   margin: 0 auto;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1490196078);

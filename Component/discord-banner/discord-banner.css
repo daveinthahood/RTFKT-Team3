@@ -18,13 +18,13 @@ body {
 
 .discord-banner-section {
   margin: 0 auto;
+  margin-top: 80px;
+  margin-bottom: 80px;
   border-radius: 15px;
   background-image: linear-gradient(to right, transparent, rgb(39, 41, 50) 68%), url(../../Asset/image/Grid2x.png);
   box-shadow: 0 0.1rem 0.2rem rgba(0, 0, 0, 0.3);
   background-size: cover;
-  max-width: 1380px;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+  max-width: 1424px;
 }
 
 .discord-banner-section--conteriner {
