@@ -80,10 +80,11 @@ body {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  max-width: 1350px;
+  max-width: 1424px;
   z-index: 2;
   gap: 40px;
   margin: 0 auto;
+  margin-bottom: 80px;
 }
 .main__section__left {
   display: flex;
@@ -160,7 +161,7 @@ body {
   display: flex;
 }
 .main__section__right__card {
-  max-width: 1350px;
+  max-width: 1424px;
   color: white;
   font-family: "Montserrat";
   display: flex;

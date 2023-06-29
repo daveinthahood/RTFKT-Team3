@@ -1,16 +1,15 @@
-@import '../common.scss';
-
-
+@import "../common.scss";
 
 .bottom-section {
-  padding-top: 20px;
   width: 85%;
-  max-width: 1400px;
+  max-width: 1424px;
   margin: 0 auto;
+  margin-bottom: 80px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   gap: 20px;
+
   #image {
     width: 50%;
     #image1 {
@@ -32,7 +31,7 @@
       display: flex;
       color: $color-white;
       font-weight: 700;
-      #awesome-people-para{
+      #awesome-people-para {
         color: white;
         font-family: "Montserrat", sans-serif;
       }
@@ -91,7 +90,7 @@
   }
 }
 
-@media (min-width:770px) and (max-width: 1150px) {
+@media (min-width: 770px) and (max-width: 1150px) {
   .bottom-section {
     #image {
       display: none;
@@ -108,5 +107,3 @@
     }
   }
 }
-
-

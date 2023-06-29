@@ -1,11 +1,6 @@
 @import "../common.scss";
 @import "../common.scss";
 
-// body {
-//   background-color: $color-body-bg;
-//   margin: 0;
-// }
-
 body {
   background-color: $color-body-bg;
   margin: 0;
@@ -13,12 +8,14 @@ body {
 
 .who-we-are-section-container {
   margin: 0 auto;
-  max-width: 1350px;
+  max-width: 1424px;
+  margin-bottom: 80px;
+
   > h2 {
     font-family: $primary-font;
     font-size: 20px;
     color: $color-gray-300;
-    margin-left: 2rem;
+    padding-bottom: 10px;
   }
 }
 
@@ -43,35 +40,27 @@ body {
       cursor: pointer;
       &:hover {
         text-decoration: underline $color-indigo;
-        cursor: pointer;         
+        cursor: pointer;
       }
     }
 
-    #picHover, 
+    #picHover,
     #picHover1,
     #picHover2,
-    #picHover3, 
+    #picHover3,
     #picHover4,
     #picHover5,
-    #picHover6, 
+    #picHover6,
     #picHover7,
-    #picHover8
-     {
+    #picHover8 {
       position: absolute;
       border-radius: 1rem;
       max-width: 260px;
       opacity: 20;
-     }
-    
+    }
   }
-
 }
 //keyframe
-
-
-  
-
-
 
 @media screen and (max-width: 991px) {
   .who-we-are-section-container {

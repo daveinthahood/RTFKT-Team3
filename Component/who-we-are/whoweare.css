@@ -33,13 +33,14 @@ body {
 
 .who-we-are-section-container {
   margin: 0 auto;
-  max-width: 1350px;
+  max-width: 1424px;
+  margin-bottom: 80px;
 }
 .who-we-are-section-container > h2 {
   font-family: "Montserrat";
   font-size: 20px;
   color: #dee2e6;
-  margin-left: 2rem;
+  padding-bottom: 10px;
 }
 
 #whoWeAre-Container {

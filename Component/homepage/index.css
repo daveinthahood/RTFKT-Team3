@@ -352,10 +352,11 @@ body {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  max-width: 1350px;
+  max-width: 1424px;
   z-index: 2;
   gap: 40px;
   margin: 0 auto;
+  margin-bottom: 80px;
 }
 .main__section__left {
   display: flex;
@@ -432,7 +433,7 @@ body {
   display: flex;
 }
 .main__section__right__card {
-  max-width: 1350px;
+  max-width: 1424px;
   color: white;
   font-family: "Montserrat";
   display: flex;
@@ -505,18 +506,19 @@ body {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  max-width: 1350px;
+  max-width: 1424px;
+  margin-bottom: 80px;
+  gap: 10px;
 }
 .private-mint-checker-section > h2 {
   font-family: "Montserrat";
-  margin: 2rem 0;
   color: #dee2e6;
   font-size: 1rem;
 }
 
 .container {
   display: inline-flex;
-  max-width: 1350px;
+  max-width: 1424px;
   width: 100%;
   margin: 0 auto;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1490196078);
@@ -672,11 +674,12 @@ body {
   }
 }
 .section {
-  width: 1350px;
+  width: 1424px;
   gap: 10px;
   display: flex;
   flex-direction: column;
   margin: 0 auto;
+  margin-bottom: 80px;
 }
 .section__title {
   text-transform: uppercase;
@@ -768,13 +771,13 @@ body {
 
 .discord-banner-section {
   margin: 0 auto;
+  margin-top: 80px;
+  margin-bottom: 80px;
   border-radius: 15px;
   background-image: linear-gradient(to right, transparent, rgb(39, 41, 50) 68%), url(../../Asset/image/Grid2x.png);
   box-shadow: 0 0.1rem 0.2rem rgba(0, 0, 0, 0.3);
   background-size: cover;
-  max-width: 1380px;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+  max-width: 1424px;
 }
 
 .discord-banner-section--conteriner {
@@ -1052,13 +1055,14 @@ body {
 
 .who-we-are-section-container {
   margin: 0 auto;
-  max-width: 1350px;
+  max-width: 1424px;
+  margin-bottom: 80px;
 }
 .who-we-are-section-container > h2 {
   font-family: "Montserrat";
   font-size: 20px;
   color: #dee2e6;
-  margin-left: 2rem;
+  padding-bottom: 10px;
 }
 
 #whoWeAre-Container {
@@ -1128,7 +1132,7 @@ body {
 #footer #footer2 {
   display: flex;
   width: 80%;
-  max-width: 1450px;
+  max-width: 1424px;
   margin: 0 auto;
   padding-top: 25px;
   font-family: "Montserrat", sans-serif;
@@ -1247,6 +1251,8 @@ body {
   display: flex;
   flex-direction: column;
   padding: 0 24px;
+  margin-bottom: 80px;
+  gap: 10px;
 }
 .try-them-on .section-name {
   display: flex;
@@ -1254,7 +1260,6 @@ body {
 }
 .try-them-on .section-name h2 {
   font-size: 1rem;
-  margin: 0 0 2rem 0;
 }
 .try-them-on__cards-container {
   display: flex;
@@ -1478,10 +1483,10 @@ body {
 }
 
 .bottom-section {
-  padding-top: 20px;
   width: 85%;
-  max-width: 1400px;
+  max-width: 1424px;
   margin: 0 auto;
+  margin-bottom: 80px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -1579,9 +1584,17 @@ body {
   left: 0;
   top: 0;
   width: 100%;
-  height: 600px;
+  height: 624px;
   z-index: -100;
   -o-object-fit: cover;
      object-fit: cover;
-  background: linear-gradient(-135deg, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 100%, rgb(0, 0, 0) 100%);
+}
+
+.BG-overlay {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  height: 624px;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.6) 5%, rgb(31, 32, 40) 100%);
 }/*# sourceMappingURL=index.css.map */

@@ -8,6 +8,8 @@ body {
   display: flex;
   flex-direction: column;
   padding: 0 24px;
+  margin-bottom: 80px;
+  gap: 10px;
 
   .section-name {
     display: flex;
@@ -15,7 +17,6 @@ body {
 
     h2 {
       font-size: 1rem;
-      margin: 0 0 2rem 0;
     }
   }
 

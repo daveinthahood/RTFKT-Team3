@@ -13,10 +13,10 @@ body {
 }
 
 .bottom-section {
-  padding-top: 20px;
   width: 85%;
-  max-width: 1400px;
+  max-width: 1424px;
   margin: 0 auto;
+  margin-bottom: 80px;
   display: flex;
   flex-direction: row;
   justify-content: center;

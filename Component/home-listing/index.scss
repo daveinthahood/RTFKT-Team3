@@ -11,11 +11,13 @@
 }
 
 .section {
-  width: 1350px;
+  width: 1424px;
   gap: 10px;
   display: flex;
   flex-direction: column;
   margin: 0 auto;
+  margin-bottom: 80px;
+
   &__title {
     text-transform: uppercase;
     color: $color-gray-200;
@@ -72,7 +74,7 @@
       }
     }
   }
-  &> button{
+  & > button {
     background-color: transparent;
     border: 1px solid $color-gray-600;
     margin: 0 auto;
@@ -83,9 +85,9 @@
     border-radius: 1rem;
     color: white;
     font-weight: 600;
-    &:hover{
-        background-color: $color-white;
-        color: black;
+    &:hover {
+      background-color: $color-white;
+      color: black;
     }
-}
+  }
 }
