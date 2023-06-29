@@ -13,25 +13,23 @@ const $myPic = document.getElementById('picHover');
 $span.addEventListener("mousemove", (event) => {
     const target = event.target;
     if(target.classList.contains("pic")){
-        const id = target.dataset.id;
         $myPic.src="https://cdn.rtfkt.com/assets/whoarewe/creator.gif";   
     }
 })
 
 $span.addEventListener("mouseleave", (event) => {
-    const target = event.target;
-    if(target.classList.contains("pic")){
-        const id = target.dataset.id;
-        $myPic.src="";   
-    }
+        $myPic.style.display= "none";   
+
 })
 
 $span.addEventListener('mousemove', (event) => {
-    const cursor = document.querySelector('#picHover');
-    cursor.style.top = event.clientY + 'px';
-    cursor.style.left = event.clientX + 'px';
-    cursor.style.zIndex = "1";
-    cursor.style.opacity = "1";
+    $myPic.style.display = "inherit";
+    $myPic.src="https://cdn.rtfkt.com/assets/whoarewe/creator.gif";   
+    $myPic.style.top =`${event.clientX/100}px` ;
+    $myPic.style.left = `${event.clientY/100}px`;
+    console.log(event.clientY,event.clientX);
+    $myPic.style.zIndex = "1";
+    $myPic.style.opacity = "1";
   })
 
 
