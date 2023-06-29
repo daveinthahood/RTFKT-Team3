@@ -43,10 +43,7 @@ body {
       cursor: pointer;
       &:hover {
         text-decoration: underline $color-indigo;
-        cursor: pointer;  
-        -webkit-animation: flip-vertical-fwd 0.3s forwards;
-        animation: flip-vertical-fwd 0.3s forwards;  
-        
+        cursor: pointer;         
       }
     }
 
@@ -61,26 +58,7 @@ body {
 
 }
 //keyframe
-@-webkit-keyframes flip-vertical-fwd {
-    0% {
-      -webkit-transform: translateZ(0) rotateY(0);
-              transform: translateZ(0) rotateY(0);
-    }
-    100% {
-      -webkit-transform: translateZ(160px) rotateY(180deg);
-              transform: translateZ(160px) rotateY(180deg);
-    }
-  }
-  @keyframes flip-vertical-fwd {
-    0% {
-      -webkit-transform: translateZ(0) rotateY(0);
-              transform: translateZ(0) rotateY(0);
-    }
-    100% {
-      -webkit-transform: translateZ(160px) rotateY(180deg);
-              transform: translateZ(160px) rotateY(180deg);
-    }
-  }
+
 
   
 

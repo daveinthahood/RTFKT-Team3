@@ -68,7 +68,6 @@ body {
   -webkit-text-decoration: underline #6610f2;
           text-decoration: underline #6610f2;
   cursor: pointer;
-  animation: flip-vertical-fwd 0.3s forwards;
 }
 #whoWeAre-Container .whoWeAre-text #picHover {
   position: absolute;
@@ -76,14 +75,7 @@ body {
   max-width: 260px;
   opacity: 20;
 }
-@keyframes flip-vertical-fwd {
-  0% {
-    transform: translateZ(0) rotateY(0);
-  }
-  100% {
-    transform: translateZ(160px) rotateY(180deg);
-  }
-}
+
 @media screen and (max-width: 991px) {
   .who-we-are-section-container {
     max-width: 650px;

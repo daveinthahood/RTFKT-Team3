@@ -36,7 +36,7 @@ $span.addEventListener('mousemove', (event) => {
 
 
 // Seconda Immagine 
-$span1.addEventListener("mousemove", (event) => {
+$span1.addEventListener("mouseover", (event) => {
     const target = event.target;
     if(target.classList.contains("pic1")){
         const id = target.dataset.id;
@@ -57,6 +57,7 @@ $span1.addEventListener('mousemove', (event) => {
     cursor.style.left = event.clientX + 'px';
     cursor.style.zIndex = "1";
     cursor.style.opacity = "1";
+
   })
 
 
