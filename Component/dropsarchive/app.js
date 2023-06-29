@@ -989,8 +989,8 @@ const $showCreat = document.querySelector("#showcreat");
 const $clearCreat = document.querySelector("#clearcreat");
 const $large = document.querySelector("#large");
 const $small = document.querySelector("#small");
-const $next = document.querySelector("#next")
-const $prev = document.querySelector("#prev")
+const $next = document.querySelector("#next");
+const $prev = document.querySelector("#prev");
 
 const manipulateData = () => {
   const startIndex = state.paginationInfo.limit * (state.paginationInfo.page - 1);    
@@ -1024,7 +1024,25 @@ const setEventListener = () => {
       renderHTML([...state.__cards], $section, generateCard);
   })
 }
+document.addEventListener("mouseover", (event) => {
+  const target= event.target;
+  const vid = document.querySelector("video");
+  if(target.classList.contains("section__shop__main__card")){
+    vid.play();  
+  }
+  
+});
 
+document.addEventListener("mouseout", (event) => {
+  const target= event.target;
+  const vid = document.querySelector("video");
+  if(target.classList.contains("section__shop__main__card")){
+    vid.pause(); 
+
+  }
+
+
+});
 document.addEventListener("click", (event) => {
   const target = event.target;
 
@@ -1053,6 +1071,7 @@ document.addEventListener("click", (event) => {
       }
     );
   }
+
 
   if(target.classList.contains("cat")){
     const id = target.dataset.id;
@@ -1145,7 +1164,7 @@ const generateCard = (card) => {
     </div>
     <!--  CARD VID -->
     <div class="section__shop__main__card-vid">
-      <video autoplay muted loop plays-inline>
+    <video play="false" frameborder="0" muted loop plays-inline>
         <source src="${card.video}" type="video/mp4" />
       </video>
     </div>

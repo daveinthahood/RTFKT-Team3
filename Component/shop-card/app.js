@@ -1,10 +1,19 @@
 const $card = document.querySelector(".section__shop__card");
 const $vid = document.querySelector("video");
 
-$card.addEventListener("mouseover", () => {
-    $vid.play();
+document.addEventListener("mouseover", (event) => {
+    const target= event.target;
+    if(target.classList.contains("section__shop__card")){
+      $vid.play();  
+    }
+    
 });
 
-$card.addEventListener("mouseout", () => {
-    $vid.pause();
+document.addEventListener("mouseout", (event) => {
+    const target= event.target;
+    if(target.classList.contains("section__shop__card")){
+      $vid.pause();  
+    }
+
+
 });
