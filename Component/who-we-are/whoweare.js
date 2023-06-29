@@ -8,6 +8,14 @@ const $span6 = document.querySelector(".pic6");
 const $span7 = document.querySelector(".pic7");
 const $span8 = document.querySelector(".pic8");
 const $myPic = document.getElementById('picHover');
+const $myPic1 = document.getElementById('picHover1'); 
+const $myPic2 = document.getElementById('picHover2');
+const $myPic3 = document.getElementById('picHover3'); 
+const $myPic4 = document.getElementById('picHover4');
+const $myPic5 = document.getElementById('picHover5'); 
+const $myPic6 = document.getElementById('picHover6');
+const $myPic7 = document.getElementById('picHover7'); 
+const $myPic8 = document.getElementById('picHover'); 
 
 // prima immagine 
 $span.addEventListener("mousemove", (event) => {
@@ -37,27 +45,22 @@ $span.addEventListener('mousemove', (event) => {
 $span1.addEventListener("mouseover", (event) => {
     const target = event.target;
     if(target.classList.contains("pic1")){
-        const id = target.dataset.id;
-        $myPic.src="https://cdn.rtfkt.com/assets/whoarewe/RTFKT.png";   
+        $myPic1.src="https://cdn.rtfkt.com/assets/whoarewe/RTFKT.png";   
     }
 })
 $span1.addEventListener("mouseleave", (event) => {
-    const target = event.target;
-    if(target.classList.contains("pic1")){
-        const id = target.dataset.id;
-        $myPic.src="";   
-    }
+    $myPic1.style.display= "none";  
 })
 
 $span1.addEventListener('mousemove', (event) => {
-    const cursor = document.querySelector('#picHover');
-    cursor.style.top = event.clientY + 'px';
-    cursor.style.left = event.clientX + 'px';
-    cursor.style.zIndex = "1";
-    cursor.style.opacity = "1";
-
+    $myPic1.style.display = "inherit";
+    $myPic1.src="https://cdn.rtfkt.com/assets/whoarewe/RTFKT.png";   
+    $myPic1.style.top =`${event.clientX/100}px` ;
+    $myPic1.style.left = `${event.clientY/100}px`;
+    console.log(event.clientY,event.clientX);
+    $myPic1.style.zIndex = "1";
+    $myPic1.style.opacity = "1";
   })
-
 
 
 // Terza Immagine

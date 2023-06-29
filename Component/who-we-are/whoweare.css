@@ -69,7 +69,15 @@ body {
           text-decoration: underline #6610f2;
   cursor: pointer;
 }
-#whoWeAre-Container .whoWeAre-text #picHover {
+#whoWeAre-Container .whoWeAre-text #picHover,
+#whoWeAre-Container .whoWeAre-text #picHover1,
+#whoWeAre-Container .whoWeAre-text #picHover2,
+#whoWeAre-Container .whoWeAre-text #picHover3,
+#whoWeAre-Container .whoWeAre-text #picHover4,
+#whoWeAre-Container .whoWeAre-text #picHover5,
+#whoWeAre-Container .whoWeAre-text #picHover6,
+#whoWeAre-Container .whoWeAre-text #picHover7,
+#whoWeAre-Container .whoWeAre-text #picHover8 {
   position: absolute;
   border-radius: 1rem;
   max-width: 260px;
