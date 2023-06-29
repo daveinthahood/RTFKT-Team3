@@ -1087,6 +1087,10 @@ body {
   -webkit-text-decoration: underline #6610f2;
           text-decoration: underline #6610f2;
   cursor: pointer;
+  z-index: 1;
+}
+#whoWeAre-Container .whoWeAre-text .pic:hover {
+  z-index: 1;
 }
 #whoWeAre-Container .whoWeAre-text #picHover,
 #whoWeAre-Container .whoWeAre-text #picHover1,
@@ -1101,6 +1105,9 @@ body {
   border-radius: 1rem;
   max-width: 260px;
   opacity: 20;
+}
+#whoWeAre-Container .whoWeAre-text #picHover {
+  transform: rotate(-8deg);
 }
 
 @media screen and (max-width: 991px) {

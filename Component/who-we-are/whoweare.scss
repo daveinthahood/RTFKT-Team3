@@ -43,8 +43,13 @@ body {
       cursor: pointer;
       &:hover {
         text-decoration: underline $color-indigo;
-        cursor: pointer;         
+        cursor: pointer;   
+        z-index: 1;      
       }
+    }
+
+    .pic:hover{
+      z-index: 1;
     }
 
     #picHover, 
@@ -61,6 +66,10 @@ body {
       border-radius: 1rem;
       max-width: 260px;
       opacity: 20;
+     }
+
+     #picHover{
+      transform: rotate(-8deg);
      }
     
   }
