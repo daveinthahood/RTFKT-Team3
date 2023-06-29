@@ -9,6 +9,13 @@
 @import '../Component/filter-menu/index.scss';
 @import '../Component/try-them-on/index.scss';
 @import '../Component/bottom-section/style.scss';
+@import '../Component/private-mint-checker/private-mint-checker.scss';
+@import '../Component/discord-banner/discord-banner.scss';
+@import '../Component/try-them-on/index.scss';
+@import '../Component/who-we-are/whoweare.scss';
+@import '../Component/footer/style.scss';
+@import '../Component/card-main-section/index.scss';
+
 
 
 body{
@@ -217,13 +224,918 @@ body{
 
         .primo-componente{
             display: flex;
-            align-items: start;
+            flex-wrap: wrap;
+            justify-content: center;
+            // align-items: start;
+            gap: 20px;
         }
     }
 
+    .private-mint-checker-section {
+        display: flex;
+        flex-direction: column;
+        margin:0 auto;
+        max-width: 1350px;
+      
+        > h2 {
+          font-family: $primary-font;
+          margin: 2rem 0;
+          color: $color-gray-300;
+          font-size: 1rem;
+        }
+      }
+      .container {
+        display: inline-flex;
+        max-width: 1350px;
+        width: 100%;
+        margin: 0 auto;
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1490196078);
+        border-radius: 1.5rem;
+      }
+      
+      .card {
+        display: inline-flex;
+        flex-direction: row;
+        background-color: $color-gray-700;
+        border-radius: 1.5rem;
+        box-shadow: 0 0.5rem 1rem #00000026;
+      
+        & .img {
+          width: 75%;
+          display: block;
+          position: relative;
+        }
+        & .forgive-img {
+          border-radius: 1.5rem;
+          box-shadow: 0 0.5rem 1rem #00000026;
+          max-width: 100%;
+          height: 100%;
+          position: relative;
+        }
+      
+        & .text-right {
+          padding: 2rem 2.5rem;
+          width: 25%;
+          display: block;
+          margin: 1rem 6rem;
+      
+          > h2 {
+            color: $color-gray-200;
+            font-family: $primary-font;
+            font-size: 18px;
+            margin-bottom: 1rem;
+          }
+      
+          & p {
+            color: $color-gray-500;
+            font-family: $primary-font;
+            font-size: 14px;
+            margin-bottom: 3rem;
+            letter-spacing: 0.5px;
+          }
+        }
+      
+        & .footer {
+          display: flex;
+          flex-direction: column;
+      
+          > .input {
+            width: 100%;
+            height: 100%;
+            max-height: 45px;
+            padding: 13px 1rem;
+            background: transparent;
+            outline: none;
+            border: 0.5px solid $color-gray-300;
+            border-radius: 16px;
+            color: white;
+            font-size: 12px;
+            font-family: Montserrat, serif;
+            margin-bottom: 1rem;
+      
+            &:focus {
+              border: 0.5px solid $color-primary;
+            }
+          }
+      
+          > .check-it {
+            background-color: $color-white;
+            font-family: $primary-font;
+            font-weight: bold;
+            border-radius: 15px;
+            padding: 14px;
+            width: 55%;
+            font-size: 12px;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+            &:hover {
+              cursor: pointer;
+              background-color: $color-gray-300;
+            }
+          }
+        }
+      }
+      
+      @media screen and (max-width: 1000px) {
+        .private-mint-checker-section {
+          max-width: 688px;
+          // max-height: 670px;
+          // margin-bottom: 5rem;
+          margin: 0 auto;
+          & h2 {
+            margin-left: 0;
+          }
+        }
+      
+        .container {
+          width: 100%;
+          max-height: 100%;
+          // height: 300px;
+          margin: 0;
+          display: block;
+          flex-direction: row;
+        }
+      
+        .card {
+          display: block;
+          width: 100%;
+      
+          .img {
+            display: block;
+            width: 100%;
+            height: 120%;
+      
+            > .forgive-img {
+              width: 100%;
+            }
+          }
+      
+          .text-right {
+            width: 95%;
+            margin: 0;
+            padding: 1rem;
+            > p {
+              margin-bottom: 1rem;
+            }
+            > .footer {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              width: 100%;
+              > .input {
+                width: 100%;
+                padding: 17px 1rem;
+                font-size: 15px;
+              }
+              > .check-it {
+                width: 100%;
+                padding: 14px;
+                font-size: 15px;
+              }
+            }
+          }
+        }
+      }
 
+      .discord-banner-section {
+        margin: 0 auto;
+        border-radius: 15px;
+        background-image: linear-gradient(to right, transparent, rgb(39, 41, 50) 68%),
+          url(../../Asset/image/Grid2x.png);
+        box-shadow: 0 0.1rem 0.2rem rgba(0, 0, 0, 0.3);
+        background-size: cover;
+        max-width: 1380px;
+        // margin-top: 3rem;
+        // margin-bottom: 3rem;
+        // max-height: 400px;
+      }
+      
+      .discord-banner-section--conteriner {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        border-radius: 15px;
+        max-height: 100%;
+        padding: 2rem;
+      
+        .discord-banner-section--conteriner--left {
+          display: flex;
+          flex-direction: column;
+          width: 30%;
+          justify-content: center;
+          gap: 2rem;
+          padding: 1.7rem 0.5rem;
+          padding-left: 1rem;
+          & .discord-button1 {
+            border-radius: 1rem;
+            padding: 15px;
+            border: none;
+            font-weight: bold;
+            width: 52%;
+            letter-spacing: 0.5px;
+            &:hover {
+              cursor: pointer;
+            }
+          }
+      
+          & .discord-banner-section--conteriner--left--text {
+            display: flex;
+            text-align: flex-start;
+      
+            & h2 {
+              font-size: 33px;
+              font-weight: 500;
+              margin: 0 auto;
+              padding-top: 0.5rem;
+              color: $color-white;
+            }
+            & span {
+              font-family: $special-font;
+              color: $color-white;
+            }
+          }
+        }
+      
+        .discord-banner-center {
+          display: flex;
+          justify-content: center;
+          text-align: center;
+          align-items: center;
+          width: 27%;
+          position: relative;
+          // padding-top: 1rem;
+          padding-bottom: 5rem;
+      
+          & .discord-banner-center-image {
+            display: flex;
+            text-align: center;
+            width: 100%;
+            position: absolute;
+            left: 4rem;
+            top: -0.5rem;
+            // background: radial-gradient(#5733f5,transparent 50%);
+          }
+        }
+        & .creator {
+          width: 60%;
+          background: radial-gradient(#5733f5, transparent 65%);
+        }
+        & .creator:hover {
+          transform: scale(1.1);
+          cursor: pointer;
+        }
+      
+        // & .creator2, .creator3{
+        //   display: none;
+        // }
+      
+        .discord-banner-section--conteiner--right {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          gap: 10px;
+          padding-right: 1rem;
+          padding-top: 1.3rem;
+          width: 30%;
+          > p {
+            font-weight: bold;
+            letter-spacing: 3px;
+            font-size: 12px;
+            margin: 0;
+            color: $color-white;
+          }
+      
+          & discord-banner-winner {
+            display: block;
+            padding-right: 2px;
+      
+          }
+      
+          & .disable {
+            display: none;
+          }
+      
+          //**!First Winner
+          .discord-banner-winners-first {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            background: linear-gradient(
+              100deg,
+              rgb(102, 88, 53) 20%,
+              rgb(39, 41, 50) 100%
+            );
+            box-shadow: 0 0.5rem 1rem #00000026;
+            border: 0.5px;
+            border-radius: 25px;
+            width: 100%;
+            padding: 5px;
+      
+            & .discord-winners-number {
+              background-color: rgb(245, 206, 108);
+              padding: 11px;
+              border-radius: 19px;
+              font-family: $special-font;
+              font-size: 25px;
+              color: $color-white;
+            }
+          }
+          & .logo {
+            width: 10%;
+            border-radius: 50%;
+          }
+          & .discord-banner-winners-firs-info-tag {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            color: $color-white;
+          }
+      
+          //**! Second Winner
+          .discord-banner-winners-second {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            background: linear-gradient(
+              90deg,
+              rgb(70, 70, 93) 0%,
+              rgb(39, 41, 50) 100%
+            );
+            box-shadow: 0 0.5rem 1rem #00000026;
+            border: 0.5px;
+            border-radius: 25px;
+            width: 100%;
+            padding: 5px;
+      
+            & .discord-winners-number {
+              background-color: #a3a2aa;
+              padding: 11px;
+              border-radius: 19px;
+              font-family: $special-font;
+              font-size: 25px;
+              color: $color-white;
+            }
+          }
+          & .logo {
+            width: 10%;
+            border-radius: 50%;
+          }
+          & .discord-banner-winners-firs-info-tag {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+          }
+        }
+      
+        //**! Terzo winner
+        .discord-banner-winners-third {
+          display: flex;
+          gap: 10px;
+          align-items: center;
+          background: linear-gradient(
+            90deg,
+            rgb(57, 42, 29) 0%,
+            rgb(40, 40, 52) 100%
+          );
+          box-shadow: 0 0.5rem 1rem #00000026;
+          border: 0.5px;
+          border-radius: 25px;
+          width: 100%;
+          padding: 5px;
+      
+          & .discord-winners-number {
+            background-color: #a27c59;
+            padding: 11px;
+            border-radius: 19px;
+            font-family: $special-font;
+            font-size: 25px;
+            color: $color-white;
+          }
+        }
+        & .logo {
+          width: 10%;
+          border-radius: 50%;
+        }
+        & .discord-banner-winners-firs-info-tag {
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+        }
+      }
+      //*! responsive*//
+      
+      @media screen and (max-width: 992px) {
+        .discord-banner-section {
+          max-width: 688px;
+          background-image: linear-gradient(
+              to bottom,
+              transparent,
+              rgb(39, 41, 50) 68%
+            ),
+            url(../../Asset/image/Grid2x.png);
+        }
+      
+        .discord-banner-section--conteriner {
+          display: block;
+          flex-direction: column;
+          margin: 0 auto;
+          max-height: 780px;
+          & .discord-banner-section--conteriner--left {
+            display: block;
+            flex-direction: column;
+            width: 100%;
+            padding: 0;
+            & .discord-button1 {
+              display: none;
+            }
+          }
+      
+          .discord-banner-center {
+            max-width: 550px;
+            max-height: 353px;
+            height: 100%;
+            width: 100%;
+            padding: 0;
+          }
+          .discord-banner-center-image {
+            padding: 0;
+            justify-content: center;
+            margin: 0 auto;
+      
+            & .creator {
+              width: 35%;
+              position: absolute;
+              top: 50px;
+              left: 147px;
+            }
+          }
+      
+          .discord-banner-section--conteiner--right {
+            width: 100%;
+            padding: 0;
+            margin: 0;
+            > p {
+              letter-spacing: 0.5px;
+              color: $color-white;
+            }
+      
+            .discord-banner-winners-first{
+              width: 100%;
+              & .logo {
+                width: 10%;
+                color: $color-white;
+              }
+            }
+      
+            & .disable {
+              display: flex;
+              justify-content: center;
+              padding: 15px;
+              border-radius: 15px;
+              border: none;
+              font-size: 15px;
+              font-weight: bold;
+              letter-spacing: 0.5px;
+            }
+          }
+        }
+      }
 
+      .try-them-on {
+        display: flex;
+        flex-direction: column;
+        padding: 0 24px;
+      
+        .section-name {
+          display: flex;
+          color: $color-white;
+      
+          h2 {
+            font-size: 1rem;
+            margin: 0 0 2rem 0;
+          }
+        }
+      
+        &__cards-container {
+          display: flex;
+          justify-content: center;
+      
+          .try-them-on__snap-card {
+            display: flex;
+            width: 100%;
+            border-radius: 1rem;
+            padding: 1rem;
+            height: 100%;
+            box-sizing: border-box;
+            background-color: $color-gray-700;
+      
+            &--title {
+              display: flex;
+      
+              a {
+                color: $color-white;
+                text-decoration: none;
+                font-size: 0.75rem;
+                font-weight: 600;
+                writing-mode: vertical-rl;
+                transform: rotate(180deg);
+              }
+            }
+      
+            &--media {
+              position: relative;
+              width: 100%;
+      
+              .display-video {
+                display: flex;
+                height: 100%;
+      
+                video {
+                  margin: 0 0 0 15%;
+                  border-radius: 1rem;
+                  max-width: 100%;
+                  cursor: pointer;
+                  object-fit: cover;
+                }
+              }
+      
+              img {
+                display: flex;
+                position: absolute;
+                top: calc(50% - 1rem - 114px / 2);
+                left: calc(-0.75rem - 0.5rem);
+                vertical-align: middle;
+                height: 114px;
+                width: 114px;
+                cursor: pointer;
+              }
+            }
+          }
+        }
+      }
+      
+      @media screen and (min-width: 1440px) {
+        .try-them-on {
+          display: flex;
+          align-items: center;
+      
+          .section-name {
+            display: flex;
+            align-items: left;
+            width: calc(1440px - 16px);
+          }
+      
+          &__cards-container {
+            width: 1440px;
+            height: 663.359px;
+      
+            .try-them-on__snap-card {
+              margin: 0 8px 16px 8px;
+            }
+          }
+        }
+      }
+      
+      @media (min-width: 1200px) and (max-width: 1439px) {
+        .try-them-on {
+          display: flex;
+          align-items: center;
+      
+          .section-name {
+            display: flex;
+            align-items: left;
+            width: calc(1140px - 16px);
+          }
+      
+          &__cards-container {
+            height: 512.5px;
+            width: 1140px;
+      
+            .try-them-on__snap-card {
+              margin: 0 8px 16px 8px;
+            }
+          }
+        }
+      }
+      
+      @media (min-width: 992px) and (max-width: 1199px) {
+        .try-them-on {
+          display: flex;
+          align-items: center;
+      
+          .section-name {
+            display: flex;
+            align-items: left;
+            width: calc(928px - 16px);
+          }
+      
+          &__cards-container {
+            height: 421.578px;
+            width: 928px;
+      
+            .try-them-on__snap-card {
+              margin: 0 8px 16px 8px;
+              padding-right: 48px;
+            }
+          }
+        }
+      }
+      
+      @media (min-width: 768px) and (max-width: 991px) {
+        .try-them-on {
+          display: flex;
+          align-items: center;
+      
+          .section-name {
+            display: flex;
+            align-items: left;
+            width: calc(680px - 16px);
+          }
+      
+          &__snap-card--media {
+            margin: 0 0 0 38.188px;
+            width: fit-content;
+            flex: 1 1 0%;
+      
+            .display-video {
+              width: 100%;
+            }
+          }
+      
+          &__cards-container {
+            display: flex;
+            height: 457.969px;
+            max-width: 672px;
+            justify-content: unset;
+            overflow-x: scroll;
+            overflow-y: hidden;
+            padding-bottom: 24px;
+      
+            .try-them-on__snap-card {
+              width: 100%;
+              height: 457.969px;
+              margin-right: 16px;
+      
+              &--media {
+                .display-video {
+                  width: 100%;
+                  height: 100%;
+                  display: flex;
+      
+                  video {
+                    flex-shrink: 0;
+                    max-width: 239.609px;
+                    height: 100%;
+                    margin: 0;
+                  }
+                }
+      
+                img {
+                  left: -22%;
+                }
+              }
+            }
+      
+            > :nth-child(3) {
+              margin-right: 0;
+            }
+          }
+        }
+      }
+      
+      @media (min-width: 428px) and (max-width: 767px) {
+        .try-them-on {
+          display: flex;
+          align-items: center;
+      
+          .section-name {
+            display: flex;
+            align-items: left;
+            width: 388;
+          }
+      
+          &__snap-card--media {
+            margin: 0 0 0 22.5px;
+            width: fit-content;
+            flex: 1 1 0%;
+      
+            .display-video {
+              width: 100%;
+            }
+          }
+      
+          &__cards-container {
+            display: flex;
+            height: 237.328px;
+            max-width: 388px;
+            justify-content: unset;
+            overflow-x: scroll;
+            overflow-y: hidden;
+            padding-bottom: 24px;
+      
+            .try-them-on__snap-card {
+              width: 100%;
+              min-height: 237.328px;
+              margin-right: 16px;
+              padding: 16px;
+      
+              &--media {
+                min-width: 115.5px;
+                height: 205.328px;
+                .display-video {
+                  // min-width: 115.5px;
+                  // height: 205.328px;
+                  display: flex;
+      
+                  video {
+                    flex-shrink: 0;
+                    // min-width: 115.5px;
+                    // height: 205.328px;
+                    margin: 0;
+                  }
+                }
+      
+                img {
+                  left: -50%;
+                }
+              }
+            }
+      
+            > :nth-child(3) {
+              margin-right: 0;
+            }
+          }
+        }
+      }
+      .who-we-are-section-container {
+        margin: 0 auto;
+        max-width: 1350px;
+        > h2 {
+          font-family: $primary-font;
+          font-size: 20px;
+          color: $color-gray-300;
+          margin-left: 2rem;
+        }
+      }
+      
+      #whoWeAre-Container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 1000px;
+        margin: 0 auto;
+        .whoWeAre-text {
+          font-family: $primary-font;
+          display: flex;
+          text-align: center;
+          font-size: 30px;
+          & p {
+            font-weight: 500;
+          }
+          & span {
+            font-family: $special-font;
+            color: $color-gray-300;
+            cursor: pointer;
+            &:hover {
+              text-decoration: underline $color-indigo;
+              cursor: pointer;         
+            }
+          }
+      
+          #picHover {
+            position: absolute;
+            border-radius: 1rem;
+            max-width: 260px;
+            opacity: 20;
+           }
+          
+        }
+      
+      }
+      //keyframe
+      
+      
+        
+      
+      
+      
+      @media screen and (max-width: 991px) {
+        .who-we-are-section-container {
+          max-width: 650px;
+        }
+      }
 
+      #footer {
+        background-color: $color-gray-900;
+        display: flex;
+        flex-direction: column;
+        border-radius: 30px;
+        #footer2 {
+          display: flex;
+          width: 80%;
+          max-width: 1450px;
+          margin: 0 auto;
+          padding-top: 25px;
+          font-family: "Montserrat", sans-serif;
+          #left-side {
+            width: 70%;
+            #we-are-creator {
+              width: 60%;
+              color: $color-gray-500;
+              font-size: 15px;
+            }
+          }
+          #anchor-faq {
+            display: flex;
+            flex-direction: column;
+            width: 17%;
+            gap: 10px;
+            .a-hover {
+              color: white;
+              text-decoration: none;
+              &:hover {
+                color: $color-secondary;
+              }
+            }
+          }
+          #anchor-social {
+            color: white;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            .a-hover {
+              text-decoration: none;
+              color: white;
+              width: 90%;
+              &:hover {
+                color: $color-secondary;
+              }
+            }
+          }
+        }
+        #bottom-section-para {
+          padding-top: 65px;
+          display: flex;
+          flex-direction: column;
+          width: 80%;
+          margin: 0 auto;
+          font-family: "Montserrat", sans-serif;
+          #para1 {
+            width: 70%;
+            margin: 0 auto;
+            color: $color-gray-600;
+            display: flex;
+            justify-content: center;
+            font-size: 12px;
+          }
+          #para2 {
+            color: $color-gray-600;
+            margin: 0 auto;
+            font-size: 13px;
+          }
+        }
+      }
+      
+      @media screen and (max-width: 1000px) {
+        #footer {
+          width: 100%;
+          margin: 0 auto;
+          #footer2 {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            #left-side {
+              width: 100%;
+              #we-are-creator {
+                width: 100%;
+              }
+            }
+            #anchor-faq {
+              width: 100%;
+            }
+            #anchor-social {
+              display: flex;
+              padding-top: 20px;
+              .a-hover {
+                border: 1px solid rgba(114, 114, 134, 0.55);
+                border-radius: 10px;
+                width: 100%;
+                height: 45px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                &:hover {
+                  color: black;
+                  background-color: white;
+                }
+              }
+            }
+          }
+        }
+      }
 
     // .design-component-text{
     //     font-family: $special-font;
