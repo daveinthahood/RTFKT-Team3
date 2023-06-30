@@ -1,7 +1,6 @@
 @import "../buttons/index.scss";
 @import "../common.scss";
 
-
 @media only screen and (max-width: 1000px) {
   body .main__section {
     display: flex;
@@ -30,10 +29,12 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  max-width: 1350px;
+  max-width: 1424px;
   z-index: 2;
   gap: 40px;
   margin: 0 auto;
+  margin-bottom: 80px;
+
   &__left {
     display: flex;
     flex-direction: column;
@@ -111,7 +112,7 @@
     display: flex;
     // justify-content: flex-end;
     &__card {
-      max-width: 1350px;
+      max-width: 1424px;
       color: $color-white;
       font-family: $primary-font;
       display: flex;

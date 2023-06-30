@@ -1,24 +1,25 @@
 @import "../common.scss";
 
-body{
-    background-color: $color-body-bg;
+body {
+  background-color: $color-body-bg;
 }
 .private-mint-checker-section {
   display: flex;
   flex-direction: column;
-  margin:0 auto;
-  max-width: 1350px;
+  margin: 0 auto;
+  max-width: 1424px;
+  margin-bottom: 80px;
+  gap: 10px;
 
   > h2 {
     font-family: $primary-font;
-    margin: 2rem 0;
     color: $color-gray-300;
     font-size: 1rem;
   }
 }
 .container {
   display: inline-flex;
-  max-width: 1350px;
+  max-width: 1424px;
   width: 100%;
   margin: 0 auto;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1490196078);

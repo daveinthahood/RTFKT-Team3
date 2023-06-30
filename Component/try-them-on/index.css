@@ -20,6 +20,8 @@ body {
   display: flex;
   flex-direction: column;
   padding: 0 24px;
+  margin-bottom: 80px;
+  gap: 10px;
 }
 .try-them-on .section-name {
   display: flex;
@@ -27,7 +29,6 @@ body {
 }
 .try-them-on .section-name h2 {
   font-size: 1rem;
-  margin: 0 0 2rem 0;
 }
 .try-them-on__cards-container {
   display: flex;

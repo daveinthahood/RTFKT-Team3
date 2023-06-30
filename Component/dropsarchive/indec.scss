@@ -22,8 +22,43 @@
         gap:15px;
 
     }
-  
+    .buttons-pages{
+      display: flex;
+      gap: 10px;
+      justify-content: flex-end;
+      padding:10px 15px;
+      #prev{
+        padding:5px 25px;
+        background-color: $color-gray-700;
+        border: 1px solid white;
+        border-radius: 50px;
+        color: white;
+        font-size: 20px;
+        &:hover{
+          cursor:not-allowed;
+          background-color: rgba(255, 255, 255, 0.857);
+          color: black;
+          box-shadow: 0 0 15px 1px rgba(85, 109, 245, 0.564);
+        }
+      }
+      #next{
+        padding: 5px 25px;
+        background-color: $color-gray-700;
+        border: 1px solid white;
+        border-radius: 30px;
+        color: white;
+        font-size: 20px;
+        &:hover{
+          cursor: pointer;
+          background-color: rgba(255, 255, 255, 0.857);
+          color: black;
+          box-shadow: 0 0 15px 1px rgba(85, 109, 245, 0.564);
+        }
+      }
+    }
 }
+
+
 
 @media only screen and (max-width: 991px) {
     body .section {
@@ -125,6 +160,7 @@
       display: flex;
       flex-wrap: wrap;
       gap:10px;
+      padding-bottom: 10px;
       &__card {
         background-color: $color-gray-700;
         display: flex;

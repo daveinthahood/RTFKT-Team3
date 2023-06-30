@@ -997,18 +997,31 @@ const manipulateData = () => {
   state.cards = [...state.__cards].splice(startIndex, state.paginationInfo.limit)
   state.paginationInfo.totalPages = Math.ceil([state.__cards].length / state.paginationInfo.limit);
   state.paginationInfo.hasPrevPage = state.paginationInfo.page > 1 ;
-  state.paginationInfo.hasNextPage = state.paginationInfo.page < state.paginationInfo.limit ;
+  state.paginationInfo.hasNextPage = state.paginationInfo.page < 3 ;
 
   if(!state.paginationInfo.hasNextPage){
       $next.setAttribute("disabled", true)
+      $next.style.color="grey";
+      $next.style.cursor="not-allowed";
+      $next.style.border="black";
   }else{
       $next.removeAttribute("disabled")
+      $next.style.color="white";
+      $next.style.border="1px solid white";
+      $next.style.cursor="pointer";
   }
 
   if(!state.paginationInfo.hasPrevPage){
       $prev.setAttribute("disabled", true)
+      $prev.style.color="grey";
+      $prev.style.cursor="not-allowed";
+      $prev.style.border="black";
   }else{
       $prev.removeAttribute("disabled")
+      $prev.style.color="white";
+      $prev.style.border="1px solid white";
+      $prev.style.cursor="pointer";
+      
   }
 }
 
@@ -1016,12 +1029,12 @@ const setEventListener = () => {
   $next.addEventListener("click", () => {
       state.paginationInfo.page += 1;
       manipulateData();
-      renderHTML([...state.__cards], $section, generateCard);
+      renderHTML([...state.cards], $section, generateCard);
   })
   $prev.addEventListener("click", () => {
       state.paginationInfo.page -= 1;
       manipulateData();
-      renderHTML([...state.__cards], $section, generateCard);
+      renderHTML([...state.cards], $section, generateCard);
   })
 }
 document.addEventListener("mouseover", (event) => {

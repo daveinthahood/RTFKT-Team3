@@ -33,13 +33,14 @@ body {
 
 .who-we-are-section-container {
   margin: 0 auto;
-  max-width: 1350px;
+  max-width: 1424px;
+  margin-bottom: 80px;
 }
 .who-we-are-section-container > h2 {
   font-family: "Montserrat";
   font-size: 20px;
   color: #dee2e6;
-  margin-left: 2rem;
+  padding-bottom: 10px;
 }
 
 #whoWeAre-Container {
@@ -68,10 +69,19 @@ body {
   -webkit-text-decoration: underline #6610f2;
           text-decoration: underline #6610f2;
   cursor: pointer;
+  cursor: pointer;
   z-index: 1;
 }
+#whoWeAre-Container .whoWeAre-text #picHover,
 #whoWeAre-Container .whoWeAre-text .pic:hover {
   z-index: 1;
+  transform: rotate(-8deg);
+}
+#whoWeAre-Container .whoWeAre-text #picHover2,
+#whoWeAre-Container .whoWeAre-text #picHover5,
+#whoWeAre-Container .whoWeAre-text #picHover8 {
+  transform: rotate(8deg);
+  transition: all 0.5s ease;
 }
 #whoWeAre-Container .whoWeAre-text #picHover,
 #whoWeAre-Container .whoWeAre-text #picHover1,
@@ -86,9 +96,6 @@ body {
   border-radius: 1rem;
   max-width: 260px;
   opacity: 20;
-}
-#whoWeAre-Container .whoWeAre-text #picHover {
-  transform: rotate(-8deg);
 }
 
 @media screen and (max-width: 991px) {

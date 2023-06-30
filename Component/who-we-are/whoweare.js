@@ -33,8 +33,8 @@ $span.addEventListener("mouseleave", (event) => {
 $span.addEventListener('mousemove', (event) => {
     $myPic.style.display = "inherit";
     $myPic.src="https://cdn.rtfkt.com/assets/whoarewe/creator.gif";   
-    $myPic.style.top =`${event.clientX/-10}px` ;
-    $myPic.style.left = `${event.clientY/100}px`;
+    $myPic.style.top =`${event.clientY/-10}px` ;
+    $myPic.style.left = `${event.clientX/100}px`;
     console.log(event.clientY,event.clientX);
     $myPic.style.zIndex = "1";
     $myPic.style.opacity = "1";
@@ -56,8 +56,8 @@ $span1.addEventListener("mouseleave", (event) => {
 $span1.addEventListener('mousemove', (event) => {
     $myPic1.style.display = "inherit";
     $myPic1.src="https://cdn.rtfkt.com/assets/whoarewe/RTFKT.png";   
-    $myPic1.style.top =`${event.clientX/-20}px` ;
-    $myPic1.style.left = `${event.clientY/ -10}px`;
+    $myPic1.style.top =`${event.clientY/-10}px` ;
+    $myPic1.style.left = `${event.clientX/ -20}px`;
     console.log(event.clientY,event.clientX);
     $myPic1.style.zIndex = "1";
     $myPic1.style.opacity = "1";
@@ -78,8 +78,8 @@ $span2.addEventListener("mouseleave", (event) => {
 $span2.addEventListener('mousemove', (event) => {
     $myPic2.style.display = "inherit";
     $myPic2.src="https://cdn.rtfkt.com/assets/whoarewe/game-engine.png";   
-    $myPic2.style.top =`${event.clientX/-20}px` ;
-    $myPic2.style.left = `${event.clientY/ -10}px`;
+    $myPic2.style.top =`${event.clientY/-10}px` ;
+    $myPic2.style.left = `${event.clientX/ -20}px`;
     console.log(event.clientY,event.clientX);
     $myPic2.style.zIndex = "1";
     $myPic2.style.opacity = "1";
@@ -103,8 +103,8 @@ $span3.addEventListener("mouseleave", (event) => {
 $span3.addEventListener('mousemove', (event) => {
     $myPic3.style.display = "inherit";
     $myPic3.src="https://cdn.rtfkt.com/assets/whoarewe/clonex-nft.png";   
-    $myPic3.style.top =`${event.clientX/-10}px` ;
-    $myPic3.style.left = `${event.clientY/ -10}px`;
+    $myPic3.style.top =`${event.clientY/-10}px` ;
+    $myPic3.style.left = `${event.clientX/ -10}px`;
     console.log(event.clientY,event.clientX);
     $myPic3.style.zIndex = "1";
     $myPic3.style.opacity = "1";
@@ -127,8 +127,8 @@ $span4.addEventListener("mouseleave", (event) => {
 $span4.addEventListener('mousemove', (event) => {
     $myPic4.style.display = "inherit";
     $myPic4.src="https://cdn.rtfkt.com/assets/whoarewe/blockchain.png";   
-    $myPic4.style.top =`${event.clientX/-10}px` ;
-    $myPic4.style.left = `${event.clientY/0}px`;
+    $myPic4.style.top =`${event.clientY/-10}px` ;
+    $myPic4.style.left = `${event.clientX/0}px`;
     console.log(event.clientY,event.clientX);
     $myPic4.style.zIndex = "1";
     $myPic4.style.opacity = "1";
@@ -149,8 +149,8 @@ $span5.addEventListener("mouseleave", (event) => {
 $span5.addEventListener('mousemove', (event) => {
     $myPic5.style.display = "inherit";
     $myPic5.src="https://cdn.rtfkt.com/assets/whoarewe/augmented-reality.png";   
-    $myPic5.style.top =`${event.clientX/-30}px` ;
-    $myPic5.style.left = `${event.clientY/100}px`;
+    $myPic5.style.top =`${event.clientY/-30}px` ;
+    $myPic5.style.left = `${event.clientX/100}px`;
     console.log(event.clientY,event.clientX);
     $myPic5.style.zIndex = "1";
     $myPic5.style.opacity = "1";
@@ -171,8 +171,8 @@ $span6.addEventListener("mouseleave", (event) => {
 $span6.addEventListener('mousemove', (event) => {
     $myPic6.style.display = "inherit";
     $myPic6.src="https://cdn.rtfkt.com/assets/whoarewe/manufacturing.png";   
-    $myPic6.style.top =`${event.clientX/-10}px` ;
-    $myPic6.style.left = `${event.clientY/100}px`;
+    $myPic6.style.top =`${event.clientY/-10}px` ;
+    $myPic6.style.left = `${event.clientX/100}px`;
     console.log(event.clientY,event.clientX);
     $myPic6.style.zIndex = "1";
     $myPic6.style.opacity = "1";
@@ -190,11 +190,11 @@ $span7.addEventListener("mousemove", (event) => {
 $span7.addEventListener("mouseleave", (event) => {
     $myPic7.style.display= "none";  
 })
-$span7.addEventListener('mousemove', (event) => {
+$span7.addEventListener('mouseenter', (event) => {
     $myPic7.style.display = "inherit";
     $myPic7.src="https://cdn.rtfkt.com/assets/whoarewe/sneakers.png";   
-    $myPic7.style.top =`${event.clientX /0}px` ;
-    $myPic7.style.left = `${event.clientY/ 50}px`;
+    $myPic7.style.top =`${event.clientY *0}px` ;
+    $myPic7.style.left = `${event.clientX* 0}px`;
     console.log(event.clientY,event.clientX);
     $myPic7.style.zIndex = "1";
     $myPic7.style.opacity = "1";
@@ -217,8 +217,8 @@ $span8.addEventListener("mouseleave", (event) => {
 $span8.addEventListener('mousemove', (event) => {
     $myPic8.style.display = "inherit";
     $myPic8.src="https://cdn.rtfkt.com/assets/whoarewe/digital-artefacts.png";   
-    $myPic8.style.top =`${event.clientX /0}px` ;
-    $myPic8.style.left = `${event.clientY/0}px`;
+    $myPic8.style.top =`${event.clientX / -200}px` ;
+    $myPic8.style.left = `${event.clientY/100}px`;
     console.log(event.clientY,event.clientX);
     $myPic8.style.zIndex = "1";
     $myPic8.style.opacity = "1";

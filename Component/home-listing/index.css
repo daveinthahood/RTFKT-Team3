@@ -22,11 +22,12 @@ body {
   }
 }
 .section {
-  width: 1350px;
+  width: 1424px;
   gap: 10px;
   display: flex;
   flex-direction: column;
   margin: 0 auto;
+  margin-bottom: 80px;
 }
 .section__title {
   text-transform: uppercase;

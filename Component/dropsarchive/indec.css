@@ -551,7 +551,7 @@ body {
 #footer #footer2 {
   display: flex;
   width: 80%;
-  max-width: 1450px;
+  max-width: 1424px;
   margin: 0 auto;
   padding-top: 25px;
   font-family: "Montserrat", sans-serif;
@@ -664,6 +664,40 @@ body {
   flex-wrap: wrap;
   gap: 15px;
 }
+.main-section-secondPage .buttons-pages {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+  padding: 10px 15px;
+}
+.main-section-secondPage .buttons-pages #prev {
+  padding: 5px 25px;
+  background-color: #272932;
+  border: 1px solid white;
+  border-radius: 50px;
+  color: white;
+  font-size: 20px;
+}
+.main-section-secondPage .buttons-pages #prev:hover {
+  cursor: not-allowed;
+  background-color: rgba(255, 255, 255, 0.857);
+  color: black;
+  box-shadow: 0 0 15px 1px rgba(85, 109, 245, 0.564);
+}
+.main-section-secondPage .buttons-pages #next {
+  padding: 5px 25px;
+  background-color: #272932;
+  border: 1px solid white;
+  border-radius: 30px;
+  color: white;
+  font-size: 20px;
+}
+.main-section-secondPage .buttons-pages #next:hover {
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.857);
+  color: black;
+  box-shadow: 0 0 15px 1px rgba(85, 109, 245, 0.564);
+}
 
 @media only screen and (max-width: 991px) {
   body .section {
@@ -759,6 +793,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
+  padding-bottom: 10px;
 }
 .section__shop__main__card {
   background-color: #272932;
