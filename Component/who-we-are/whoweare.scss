@@ -37,6 +37,7 @@ body {
     & span {
       font-family: $special-font;
       color: $color-gray-300;
+      white-space: nowrap;
       cursor: pointer;
       &:hover {
         text-decoration: underline $color-indigo;
@@ -68,7 +69,7 @@ body {
     #picHover4,
     #picHover5,
     #picHover6,
-    #picHover7,
+    #pic-hover-7,
     #picHover8 {
       position: absolute;
       border-radius: 1rem;

@@ -1085,6 +1085,7 @@ body {
 #whoWeAre-Container .whoWeAre-text span {
   font-family: "TT Alientz Grotesque";
   color: #dee2e6;
+  white-space: nowrap;
   cursor: pointer;
 }
 #whoWeAre-Container .whoWeAre-text span:hover {
@@ -1112,7 +1113,7 @@ body {
 #whoWeAre-Container .whoWeAre-text #picHover4,
 #whoWeAre-Container .whoWeAre-text #picHover5,
 #whoWeAre-Container .whoWeAre-text #picHover6,
-#whoWeAre-Container .whoWeAre-text #picHover7,
+#whoWeAre-Container .whoWeAre-text #pic-hover-7,
 #whoWeAre-Container .whoWeAre-text #picHover8 {
   position: absolute;
   border-radius: 1rem;
