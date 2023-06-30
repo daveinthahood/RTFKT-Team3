@@ -14,7 +14,7 @@ const $myPic3 = document.getElementById('picHover3');
 const $myPic4 = document.getElementById('picHover4');
 const $myPic5 = document.getElementById('picHover5'); 
 const $myPic6 = document.getElementById('picHover6');
-const $myPic7 = document.getElementById('picHover7'); 
+const $myPic7 = document.getElementById('pic-hover-7'); 
 const $myPic8 = document.getElementById('picHover8'); 
 
 // prima immagine 
@@ -35,7 +35,7 @@ $span.addEventListener('mousemove', (event) => {
     $myPic.src="https://cdn.rtfkt.com/assets/whoarewe/creator.gif";   
     $myPic.style.top =`${event.clientY/-10}px` ;
     $myPic.style.left = `${event.clientX/100}px`;
-    console.log(event.clientY,event.clientX);
+    $myPic.style.transform = `rotate(-${(event.clientX /100)}deg)`
     $myPic.style.zIndex = "1";
     $myPic.style.opacity = "1";
   })
@@ -58,7 +58,7 @@ $span1.addEventListener('mousemove', (event) => {
     $myPic1.src="https://cdn.rtfkt.com/assets/whoarewe/RTFKT.png";   
     $myPic1.style.top =`${event.clientY/-10}px` ;
     $myPic1.style.left = `${event.clientX/ -20}px`;
-    console.log(event.clientY,event.clientX);
+    $myPic1.style.transform = `rotate(${(event.clientX /100)}deg)`
     $myPic1.style.zIndex = "1";
     $myPic1.style.opacity = "1";
   })
@@ -80,6 +80,7 @@ $span2.addEventListener('mousemove', (event) => {
     $myPic2.src="https://cdn.rtfkt.com/assets/whoarewe/game-engine.png";   
     $myPic2.style.top =`${event.clientY/-10}px` ;
     $myPic2.style.left = `${event.clientX/ -20}px`;
+    $myPic2.style.transform = `rotate(${(event.clientX /100)}deg)`
     console.log(event.clientY,event.clientX);
     $myPic2.style.zIndex = "1";
     $myPic2.style.opacity = "1";
@@ -105,6 +106,7 @@ $span3.addEventListener('mousemove', (event) => {
     $myPic3.src="https://cdn.rtfkt.com/assets/whoarewe/clonex-nft.png";   
     $myPic3.style.top =`${event.clientY/-10}px` ;
     $myPic3.style.left = `${event.clientX/ -10}px`;
+    $myPic3.style.transform = `rotate(${(event.clientX /100)}deg)`
     console.log(event.clientY,event.clientX);
     $myPic3.style.zIndex = "1";
     $myPic3.style.opacity = "1";
@@ -129,6 +131,7 @@ $span4.addEventListener('mousemove', (event) => {
     $myPic4.src="https://cdn.rtfkt.com/assets/whoarewe/blockchain.png";   
     $myPic4.style.top =`${event.clientY/-10}px` ;
     $myPic4.style.left = `${event.clientX/0}px`;
+    $myPic4.style.transform = `rotate(${(event.clientX /100)}deg)`
     console.log(event.clientY,event.clientX);
     $myPic4.style.zIndex = "1";
     $myPic4.style.opacity = "1";
@@ -151,6 +154,7 @@ $span5.addEventListener('mousemove', (event) => {
     $myPic5.src="https://cdn.rtfkt.com/assets/whoarewe/augmented-reality.png";   
     $myPic5.style.top =`${event.clientY/-30}px` ;
     $myPic5.style.left = `${event.clientX/100}px`;
+    $myPic5.style.transform = `rotate(${(event.clientX /100)}deg)`
     console.log(event.clientY,event.clientX);
     $myPic5.style.zIndex = "1";
     $myPic5.style.opacity = "1";
@@ -173,6 +177,7 @@ $span6.addEventListener('mousemove', (event) => {
     $myPic6.src="https://cdn.rtfkt.com/assets/whoarewe/manufacturing.png";   
     $myPic6.style.top =`${event.clientY/-10}px` ;
     $myPic6.style.left = `${event.clientX/100}px`;
+    $myPic6.style.transform = `rotate(${(event.clientX /100)}deg)`
     console.log(event.clientY,event.clientX);
     $myPic6.style.zIndex = "1";
     $myPic6.style.opacity = "1";
@@ -191,11 +196,13 @@ $span7.addEventListener("mouseleave", (event) => {
     $myPic7.style.display= "none";  
 })
 $span7.addEventListener('mousemove', (event) => {
+ 
     $myPic7.style.display = "inherit";
     $myPic7.src="https://cdn.rtfkt.com/assets/whoarewe/sneakers.png";   
-    $myPic7.style.top =`${event.clientY /200}px` ;
-    $myPic7.style.left = `${event.pageX / 100}px`;
-    console.log(event.clientY,event.clientX);
+    $myPic7.style.top =`${20+ (event.clientY /100)}px` ;
+    $myPic7.style.left = `${-100+ (event.clientX /10)}px`;
+    $myPic7.style.transform = `rotate(${((event.clientX) /100)}deg)`
+    
     $myPic7.style.zIndex = "1";
     $myPic7.style.opacity = "1";
   })
@@ -219,7 +226,7 @@ $span8.addEventListener('mousemove', (event) => {
     $myPic8.src="https://cdn.rtfkt.com/assets/whoarewe/digital-artefacts.png";   
     $myPic8.style.top =`${event.clientY / 200}px` ;
     $myPic8.style.left = `${event.clientX/100}px`;
-    console.log(event.clientY,event.clientX);
+    $myPic8.style.transform = `rotate(${(event.clientX /100)}deg)`
     $myPic8.style.zIndex = "1";
     $myPic8.style.opacity = "1";
   })

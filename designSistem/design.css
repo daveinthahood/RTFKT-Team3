@@ -262,6 +262,12 @@ body {
   color: #b5b5b8;
 }
 
+@media screen and (max-width: 992px) {
+  .section__shop__main {
+    width: 100%;
+    justify-content: center;
+  }
+}
 @font-face {
   font-family: "TT Alientz Grotesque";
   src: url("//db.onlinewebfonts.com/t/ebaf90e665954316d40b79a1c7c942c0.eot"), url("//db.onlinewebfonts.com/t/ebaf90e665954316d40b79a1c7c942c0.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/ebaf90e665954316d40b79a1c7c942c0.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/ebaf90e665954316d40b79a1c7c942c0.woff") format("woff"), url("//db.onlinewebfonts.com/t/ebaf90e665954316d40b79a1c7c942c0.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/ebaf90e665954316d40b79a1c7c942c0.svg#TT Alientz Grotesque") format("svg");
@@ -829,6 +835,11 @@ body {
   font-weight: 600;
 }
 
+@media screen and (max-width: 992px) {
+  .aside {
+    display: none;
+  }
+}
 @font-face {
   font-family: "TT Alientz Grotesque";
   src: url("//db.onlinewebfonts.com/t/ebaf90e665954316d40b79a1c7c942c0.eot"), url("//db.onlinewebfonts.com/t/ebaf90e665954316d40b79a1c7c942c0.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/ebaf90e665954316d40b79a1c7c942c0.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/ebaf90e665954316d40b79a1c7c942c0.woff") format("woff"), url("//db.onlinewebfonts.com/t/ebaf90e665954316d40b79a1c7c942c0.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/ebaf90e665954316d40b79a1c7c942c0.svg#TT Alientz Grotesque") format("svg");
@@ -1915,8 +1926,6 @@ body {
   font-family: "TT Alientz Grotesque";
   color: #dee2e6;
   cursor: pointer;
-  position: absolute;
-  z-index: 2;
 }
 #whoWeAre-Container .whoWeAre-text span:hover {
   -webkit-text-decoration: underline #6610f2;
@@ -1928,6 +1937,13 @@ body {
 #whoWeAre-Container .whoWeAre-text #picHover,
 #whoWeAre-Container .whoWeAre-text .pic:hover {
   z-index: 1;
+  transform: rotate(-8deg);
+}
+#whoWeAre-Container .whoWeAre-text #picHover2,
+#whoWeAre-Container .whoWeAre-text #picHover5,
+#whoWeAre-Container .whoWeAre-text #picHover8 {
+  transform: rotate(8deg);
+  transition: all 0.5s ease;
 }
 #whoWeAre-Container .whoWeAre-text #picHover,
 #whoWeAre-Container .whoWeAre-text #picHover1,
