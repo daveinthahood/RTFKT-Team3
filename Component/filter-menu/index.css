@@ -82,4 +82,10 @@ body {
   text-decoration: none;
   color: #e9ecef;
   font-weight: 600;
+}
+
+@media screen and (max-width: 992px) {
+  .aside {
+    display: none;
+  }
 }/*# sourceMappingURL=index.css.map */

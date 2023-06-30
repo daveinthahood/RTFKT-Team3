@@ -60,4 +60,11 @@ body {
 .section__shop__card-footer-description {
   font-size: 0.8rem;
   color: #b5b5b8;
+}
+
+@media screen and (max-width: 992px) {
+  .section__shop__main {
+    width: 100%;
+    justify-content: center;
+  }
 }/*# sourceMappingURL=index.css.map */

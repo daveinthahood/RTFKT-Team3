@@ -217,8 +217,8 @@ $span8.addEventListener("mouseleave", (event) => {
 $span8.addEventListener('mousemove', (event) => {
     $myPic8.style.display = "inherit";
     $myPic8.src="https://cdn.rtfkt.com/assets/whoarewe/digital-artefacts.png";   
-    $myPic8.style.top =`${event.clientX / -200}px` ;
-    $myPic8.style.left = `${event.clientY/100}px`;
+    $myPic8.style.top =`${event.clientY / 200}px` ;
+    $myPic8.style.left = `${event.clientX/100}px`;
     console.log(event.clientY,event.clientX);
     $myPic8.style.zIndex = "1";
     $myPic8.style.opacity = "1";

@@ -35,4 +35,19 @@ body {
 .banner-section-dropsArchive span {
   font-family: "TT Alientz Grotesque";
   font-weight: 500;
+}
+
+@media screen and (max-width: 992px) {
+  .banner-section-dropsArchive {
+    width: 100%;
+    background-position-x: -70px;
+    background-position-y: 10px;
+    background-size: cover;
+  }
+  .banner-section-dropsArchive h1 {
+    font-size: 100px;
+  }
+  .banner-section-dropsArchive span {
+    font-weight: 500;
+  }
 }/*# sourceMappingURL=banner.css.map */

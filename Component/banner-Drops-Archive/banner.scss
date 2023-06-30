@@ -13,8 +13,6 @@ body {
     background-position-y: -108px;
     background-size: cover;
     // background-color: rgba(9, 9, 9, 0.2);
-    
-
     display: flex;
     justify-content: center;
     text-align: center;
@@ -28,5 +26,22 @@ body {
     & span {
         font-family: $special-font;
         font-weight: 500;
+    }
+}
+
+
+@media screen and (max-width: 992px){
+    .banner-section-dropsArchive{
+        width: 100%;
+        background-position-x: -70px;
+        background-position-y:10px ;
+        background-size: cover;
+
+        & h1{
+            font-size: 100px;
+        }
+        & span{
+            font-weight: 500;
+        }
     }
 }
