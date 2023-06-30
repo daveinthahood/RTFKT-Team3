@@ -13,7 +13,7 @@ function calculateTime(distance) {
 }
 
 function countdown() {
-  const countdownDate = new Date("2023-06-30T05:00:00"); //giorno fine countdown (PRESENTAZIONE)
+  const countdownDate = new Date("2023-06-30T15:00:00"); //giorno fine countdown (PRESENTAZIONE)
   const now = new Date().getTime(); // momento attuale
   const distance = countdownDate - now; // clalco per ottenere la differenza tra il giorno di oggi e il giorno della fine
 
@@ -27,7 +27,7 @@ function countdown() {
 
 // Funzione per formattare il tempo a due cifre
 function formatTime(time) {
-  return time < 10 ? `0${time}` : time; //? se time è minore di 10 aggiunge uno zero
+  return time < 0 ? `${-time}` : time; //? se time è minore di 10 aggiunge uno zero
 }
 
 // Esegui il countdown ogni secondo

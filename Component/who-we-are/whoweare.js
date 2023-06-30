@@ -210,7 +210,6 @@ $span7.addEventListener('mousemove', (event) => {
 
 
 
-
 // Nona Immagine 
 $span8.addEventListener("mousemove", (event) => {
     const target = event.target;
