@@ -976,6 +976,8 @@ const $menu = document.querySelector(".aside");
 const $creators = document.querySelector("#creators");
 const $categories = document.querySelector(".categories");
 const $section = document.querySelector(".section__shop__main");
+const $catDisp = document.querySelector("#cat-disp");
+const $creatDisp = document.querySelector("#creat-disp");
 
 const $hideButton = document.querySelector("#hide");
 const $buttonShow = document.querySelector("#show");
@@ -1163,7 +1165,8 @@ const uniqueValue = (array1, array2, key) => {
 
 const creators = uniqueValue(state.cards, state.__cards, "creator"); //+ salvo creators univoci
 const categories = uniqueValue(state.cards, state.__cards, "categories"); //+ salvo categories univoche
-
+$catDisp.innerText = ` (${categories.length})`
+$creatDisp.innerText = ` (${creators.length})`
 
 
 //* genera le card dall'array di oggetti (state.cards)
