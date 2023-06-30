@@ -69,7 +69,6 @@ body {
   -webkit-text-decoration: underline #6610f2;
           text-decoration: underline #6610f2;
   cursor: pointer;
-  cursor: pointer;
   z-index: 1;
 }
 #whoWeAre-Container .whoWeAre-text #picHover,
@@ -92,7 +91,6 @@ body {
 #whoWeAre-Container .whoWeAre-text #picHover6,
 #whoWeAre-Container .whoWeAre-text #picHover7,
 #whoWeAre-Container .whoWeAre-text #picHover8 {
-  position: absolute;
   border-radius: 1rem;
   max-width: 260px;
   opacity: 20;

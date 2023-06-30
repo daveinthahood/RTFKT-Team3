@@ -190,11 +190,11 @@ $span7.addEventListener("mousemove", (event) => {
 $span7.addEventListener("mouseleave", (event) => {
     $myPic7.style.display= "none";  
 })
-$span7.addEventListener('mouseenter', (event) => {
+$span7.addEventListener('mousemove', (event) => {
     $myPic7.style.display = "inherit";
     $myPic7.src="https://cdn.rtfkt.com/assets/whoarewe/sneakers.png";   
-    $myPic7.style.top =`${event.clientY *0}px` ;
-    $myPic7.style.left = `${event.clientX* 0}px`;
+    $myPic7.style.top =`${event.clientY /200}px` ;
+    $myPic7.style.left = `${event.pageX / 100}px`;
     console.log(event.clientY,event.clientX);
     $myPic7.style.zIndex = "1";
     $myPic7.style.opacity = "1";

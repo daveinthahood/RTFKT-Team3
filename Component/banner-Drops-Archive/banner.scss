@@ -33,9 +33,9 @@ body {
 @media screen and (max-width: 992px){
     .banner-section-dropsArchive{
         width: 100%;
-        background-position-x: -70px;
+        background-position-x: -170px;
         background-position-y:10px ;
-        background-size: cover;
+        background-size: auto;
 
         & h1{
             font-size: 100px;

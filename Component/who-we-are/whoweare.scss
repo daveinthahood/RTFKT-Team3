@@ -40,8 +40,7 @@ body {
       cursor: pointer;
       &:hover {
         text-decoration: underline $color-indigo;
-        cursor: pointer;
-        cursor: pointer;   
+        cursor: pointer; 
         z-index: 1;      
       }
     }
@@ -70,7 +69,7 @@ body {
     #picHover6,
     #picHover7,
     #picHover8 {
-      position: absolute;
+      // position: absolute;
       border-radius: 1rem;
       max-width: 260px;
       opacity: 20;
